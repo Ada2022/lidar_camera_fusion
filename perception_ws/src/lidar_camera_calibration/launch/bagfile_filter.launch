@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <arg name="bagfile" default="kitti_2011_09_26_drive_0119_synced.bag" />
+    <arg name="topicname" default="/kitti/camera_gray_left/camera_info /kitti/camera_gray_left/image_raw /kitti/velo/pointcloud" />
+
+    <!-- Play rosbag record -->
+    <node 
+        pkg="rosbag"
+        type="play"
+        name="original_bag_play"
+        output="screen"
+        args="--clock $(find lidar_camera_calibration)/../../$(arg bagfile)" />
+
+    <node
+	pkg="rosbag"
+	type="record"
+	name="rosbag_filtered"
+	output="screen"
+	args="-o $(find lidar_camera_calibration)/bagfiles/kitti.bag $(arg topicname)" />	
+	
+</launch>

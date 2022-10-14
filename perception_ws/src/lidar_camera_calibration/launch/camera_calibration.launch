@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <arg name="camera" default="/kitti/camera_gray_left" />
+    <arg name="size1" default="11x7" />
+    <arg name="square" default="9.95e-2" />
+    <arg name="size2" default="7x5" />
+    <arg name="k-coefficients" default="2" />
+
+    <!-- Play rosbag record -->
+    <include file="$(find lidar_camera_calibration)/launch/play_rosbag.launch">
+    </include>
+
+    <!-- Run camera calibration -->
+    <node   
+        pkg="camera_calibration"
+        type="cameracalibrator.py"
+        name="cameracalibrator"
+        output="screen"
+        args="--size=$(arg size1) 
+              --square=$(arg square)
+              --size=$(arg size2) 
+              --square=$(arg square)
+              --k-coefficients=$(arg k-coefficients) 
+              --no-service-check" >
+
+        <!-- Remap input topics -->
+        <remap from="image" to="$(arg camera)/image_raw" />
+        <remap from="camera" to="$(arg camera)/camera_info" />
+    </node>
+
+</launch>

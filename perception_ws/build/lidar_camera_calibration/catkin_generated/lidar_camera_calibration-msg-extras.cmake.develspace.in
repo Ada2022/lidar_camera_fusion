@@ -1,0 +1,2 @@
+set(lidar_camera_calibration_MESSAGE_FILES "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/BoundingBox.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/BoundingBoxes.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/ObjectCount.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/Obstacle.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/Obstacles.msg")
+set(lidar_camera_calibration_SERVICE_FILES "")

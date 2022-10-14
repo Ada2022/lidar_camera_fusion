@@ -1,0 +1,45 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  cluster_max_size: 3040
+  cluster_min_size: 10
+  cluster_threshold: 0.6
+  displacement_threshold: 0.5399999999999999
+  ground_threshold: 0.38
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      cluster_max_size: 3040
+      cluster_min_size: 10
+      cluster_threshold: 0.6
+      displacement_threshold: 0.5399999999999999
+      ground_threshold: 0.38
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      iou_threshold: 1.0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      roi_max_x: 70.0
+      roi_max_y: 30.0
+      roi_max_z: 1.0
+      roi_min_x: -30.0
+      roi_min_y: -30.0
+      roi_min_z: -2.5
+      state: true
+      type: ''
+      use_pca_box: false
+      use_tracking: true
+      voxel_grid_size: 0.1
+    state: []
+  iou_threshold: 1.0
+  roi_max_x: 70.0
+  roi_max_y: 30.0
+  roi_max_z: 1.0
+  roi_min_x: -30.0
+  roi_min_y: -30.0
+  roi_min_z: -2.5
+  use_pca_box: false
+  use_tracking: true
+  voxel_grid_size: 0.1
+state: []
