@@ -51,23 +51,18 @@ if __name__ == '__main__':
         #topic_info.append([key, topic_tuple.msg_type, topic_tuple.msg_count])
         #print(topic_info, end = '\n')
 
-    for topic, msg, t in bag.read_messages() :
-#        if topic in [IMAGE_RAW, CAMERA_INFO, POINT_CLOUD, IMU]:
-        if topic in [IMAGE_RAW, CAMERA_INFO, POINT_CLOUD]:
-            if topic == IMAGE_RAW:
-                i = i + 1
-            if topic == CAMERA_INFO:
-                j = j + 1
-            if topic == POINT_CLOUD:
-                k = k + 1
-#            if topic == IMU:
-#                l = l + 1
-#            time = msg.header.stamp
-            msg = [topic, t]
-            print(msg)
+    for _, msg, t in bag.read_messages(POINT_CLOUD) :
+	print("First timestamp of LiDAR from t, rospy.time =", t)
+	print("First timestamp of LiDAR from msg, genpy.time = ", msg.header.stamp)
+	break
+
+    for _, msg, t in bag.read_messages(IMAGE_RAW) :
+	print("First timestamp of camera from t, rospy.time =", t)
+	print("First timestamp of camera from msg, genpy.time = ", msg.header.stamp)
+	break
 
 #    print("image counts=",i, "camera counts=",j, "lidar counts=",k, "imu counts=",l)
-    print("image counts=",i, "camera counts=",j, "lidar counts=",k)
+#    print("image counts=",i, "camera counts=",j, "lidar counts=",k)
 
     
 
