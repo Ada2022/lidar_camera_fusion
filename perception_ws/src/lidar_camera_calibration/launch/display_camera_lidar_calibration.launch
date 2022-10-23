@@ -37,12 +37,47 @@
 
     <!-- Wire static transform from the world to velodyne frame -->
     <!-- Fill args below with estimated transform X Y Z Y P R -->
+    <!-- <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="0.45785852 -1.23330579 -0.4912233 -3.066175201130217 0.1285278556433845 -0.9023605625853729 world velodyne" /> -->
+
+    <!-- <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="0.46943729  1.94211455  0.53219276 2.9831521993030896 -0.15135024712559175 -2.8857532301489965 world velodyne" /> -->
+
+    <!-- <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="0.48183662  1.94292334  0.59630154  2.9800034088213114 -0.16395487611137996 -2.9034455120594815 world velodyne" /> -->
+
+    <!-- <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="-0.10131605  -1.23847388 -0.5007413  3.128402230082051 -0.2084505700567649 -0.9101928771301611 world velodyne" /> -->
+        
+    <!-- <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="0.16529868 -1.61904333 -0.63295433  -2.989590747159192 -0.17294136956171755 -0.653225270325085 world velodyne" /> -->
+
     <node
         pkg="tf2_ros"
         type="static_transform_publisher"
         name="world_velodyne_tf"
         output="screen"
-        args="0.00728906 -0.05762633 -0.13652829 1.5693861555125765 -1.5111674638103325 0.0014911849306030126 world velodyne" />
+        args="-0.06485756 -0.05683201 -0.10448115 3.1409457979447306 -0.01855264674509845 -1.5478010455633737 world velodyne" />
 
     <!-- Setup params for Camera-LiDAR calibration script -->
     <param name="camera_info_topic" type="str" value="$(arg camera)/camera_info" />
@@ -54,7 +89,7 @@
     <!-- Run Camera-LiDAR projection script -->
     <node   
         pkg="lidar_camera_calibration"
-        type="calibrate_camera_lidar.py"
+        type="calibrate_camera_lidar_original.py"
         name="calibrate_camera_lidar"
         output="screen" />
 

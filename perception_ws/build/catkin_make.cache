@@ -1,2 +1,2 @@
-lidar_camera_calibration:lidar_obstacle_detector:yolov5_ros/yolov5_ros/yolov5_ros:yolov5_ros/yolov5_ros/yolov5_ros_msgs
+lidar_camera_calibration:lidar_obstacle_detector:ouster-ros:sensor_fusion:yolov5_ros/yolov5_ros/yolov5_ros:yolov5_ros/yolov5_ros/yolov5_ros_msgs
 -DCATKIN_DEVEL_PREFIX=/home/ada/Desktop/Capstone/perception_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ada/Desktop/Capstone/perception_ws/install -G Unix Makefiles

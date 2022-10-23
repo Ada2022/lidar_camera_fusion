@@ -109,13 +109,18 @@ Keyboard handler thread
 Inputs: None
 Outputs: None
 '''
+# def handle_keyboard():
+#     global KEY_LOCK, PAUSE
+#     try:
+#         key = raw_input('Press [ENTER] to pause and pick points\n')
+#     except EOFError :
+# 	print('EOF error occurred. Pass.')
+# 	pass
+#     with KEY_LOCK: PAUSE = True
+
 def handle_keyboard():
     global KEY_LOCK, PAUSE
-    try:
-        key = raw_input('Press [ENTER] to pause and pick points\n')
-    except EOFError :
-	print('EOF error occurred. Pass.')
-	pass
+    key = raw_input('Press [ENTER] to pause and pick points\n')
     with KEY_LOCK: PAUSE = True
 
 '''
@@ -180,6 +185,7 @@ Outputs:
 def extract_points_2D(img_msg, now, rectify=False):
     # Log PID
     rospy.loginfo('2D Picker PID: [%d]' % os.getpid())
+    print(now)
 
     # Read image using CV bridge
     try:
@@ -244,6 +250,7 @@ Outputs:
 def extract_points_3D(velodyne, now):
     # Log PID
     rospy.loginfo('3D Picker PID: [%d]' % os.getpid())
+    print(now)
 
     # Extract points data
     points = ros_numpy.point_cloud2.pointcloud2_to_array(velodyne)
@@ -340,6 +347,9 @@ def calibrate(points2D=None, points3D=None):
     folder = os.path.join(PKG_PATH, CALIB_PATH)
     if points2D is None: points2D = np.load(os.path.join(folder, 'img_corners.npy'))
     if points3D is None: points3D = np.load(os.path.join(folder, 'pcl_corners.npy'))
+
+    print("points2D", points2D)
+    print("points3D", points3D)
 
     # Check points shape
     assert(points2D.shape[0] == points3D.shape[0])
@@ -688,6 +698,7 @@ def callback(image, camera_info, velodyne, image_pub=None):
     elif PAUSE:
         # Create GUI processes
         now = rospy.get_rostime()
+        print(now)
         img_p = multiprocessing.Process(target=extract_points_2D, args=[image, now])
         pcl_p = multiprocessing.Process(target=extract_points_3D, args=[velodyne, now])
         img_p.start(); pcl_p.start()
@@ -775,7 +786,7 @@ def listener(camera_info, image_color, velodyne_points, bounding_boxes = None, f
     if CALIBRATE_MODE or PROJECT_MODE:
         # Synchronize the topics by time
         ats = message_filters.ApproximateTimeSynchronizer(
-            [image_sub, info_sub, velodyne_sub], queue_size=5, slop=0.1)
+            [image_sub, info_sub, velodyne_sub], queue_size=5, slop=2000000000, allow_headerless=False)
         ats.registerCallback(callback, image_pub)
 
     else :

@@ -62,8 +62,8 @@ if __name__ == '__main__':
                 k = k + 1
 #            if topic == IMU:
 #                l = l + 1
-#            time = msg.header.stamp
-            msg = [topic, t]
+            time = msg.header.stamp
+            msg = [topic, time]
             print(msg)
 
 #    print("image counts=",i, "camera counts=",j, "lidar counts=",k, "imu counts=",l)

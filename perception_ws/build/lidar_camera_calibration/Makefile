@@ -135,6 +135,28 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/ada/Desktop/Capstone/perception_ws/build && /opt/cmake-3.11.4-Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /home/ada/Desktop/Capstone/perception_ws/build/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/ada/Desktop/Capstone/perception_ws/build && /opt/cmake-3.11.4-Linux-x86_64/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/ada/Desktop/Capstone/perception_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles /home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/CMakeFiles/progress.marks
@@ -1172,9 +1194,11 @@ help:
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... test"
+	@echo "... package_source"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... package"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... image_proc_gencfg"

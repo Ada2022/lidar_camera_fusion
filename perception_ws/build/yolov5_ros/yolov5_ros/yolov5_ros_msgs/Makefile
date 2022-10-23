@@ -78,6 +78,28 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/ada/Desktop/Capstone/perception_ws/build && /opt/cmake-3.11.4-Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /home/ada/Desktop/Capstone/perception_ws/build/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/ada/Desktop/Capstone/perception_ws/build && /opt/cmake-3.11.4-Linux-x86_64/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -370,6 +392,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... package_source"
+	@echo "... package"
 	@echo "... install"
 	@echo "... yolov5_ros_msgs_genpy"
 	@echo "... edit_cache"

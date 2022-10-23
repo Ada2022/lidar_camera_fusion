@@ -53,12 +53,26 @@ if __name__ == '__main__':
 
     for _, msg, t in bag.read_messages(POINT_CLOUD) :
 	print("First timestamp of LiDAR from t, rospy.time =", t)
-	print("First timestamp of LiDAR from msg, genpy.time = ", msg.header.stamp)
+	print("First timestamp of LiDAR from msg, genpy.time.secs = ", msg.header.stamp.secs)
+	print("First timestamp of LiDAR from msg, genpy.time.nsecs = ", msg.header.stamp.nsecs)
 	break
 
     for _, msg, t in bag.read_messages(IMAGE_RAW) :
 	print("First timestamp of camera from t, rospy.time =", t)
-	print("First timestamp of camera from msg, genpy.time = ", msg.header.stamp)
+	print("First timestamp of camera from msg, genpy.time.secs = ", msg.header.stamp.secs)
+	print("First timestamp of camera from msg, genpy.time.nsecs = ", msg.header.stamp.nsecs)
+	break
+
+    for _, msg, t in bag.read_messages(IMU) :
+	print("First timestamp of imu from t, rospy.time =", t)
+	print("First timestamp of imu from msg, genpy.time.secs = ", msg.header.stamp.secs)
+	print("First timestamp of imu from msg, genpy.time.nsecs = ", msg.header.stamp.nsecs)
+	break
+
+    for _, msg, t in bag.read_messages(CAMERA_INFO) :
+	print("First timestamp of info from t, rospy.time =", t)
+	print("First timestamp of info from msg, genpy.time.secs = ", msg.header.stamp.secs)
+	print("First timestamp of info from msg, genpy.time.nsecs = ", msg.header.stamp.nsecs)
 	break
 
 #    print("image counts=",i, "camera counts=",j, "lidar counts=",k, "imu counts=",l)

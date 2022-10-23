@@ -1,0 +1,8 @@
+prefix=/home/ada/Desktop/Capstone/perception_ws/devel
+
+Name: segmentation
+Description: Description of segmentation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

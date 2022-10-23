@@ -15,7 +15,16 @@
     <param name="jsk_bboxes_topic"        value="obstacle_detector/jsk_bboxes"/>
     <param name="autoware_objects_topic"  value="obstacle_detector/objects"/>
     <!-- Parameters -->
-    <param name="bbox_target_frame"       value="os_sensor"/>
+    <param name="bbox_target_frame"       value="os_lidar"/>
+  </node>
+
+  <node name="safety_checker_node" pkg="lidar_obstacle_detector" type="safety_checker.py" output="screen">
+    <param name="x_min"        type="double"  value="-2.0"/>
+    <param name="x_max"        type="double"  value="2.0"/>
+    <param name="y_min"        type="double"  value="0.0"/>
+    <param name="y_max"        type="double"  value="4.0"/>
+    <param name="size_thres"   type="double"  value="0.5"/>
+    <param name="base_frame"   type="string"  value="os_lidar"/>
   </node>
 
   <!-- Dynamic Reconfigure GUI -->
