@@ -131,12 +131,12 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ada/Desktop/Capstone/perception_ws/build/gtest/cmake_install.cmake")
+  include("/home/ada/Desktop/Capstone/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros_msgs/cmake_install.cmake")
+  include("/home/ada/Desktop/Capstone/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/cmake_install.cmake")
   include("/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/cmake_install.cmake")
   include("/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/cmake_install.cmake")
   include("/home/ada/Desktop/Capstone/perception_ws/build/sensor_fusion/cmake_install.cmake")
   include("/home/ada/Desktop/Capstone/perception_ws/build/lidar_obstacle_detector/cmake_install.cmake")
-  include("/home/ada/Desktop/Capstone/perception_ws/build/yolov5_ros/yolov5_ros/yolov5_ros/cmake_install.cmake")
-  include("/home/ada/Desktop/Capstone/perception_ws/build/yolov5_ros/yolov5_ros/yolov5_ros_msgs/cmake_install.cmake")
 
 endif()
 

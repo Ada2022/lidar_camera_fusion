@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -111,18 +123,6 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -280,19 +280,19 @@ ouster_ros_generate_messages_lisp/fast:
 .PHONY : ouster_ros_generate_messages_lisp/fast
 
 # Convenience name for target.
-ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
-.PHONY : ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
+ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
-ouster_ros_gencpp: ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
+nodelet_generate_messages_py: ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
-.PHONY : ouster_ros_gencpp
+.PHONY : nodelet_generate_messages_py
 
 # fast build rule for target.
-ouster_ros_gencpp/fast:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/build.make ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/build
-.PHONY : ouster_ros_gencpp/fast
+nodelet_generate_messages_py/fast:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/build.make ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 ouster-ros/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
@@ -308,36 +308,6 @@ nodelet_generate_messages_cpp: ouster-ros/CMakeFiles/nodelet_generate_messages_c
 nodelet_generate_messages_cpp/fast:
 	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make ouster-ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
-
-# Convenience name for target.
-ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-.PHONY : nodelet_generate_messages_lisp
-
-# fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
-
-# Convenience name for target.
-ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/build.make ouster-ros/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 ouster-ros/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
@@ -445,19 +415,34 @@ _ouster_ros_generate_messages_check_deps_GetConfig/fast:
 .PHONY : _ouster_ros_generate_messages_check_deps_GetConfig/fast
 
 # Convenience name for target.
-ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
+ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
+.PHONY : ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
 
 # Convenience name for target.
-nodelet_generate_messages_py: ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/rule
+ouster_ros_gencpp: ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/rule
 
-.PHONY : nodelet_generate_messages_py
+.PHONY : ouster_ros_gencpp
 
 # fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/build.make ouster-ros/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
+ouster_ros_gencpp/fast:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/build.make ouster-ros/CMakeFiles/ouster_ros_gencpp.dir/build
+.PHONY : ouster_ros_gencpp/fast
+
+# Convenience name for target.
+ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_lisp: ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+.PHONY : nodelet_generate_messages_lisp
+
+# fast build rule for target.
+nodelet_generate_messages_lisp/fast:
+	cd /home/ada/Desktop/Capstone/perception_ws/build && $(MAKE) -f ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make ouster-ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 ouster-ros/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
@@ -868,6 +853,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -878,11 +864,8 @@ help:
 	@echo "... ouster_ros_generate_messages_py"
 	@echo "... ouster_ros_genlisp"
 	@echo "... ouster_ros_generate_messages_lisp"
-	@echo "... ouster_ros_gencpp"
+	@echo "... nodelet_generate_messages_py"
 	@echo "... nodelet_generate_messages_cpp"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... install/local"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... install"
 	@echo "... nodelet_generate_messages_nodejs"
 	@echo "... ouster_ros_generate_messages_eus"
@@ -893,7 +876,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... ouster_ros_gennodejs"
 	@echo "... _ouster_ros_generate_messages_check_deps_GetConfig"
-	@echo "... nodelet_generate_messages_py"
+	@echo "... ouster_ros_gencpp"
+	@echo "... nodelet_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... bond_generate_messages_eus"
 	@echo "... bond_generate_messages_lisp"
