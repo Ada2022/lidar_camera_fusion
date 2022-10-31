@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(segmentation)
+project(sensor_fusion)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -8,17 +8,22 @@ project(segmentation)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  ddynamic_reconfigure
-  geometry_msgs
-  std_msgs
-  ros_numpy
   roscpp
   rospy
+  std_msgs
+  pcl_ros
+  tf2_ros
+  tf2_geometry_msgs
+  geometry_msgs
+  ros_numpy
+  tf2_sensor_msgs
+  message_generation
+  actionlib_msgs
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+#find_package(catkin REQUIRED COMPONENTS rospy std_msgs message_generation)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -55,21 +60,32 @@ find_package(catkin REQUIRED COMPONENTS
 #   Message1.msg
 #   Message2.msg
 # )
-
+add_message_files(FILES 
+    BoundingBox.msg
+    BoundingBoxes.msg
+    Obstacle.msg
+    Obstacles.msg
+    ObstacleRange.msg
+    ObstacleRanges.msg
+)
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
+add_service_files(
+  FILES
+  ObstacleInfo.srv
 #   Service2.srv
-# )
+)
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+add_action_files(
+  FILES
+    CheckForObjects.action
+)
 
+generate_messages(DEPENDENCIES 
+    actionlib_msgs
+    std_msgs
+    sensor_msgs
+    geometry_msgs)
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
@@ -105,12 +121,13 @@ find_package(catkin REQUIRED COMPONENTS
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-catkin_package(
+#catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES segmentation
 #  CATKIN_DEPENDS ddynamic_reconfigure realsense-ros ros_numpy roscpp rospy
 #  DEPENDS system_lib
-)
+#)
+catkin_package(CATKIN_DEPENDS roscpp rospy std_msgs pcl_ros tf2_ros tf2_geometry_msgs actionlib_msgs)
 
 ###########
 ## Build ##

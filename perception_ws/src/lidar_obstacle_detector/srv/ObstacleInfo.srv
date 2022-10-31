@@ -1,0 +1,5 @@
+#request messages
+lidar_obstacle_detector/ObstacleRanges obstacle_ranges
+
+#server message
+lidar_obstacle_detector/Obstacles obstacles

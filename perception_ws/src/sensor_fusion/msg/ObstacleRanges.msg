@@ -1,0 +1,1 @@
+ObstacleRange[] obstacle_ranges

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find ouster_ros)/ouster.launch">
+    <arg name="sensor_hostname" value="192.168.50.13" />
+    <arg name="metadata" value="/home/dev/.ros/lidar_metadata.json" />
+  </include>
+
+  <node name="sensor_fusion_node" pkg="sensor_fusion" type="sensor_fusion_node" output="screen">
+    <!-- Input Topic Names -->
+    <param name="lidar_points_topic"      value="/os_cloud_node/points"/>
+    <!-- Output Topic Names -->
+    <param name="cloud_ground_topic"      value="obstacle_detector/cloud_ground"/>
+    <param name="cloud_clusters_topic"    value="obstacle_detector/cloud_clusters"/>
+    <param name="jsk_bboxes_topic"        value="obstacle_detector/jsk_bboxes"/>
+    <param name="autoware_objects_topic"  value="obstacle_detector/objects"/>
+    <!-- Parameters -->
+    <param name="bbox_target_frame"       value="os_lidar"/>
+  </node>
+
+  <node name="safety_checker_node" pkg="lidar_obstacle_detector" type="safety_checker.py" output="screen">
+    <param name="x_min"        type="double"  value="-2.0"/>
+    <param name="x_max"        type="double"  value="2.0"/>
+    <param name="y_min"        type="double"  value="0.0"/>
+    <param name="y_max"        type="double"  value="4.0"/>
+    <param name="size_thres"   type="double"  value="0.5"/>
+    <param name="base_frame"   type="string"  value="os_lidar"/>
+  </node>
+
+  <!-- Dynamic Reconfigure GUI -->
+  <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" />
+
+  <!-- Autoware Object Visualizer (if you have the `lgsvl_utils` pkg, or you can use the official Autoware one) -->
+  <!-- <node ns="/obstacle_detector" pkg="lgsvl_utils" type="detected_objects_visualizer" name="autoware_objects_visualizer" output="log" /> -->
+
+  <!-- Rviz -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find lidar_obstacle_detector)/rviz/rover.rviz" output="log" respawn="true" />
+
+  <!-- Camera -->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+
+</launch>
