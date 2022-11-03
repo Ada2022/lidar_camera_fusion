@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o"
   "CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o"
   "CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libouster_client.pdb"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libouster_client.a"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libouster_client.pdb"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libouster_client.a"
 )
 
 # Per-language clean rules from dependency scanning.

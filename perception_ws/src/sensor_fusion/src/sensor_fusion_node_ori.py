@@ -6,7 +6,7 @@ import rospy
 import tf2_ros
 import message_filters
 from sensor_msgs.msg import Image, CameraInfo, PointCloud2
-from sensor_fusion.msg import Obstacles,ObstacleRange,ObstacleRanges, BoundingBoxes, ObjectCount
+from sensor_fusion.msg import Obstacles,ObstacleRange,ObstacleRanges, BoundingBoxes
 
 import ros_numpy
 import image_geometry
@@ -47,7 +47,7 @@ def foundCallback(count):
     global FOUND   
     if count.count > 0: FOUND = True
 
-def sensorFusionCallback(image, camera_info, velodyne, image_pub, bbox_sub, found_object, obstacle_pub, obstacle_sub):
+def sensorFusionCallback(image, camera_info, velodyne, image_pub, bbox_sub, obstacle_pub, obstacle_sub):
     global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, DEBUG, BBOX
     
     rospy.loginfo('arrive at sensorfusion callback')
@@ -167,7 +167,7 @@ def listener(camera_info, image_color, velodyne_points, bounding_boxes, found_ob
     rospy.loginfo('CameraInfo topic: %s' % camera_info)
     rospy.loginfo('Image topic: %s' % image_color)
     rospy.loginfo('PointCloud2 topic: %s' % velodyne_points)
-
+    i = 0
     # Subscribe to topics
     info_sub = message_filters.Subscriber(camera_info, CameraInfo)
     image_sub = message_filters.Subscriber(image_color, Image)
@@ -178,13 +178,13 @@ def listener(camera_info, image_color, velodyne_points, bounding_boxes, found_ob
 
     image_pub = rospy.Publisher(yolo_src, Image, queue_size=5)
     bbox_sub = rospy.Subscriber(bounding_boxes, BoundingBoxes, bboxCallback)
-    count_sub = rospy.Subscriber(found_object,ObjectCount, foundCallback)
+    #count_sub = rospy.Subscriber(found_object,ObjectCount, foundCallback)
     obstacle_pub = rospy.Publisher(obstacle_range, ObstacleRanges, queue_size=5)
 
     if obstacle_info: obstacle_sub = rospy.Subscriber(obstacle_info, Obstacles, obstacle_callback)
 
     # Synchronize the topics by time
-    ats.registerCallback(sensorFusionCallback, image_pub, bbox_sub, count_sub, obstacle_pub, None)
+    ats.registerCallback(sensorFusionCallback, image_pub, bbox_sub, obstacle_pub, None)
     # rospy.wait_for_service('')#yolo_bounding boxes
     # try:
     #     proxy = rospy.ServiceProxy()

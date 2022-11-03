@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/buffered_udp_source.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/client.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/image_processing.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/netcompat.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_http.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_http_imp.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_tcp_imp.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/types.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/buffered_udp_source.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/client.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/image_processing.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/netcompat.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_http.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_http_imp.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/sensor_tcp_imp.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/src/types.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,9 +27,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ada/Desktop/Capstone/perception_ws/devel/include"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
-  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
   "/usr/include/eigen3"
   "ouster-ros/ouster_example/generated"
   "/usr/include/x86_64-linux-gnu"

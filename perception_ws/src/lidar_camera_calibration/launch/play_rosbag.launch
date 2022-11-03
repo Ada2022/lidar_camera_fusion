@@ -3,7 +3,7 @@
 
     <!-- <arg name="bagfile" default="2021-11-05-12-41-17_modified.bag" /> -->
     <!-- <arg name="bagfile" default="rover_lidar_camera_calib_2022-10-12-10-02-42.bag" /> -->
-    <arg name="bagfile" default="visit_test_modified.bag"/>
+    <arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag"/>
     <!--arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag" /-->
 
     <!-- <arg name="bagfile" default="data_gather_2021-11-05-12-42-49_modified.bag" /> -->

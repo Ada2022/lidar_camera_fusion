@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fd016/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fd016.dir/build.make CMakeFiles/cmTC_fd016.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fd016.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_fd016.dir/CheckSymbolExists.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_fd016
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd016.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fd016.dir/CheckSymbolExists.c.o  -o cmTC_fd016 
-CMakeFiles/cmTC_fd016.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_40cef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40cef.dir/build.make CMakeFiles/cmTC_40cef.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40cef.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_40cef.dir/CheckSymbolExists.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_40cef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40cef.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_40cef.dir/CheckSymbolExists.c.o  -o cmTC_40cef 
+CMakeFiles/cmTC_40cef.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fd016.dir/build.make:86: recipe for target 'cmTC_fd016' failed
-make[1]: *** [cmTC_fd016] Error 1
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fd016/fast' failed
-make: *** [cmTC_fd016/fast] Error 2
+CMakeFiles/cmTC_40cef.dir/build.make:97: recipe for target 'cmTC_40cef' failed
+make[1]: *** [cmTC_40cef] Error 1
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40cef/fast' failed
+make: *** [cmTC_40cef/fast] Error 2
 
-File /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7ee9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e7ee9.dir/build.make CMakeFiles/cmTC_e7ee9.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7ee9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e7ee9.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e7ee9
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ee9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e7ee9.dir/CheckFunctionExists.c.o  -o cmTC_e7ee9 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_47c74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47c74.dir/build.make CMakeFiles/cmTC_47c74.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47c74.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_47c74.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47c74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47c74.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_47c74.dir/CheckFunctionExists.c.o  -o cmTC_47c74 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e7ee9.dir/build.make:86: recipe for target 'cmTC_e7ee9' failed
-make[1]: *** [cmTC_e7ee9] Error 1
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e7ee9/fast' failed
-make: *** [cmTC_e7ee9/fast] Error 2
+CMakeFiles/cmTC_47c74.dir/build.make:97: recipe for target 'cmTC_47c74' failed
+make[1]: *** [cmTC_47c74] Error 1
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_47c74/fast' failed
+make: *** [cmTC_47c74/fast] Error 2
 
 

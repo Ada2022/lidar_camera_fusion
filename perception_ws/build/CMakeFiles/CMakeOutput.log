@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-126-generic - x86_64
+The system is: Linux - 5.4.0-131-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70048/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70048.dir/build.make CMakeFiles/cmTC_70048.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70048.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_70048.dir/testCCompiler.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_70048
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70048.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70048.dir/testCCompiler.c.o  -o cmTC_70048 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_98446/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98446.dir/build.make CMakeFiles/cmTC_98446.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98446.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98446.dir/testCCompiler.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_98446
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98446.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_98446.dir/testCCompiler.c.o  -o cmTC_98446 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bc5fc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bc5fc.dir/build.make CMakeFiles/cmTC_bc5fc.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_bc5fc
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5fc.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o  -o cmTC_bc5fc 
+Run Build Command:"/usr/bin/make" "cmTC_80244/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80244.dir/build.make CMakeFiles/cmTC_80244.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_80244
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80244.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o  -o cmTC_80244 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc5fc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCwVYqz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc5fc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc5fc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80244' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVl3RKD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80244 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80244' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bc5fc/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bc5fc.dir/build.make CMakeFiles/cmTC_bc5fc.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_bc5fc]
-  ignore line: [/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5fc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o  -o cmTC_bc5fc ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_80244/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_80244.dir/build.make CMakeFiles/cmTC_80244.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_80244]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80244.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o  -o cmTC_80244 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc5fc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCwVYqz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc5fc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80244' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVl3RKD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80244 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccCwVYqz.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVl3RKD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bc5fc] ==> ignore
+    arg [cmTC_80244] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_bc5fc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_80244.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a9e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a9e0.dir/build.make CMakeFiles/cmTC_1a9e0.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a9e0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1a9e0.dir/feature_tests.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1a9e0
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9e0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1a9e0.dir/feature_tests.c.o  -o cmTC_1a9e0 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ce603/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce603.dir/build.make CMakeFiles/cmTC_ce603.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce603.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ce603.dir/feature_tests.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ce603
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce603.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ce603.dir/feature_tests.c.o  -o cmTC_ce603 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2e0b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2e0b.dir/build.make CMakeFiles/cmTC_e2e0b.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2e0b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e2e0b.dir/feature_tests.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e2e0b
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2e0b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e2e0b.dir/feature_tests.c.o  -o cmTC_e2e0b 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4dc97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4dc97.dir/build.make CMakeFiles/cmTC_4dc97.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dc97.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4dc97.dir/feature_tests.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4dc97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dc97.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4dc97.dir/feature_tests.c.o  -o cmTC_4dc97 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb0ef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb0ef.dir/build.make CMakeFiles/cmTC_cb0ef.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cb0ef.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_cb0ef.dir/feature_tests.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cb0ef
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb0ef.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cb0ef.dir/feature_tests.c.o  -o cmTC_cb0ef 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d37c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d37c8.dir/build.make CMakeFiles/cmTC_d37c8.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d37c8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d37c8.dir/feature_tests.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d37c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d37c8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d37c8.dir/feature_tests.c.o  -o cmTC_d37c8 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0216/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f0216.dir/build.make CMakeFiles/cmTC_f0216.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0216.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f0216.dir/testCXXCompiler.cxx.o -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f0216
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0216.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f0216.dir/testCXXCompiler.cxx.o  -o cmTC_f0216 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a0c4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0c4b.dir/build.make CMakeFiles/cmTC_a0c4b.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0c4b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a0c4b.dir/testCXXCompiler.cxx.o -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a0c4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0c4b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a0c4b.dir/testCXXCompiler.cxx.o  -o cmTC_a0c4b 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a973/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a973.dir/build.make CMakeFiles/cmTC_9a973.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9a973
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a973.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9a973 
+Run Build Command:"/usr/bin/make" "cmTC_757be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_757be.dir/build.make CMakeFiles/cmTC_757be.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_757be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757be.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_757be 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9a973' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSZs9AM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9a973 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9a973' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_757be' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaDSaOZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_757be /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_757be' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9a973/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9a973.dir/build.make CMakeFiles/cmTC_9a973.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9a973]
-  ignore line: [/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a973.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9a973 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_757be/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_757be.dir/build.make CMakeFiles/cmTC_757be.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_757be]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757be.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_757be ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9a973' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSZs9AM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9a973 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_757be' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaDSaOZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_757be /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccSZs9AM.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaDSaOZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9a973] ==> ignore
+    arg [cmTC_757be] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_9a973.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_757be.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d61a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d61a3.dir/build.make CMakeFiles/cmTC_d61a3.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d61a3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_d61a3.dir/feature_tests.cxx.o -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d61a3
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d61a3.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d61a3.dir/feature_tests.cxx.o  -o cmTC_d61a3 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_66111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66111.dir/build.make CMakeFiles/cmTC_66111.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66111.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_66111.dir/feature_tests.cxx.o -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_66111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66111.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_66111.dir/feature_tests.cxx.o  -o cmTC_66111 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52576/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52576.dir/build.make CMakeFiles/cmTC_52576.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_52576.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_52576.dir/feature_tests.cxx.o -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_52576
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52576.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_52576.dir/feature_tests.cxx.o  -o cmTC_52576 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e31cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e31cd.dir/build.make CMakeFiles/cmTC_e31cd.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e31cd.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e31cd.dir/feature_tests.cxx.o -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e31cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31cd.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e31cd.dir/feature_tests.cxx.o  -o cmTC_e31cd 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f937/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6f937.dir/build.make CMakeFiles/cmTC_6f937.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6f937.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6f937.dir/feature_tests.cxx.o -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6f937
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f937.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6f937.dir/feature_tests.cxx.o  -o cmTC_6f937 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7b881/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b881.dir/build.make CMakeFiles/cmTC_7b881.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b881.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7b881.dir/feature_tests.cxx.o -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7b881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b881.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7b881.dir/feature_tests.cxx.o  -o cmTC_7b881 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21b2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21b2a.dir/build.make CMakeFiles/cmTC_21b2a.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_21b2a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_21b2a.dir/feature_tests.cxx.o -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_21b2a
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b2a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_21b2a.dir/feature_tests.cxx.o  -o cmTC_21b2a 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b6332/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6332.dir/build.make CMakeFiles/cmTC_b6332.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6332.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b6332.dir/feature_tests.cxx.o -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b6332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6332.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b6332.dir/feature_tests.cxx.o  -o cmTC_b6332 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,114 +632,114 @@ make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMake
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a76f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a76f6.dir/build.make CMakeFiles/cmTC_a76f6.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a76f6.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a76f6.dir/CheckIncludeFile.c.o   -c /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a76f6
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76f6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a76f6.dir/CheckIncludeFile.c.o  -o cmTC_a76f6 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d52d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d52d9.dir/build.make CMakeFiles/cmTC_d52d9.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d52d9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d52d9.dir/CheckIncludeFile.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d52d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d52d9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d52d9.dir/CheckIncludeFile.c.o  -o cmTC_d52d9 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d0a1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d0a1.dir/build.make CMakeFiles/cmTC_8d0a1.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d0a1.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8d0a1.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8d0a1
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d0a1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8d0a1.dir/CheckFunctionExists.c.o  -o cmTC_8d0a1 -lpthread 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f3f07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3f07.dir/build.make CMakeFiles/cmTC_f3f07.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3f07.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f3f07.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3f07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f07.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f3f07.dir/CheckFunctionExists.c.o  -o cmTC_f3f07 -lpthread 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09e58/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09e58.dir/build.make CMakeFiles/cmTC_09e58.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09e58.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE   -o CMakeFiles/cmTC_09e58.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_09e58
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09e58.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_09e58.dir/CheckFunctionExists.c.o  -o cmTC_09e58 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_97b61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97b61.dir/build.make CMakeFiles/cmTC_97b61.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b61.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_97b61.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97b61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b61.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_97b61.dir/CheckFunctionExists.c.o  -o cmTC_97b61 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_da7f9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_da7f9.dir/build.make CMakeFiles/cmTC_da7f9.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_da7f9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_da7f9.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_da7f9
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da7f9.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_da7f9.dir/CheckFunctionExists.c.o  -o cmTC_da7f9 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cb492/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb492.dir/build.make CMakeFiles/cmTC_cb492.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb492.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_cb492.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb492
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb492.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_cb492.dir/CheckFunctionExists.c.o  -o cmTC_cb492 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13d56/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13d56.dir/build.make CMakeFiles/cmTC_13d56.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13d56.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect -fPIE   -o CMakeFiles/cmTC_13d56.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_13d56
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d56.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_13d56.dir/CheckFunctionExists.c.o  -o cmTC_13d56 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_de3e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de3e6.dir/build.make CMakeFiles/cmTC_de3e6.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de3e6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_de3e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de3e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de3e6.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_de3e6.dir/CheckFunctionExists.c.o  -o cmTC_de3e6 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf42f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf42f.dir/build.make CMakeFiles/cmTC_bf42f.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf42f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove -fPIE   -o CMakeFiles/cmTC_bf42f.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bf42f
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf42f.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_bf42f.dir/CheckFunctionExists.c.o  -o cmTC_bf42f 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3b4ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b4ad.dir/build.make CMakeFiles/cmTC_3b4ad.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b4ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_3b4ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b4ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b4ad.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_3b4ad.dir/CheckFunctionExists.c.o  -o cmTC_3b4ad 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3391a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3391a.dir/build.make CMakeFiles/cmTC_3391a.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3391a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat -fPIE   -o CMakeFiles/cmTC_3391a.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3391a
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3391a.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_3391a.dir/CheckFunctionExists.c.o  -o cmTC_3391a 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8091e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8091e.dir/build.make CMakeFiles/cmTC_8091e.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8091e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_8091e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8091e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8091e.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_8091e.dir/CheckFunctionExists.c.o  -o cmTC_8091e 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86204/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86204.dir/build.make CMakeFiles/cmTC_86204.dir/build
-make[1]: Entering directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86204.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE   -o CMakeFiles/cmTC_86204.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.4-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
-Linking C executable cmTC_86204
-/opt/cmake-3.11.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86204.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_86204.dir/CheckFunctionExists.c.o  -o cmTC_86204 -lICE 
-make[1]: Leaving directory '/home/ada/Desktop/Capstone/perception_ws/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_53b32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53b32.dir/build.make CMakeFiles/cmTC_53b32.dir/build
+make[1]: Entering directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53b32.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_53b32.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53b32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b32.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_53b32.dir/CheckFunctionExists.c.o  -o cmTC_53b32 -lICE 
+make[1]: Leaving directory '/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles/CMakeTmp'
 
 

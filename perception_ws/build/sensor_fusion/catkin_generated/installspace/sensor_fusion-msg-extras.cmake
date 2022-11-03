@@ -1,0 +1,2 @@
+set(sensor_fusion_MESSAGE_FILES "msg/BoundingBox.msg;msg/BoundingBoxes.msg;msg/Obstacle.msg;msg/Obstacles.msg;msg/ObstacleRange.msg;msg/ObstacleRanges.msg;msg/CheckForObjectsAction.msg;msg/CheckForObjectsActionGoal.msg;msg/CheckForObjectsActionResult.msg;msg/CheckForObjectsActionFeedback.msg;msg/CheckForObjectsGoal.msg;msg/CheckForObjectsResult.msg;msg/CheckForObjectsFeedback.msg")
+set(sensor_fusion_SERVICE_FILES "srv/ObstacleInfo.srv")

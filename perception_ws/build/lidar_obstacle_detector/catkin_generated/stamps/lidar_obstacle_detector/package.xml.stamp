@@ -58,6 +58,10 @@
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>autoware_msgs</build_depend>
   <build_depend>jsk_recognition_msgs</build_depend>
+  <build_depend>jros_numpy</build_depend>
+  <build_depend>tf2_2ensor_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
 
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
@@ -68,6 +72,9 @@
   <build_export_depend>dynamic_reconfigure</build_export_depend>
   <build_export_depend>autoware_msgs</build_export_depend>
   <build_export_depend>jsk_recognition_msgs</build_export_depend>
+  <build_export_depend>tf2_geometry_msgs</build_export_depend>
+  <build_export_depend>ros_numpy</build_export_depend>
+  <build_export_depend>tf2_2ensor_msgs</build_export_depend>
 
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
@@ -78,6 +85,11 @@
   <exec_depend>dynamic_reconfigure</exec_depend>
   <exec_depend>autoware_msgs</exec_depend>
   <exec_depend>jsk_recognition_msgs</exec_depend>
+  <exec_depend>ros_numpy</exec_depend>
+  <exec_depend>f2_geometry_msgs</exec_depend>
+  <exec_depend>ros_numpy</exec_depend>
+  <exec_depend>tf2_2ensor_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

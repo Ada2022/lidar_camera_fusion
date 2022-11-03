@@ -1,12 +1,11 @@
 #! /usr/bin/env python
-from telnetlib import PRAGMA_HEARTBEAT
 import rospy
 import actionlib
 
 import tf2_ros
 import message_filters
 from sensor_msgs.msg import Image, CameraInfo, PointCloud2
-from sensor_fusion.msg import Obstacles,ObstacleRange,ObstacleRanges, BoundingBoxes, ObjectCount
+from sensor_fusion.msg import Obstacles,ObstacleRange,ObstacleRanges, BoundingBoxes
 from sensor_fusion.msg import CheckForObjectsAction,CheckForObjectsGoal,CheckForObjectsResult
 from sensor_fusion.srv import ObstacleInfo, ObstacleInfoResponse
 #from sensor_fusion.action import CheckForObjects
@@ -97,7 +96,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  bbox_client,  obstacle_c
                            (points2D[:, 1] < img.shape[0]))
         points2D = points2D[inrange[0]].round().astype('int')
 
-    obstacleRangesMsg = []
+    obstacleRangesMsg = ObstacleRanges()
     obstacle_range_msg = ObstacleRange()
 
     print("point_2D after inrange", points2D)
@@ -107,32 +106,28 @@ def sensorFusionCallback(image, camera_info, velodyne,  bbox_client,  obstacle_c
                         (points2D[:,0] >= bbox.xmin)&
                         (points2D[:,1] <= bbox.ymax)&
                         (points2D[:,1] >= bbox.ymin))
-
-        if filter[0].size == 0:
-            print('bad')
-            continue
-        
         point_cloud = points3D[filter[0]]
+        point_cloud = points3D
         xyz_min = np.amin(point_cloud[0:3,:], axis = 0)
         xyz_max = np.amax(point_cloud[0:3,:], axis = 0)
-        [obstacle_range_msg.xmin, obstacle_range_msg.ymin, obstacle_range_msg.zmin] = xyz_min
-        [obstacle_range_msg.xmax, obstacle_range_msg.ymax, obstacle_range_msg.zmax] = xyz_max
+        [obstacle_range_msg.xmin, obstacle_range_msg.ymin, obstacle_range_msg.zmin, _] = xyz_min
+        [obstacle_range_msg.xmax, obstacle_range_msg.ymax, obstacle_range_msg.zmax, _] = xyz_max
         obstacle_range_msg.Class = bbox.Class
-        obstacle_range_msg.point = Point(point_cloud[:,0], point_cloud[:, 1], point_cloud[:, 2])
-        obstacleRangesMsg.append(obstacle_range_msg)
+        obstacle_range_msg.points = Point(point_cloud[:,0], point_cloud[:, 1], point_cloud[:, 2])
+        obstacleRangesMsg.obstacle_ranges.append(obstacle_range_msg)
 
-    #     if DEBUG:
-    #         cv2.rectangle(img, (bbox.xmin, bbox.ymin),(bbox.xmax,bbox.ymax), (36,255,12), 2)
-    #         cv2.putText(img, bbox.Class, (bbox.xmin, bbox.ymin), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36,255,12), 2)
+        if DEBUG:
+            cv2.rectangle(img, (bbox.xmin, bbox.ymin),(bbox.xmax,bbox.ymax), (36,255,12), 2)
+            cv2.putText(img, bbox.Class, (bbox.xmin, bbox.ymin), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36,255,12), 2)
             
-    # if DEBUG:   
-    #     cv2.imshow('test',img)
+    if DEBUG:   
+        cv2.imshow('test',img)
     print('processed')
     obstacles = None
     rospy.wait_for_service('/obstacles_range')
     print('waitting for srv')
     try:
-        obstacles = obstacle_client(obstacleRangesMsg )
+        obstacles = obstacle_client(obstacleRangesMsg)
     except rospy.ServiceException as e:
         pass
 
@@ -162,13 +157,6 @@ def listener(camera_info, image_color, velodyne_points, bounding_boxes,obstacle_
 
     # Synchronize the topics by time
     ats.registerCallback(sensorFusionCallback,  bbox_client, obstacle_client, obstacle_pub)
-    # rospy.wait_for_service('')#yolo_bounding boxes
-    # try:
-    #     proxy = rospy.ServiceProxy()
-    #     proxy()
-    # except rospy.ServiceException as e:
-    #     rospy.loginfo(e)
-
 
     try:
         rospy.spin()
