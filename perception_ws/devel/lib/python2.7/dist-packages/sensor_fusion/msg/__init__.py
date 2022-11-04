@@ -8,6 +8,13 @@ from ._CheckForObjectsFeedback import *
 from ._CheckForObjectsGoal import *
 from ._CheckForObjectsResult import *
 from ._Obstacle import *
+from ._ObstacleInfoAction import *
+from ._ObstacleInfoActionFeedback import *
+from ._ObstacleInfoActionGoal import *
+from ._ObstacleInfoActionResult import *
+from ._ObstacleInfoFeedback import *
+from ._ObstacleInfoGoal import *
+from ._ObstacleInfoResult import *
 from ._ObstacleRange import *
 from ._ObstacleRanges import *
 from ._Obstacles import *

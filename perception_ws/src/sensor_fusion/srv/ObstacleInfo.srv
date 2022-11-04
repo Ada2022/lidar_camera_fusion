@@ -1,5 +1,0 @@
-#request messages
-sensor_fusion/ObstacleRanges obstacle_ranges
-
-#server message
-sensor_fusion/Obstacles obstacles

@@ -77,6 +77,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
   "DARKNET_FILE_PATH=\"/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet\""
+  "GPU"
   "OPENCV"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
@@ -103,6 +104,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "DARKNET_FILE_PATH=\"/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet\""
+  "GPU"
   "OPENCV"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"

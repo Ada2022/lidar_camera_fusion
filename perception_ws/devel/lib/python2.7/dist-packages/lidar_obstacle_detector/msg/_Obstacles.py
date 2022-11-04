@@ -23,6 +23,7 @@ float64 zCenter
 float64 width
 float64 length
 float64 height
+
 """
   __slots__ = ['obstacles']
   _slot_types = ['lidar_obstacle_detector/Obstacle[]']

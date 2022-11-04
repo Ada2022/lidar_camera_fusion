@@ -64,10 +64,10 @@
   "75a819090f37b798d8bf3a5f74d98dc8")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Obstacles>)))
   "Returns full string definition for message of type '<Obstacles>"
-  (cl:format cl:nil "Obstacle[] obstacles~%~%================================================================================~%MSG: lidar_obstacle_detector/Obstacle~%string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%"))
+  (cl:format cl:nil "Obstacle[] obstacles~%~%================================================================================~%MSG: lidar_obstacle_detector/Obstacle~%string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'Obstacles)))
   "Returns full string definition for message of type 'Obstacles"
-  (cl:format cl:nil "Obstacle[] obstacles~%~%================================================================================~%MSG: lidar_obstacle_detector/Obstacle~%string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%"))
+  (cl:format cl:nil "Obstacle[] obstacles~%~%================================================================================~%MSG: lidar_obstacle_detector/Obstacle~%string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <Obstacles>))
   (cl:+ 0
      4 (cl:reduce #'cl:+ (cl:slot-value msg 'obstacles) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ (roslisp-msg-protocol:serialization-length ele))))

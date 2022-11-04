@@ -89,6 +89,7 @@ class Obstacles {
     float64 length
     float64 height
     
+    
     `;
   }
 

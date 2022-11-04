@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Play rosbag record -->
+    <!--include file="$(find lidar_camera_calibration)/launch/play_rosbag.launch"></include-->
+    <!--include file="$(find darknet_ros)/launch/yolo_v4.launch"></include-->
+    <!-- Wire static transform from the world to velodyne frame -->
+    <!-- Fill args below with estimated transform X Y Z Y P R -->
+    <node
+        pkg="tf2_ros"
+        type="static_transform_publisher"
+        name="world_velodyne_tf"
+        output="screen"
+        args="-0.06485756 -0.05683201 -0.10448115 3.1409457979447306 -0.01855264674509845 -1.5478010455633737 world velodyne" />
+    <!-- Run sensor fusion script -->
+    <node   
+        pkg="sensor_fusion"
+        type="sensor_fusion_node.py"
+        name="sensor_fusion"
+        output="screen" />
+</launch>

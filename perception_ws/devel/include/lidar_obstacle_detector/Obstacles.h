@@ -158,6 +158,7 @@ struct Definition< ::lidar_obstacle_detector::Obstacles_<ContainerAllocator> >
 "float64 width\n"
 "float64 length\n"
 "float64 height\n"
+"\n"
 ;
   }
 

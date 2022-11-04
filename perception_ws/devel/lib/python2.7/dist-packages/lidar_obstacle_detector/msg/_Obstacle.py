@@ -18,6 +18,7 @@ float64 zCenter
 float64 width
 float64 length
 float64 height
+
 """
   __slots__ = ['Class','xCenter','yCenter','zCenter','width','length','height']
   _slot_types = ['string','float64','float64','float64','float64','float64','float64']

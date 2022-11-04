@@ -47,7 +47,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_obstacle_detector/srv" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/srv/ObstacleInfo.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_obstacle_detector/action" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/action/ObstacleInfo.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_obstacle_detector/msg" TYPE FILE FILES
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoAction.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoActionGoal.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoActionResult.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoActionFeedback.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoGoal.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoResult.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/ObstacleInfoFeedback.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -235,10 +235,10 @@
   "02fa78c2104fdac90b9cb90ca8b76a9b")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Obstacle>)))
   "Returns full string definition for message of type '<Obstacle>"
-  (cl:format cl:nil "string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%"))
+  (cl:format cl:nil "string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'Obstacle)))
   "Returns full string definition for message of type 'Obstacle"
-  (cl:format cl:nil "string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%"))
+  (cl:format cl:nil "string Class~%float64 xCenter~%float64 yCenter~%float64 zCenter~%float64 width~%float64 length~%float64 height~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <Obstacle>))
   (cl:+ 0
      4 (cl:length (cl:slot-value msg 'Class))

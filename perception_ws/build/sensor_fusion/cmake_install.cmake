@@ -49,11 +49,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_fusion/srv" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/sensor_fusion/srv/ObstacleInfo.srv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_fusion/action" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/sensor_fusion/action/CheckForObjects.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_fusion/action" TYPE FILE FILES
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/sensor_fusion/action/CheckForObjects.action"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/sensor_fusion/action/ObstacleInfo.action"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,6 +64,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/CheckForObjectsGoal.msg"
     "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/CheckForObjectsResult.msg"
     "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/CheckForObjectsFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sensor_fusion/msg" TYPE FILE FILES
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoAction.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoActionGoal.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoActionResult.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoActionFeedback.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoGoal.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoResult.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/sensor_fusion/msg/ObstacleInfoFeedback.msg"
     )
 endif()
 

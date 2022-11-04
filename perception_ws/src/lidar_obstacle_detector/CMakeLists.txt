@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
   autoware_msgs
   message_generation
   jsk_recognition_msgs
+  actionlib_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -65,22 +66,24 @@ add_message_files(
  )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-   ObstacleInfo.srv
+#add_service_files(
+#  FILES
+#   ObstacleInfo.srv
 #   Service2.srv
-)
+#)
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
+ add_action_files(
+   FILES
+   ObstacleInfo.action
 #   Action1.action
 #   Action2.action
-# )
+ )
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
    DEPENDENCIES
+   actionlib_msgs
    std_msgs
    sensor_msgs
    geometry_msgs
@@ -117,7 +120,7 @@ generate_dynamic_reconfigure_options(
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES lidar_obstacle_detector
-  CATKIN_DEPENDS roscpp rospy std_msgs pcl_ros tf2_ros tf2_geometry_msgs dynamic_reconfigure autoware_msgs jsk_recognition_msgs
+  CATKIN_DEPENDS roscpp rospy std_msgs pcl_ros tf2_ros tf2_geometry_msgs dynamic_reconfigure autoware_msgs jsk_recognition_msgs actionlib_msgs
   DEPENDS system_lib
 )
 

@@ -57,9 +57,2193 @@ include yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_li
 # Include the compile flags for this target's objects.
 include yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activation_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activation_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_activation_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_activation_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_crop_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_crop_layer_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_avgpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_avgpool_layer_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/deconvolutional_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/deconvolutional_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gemm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/deconvolutional_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_deconvolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_deconvolutional_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_blas_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_blas_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/cstring
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_dropout_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_dropout_layer_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_col2im_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_col2im_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_im2col_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_im2col_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/batchnorm_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gemm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_convolutional_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_convolutional_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_maxpool_layer_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_maxpool_layer_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o.Release.cmake
+
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/include/darknet.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activation_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/batchnorm_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/connected_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/cost_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crnn_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/detection_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gru_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/http_stream.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/local_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network_kernels.cu
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/normalization_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/parser.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/region_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/reorg_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/route_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/shortcut_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/softmax_layer.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/alloca.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/assert.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/builtin_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/atomic_lockfree_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/concept_check.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/cpp_type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/exception_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/exception_ptr.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/move.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/nested_exception.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/stl_pair.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/bits/stl_relops.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/cmath
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/cstdlib
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/exception
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/ext/type_traits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/initializer_list
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/new
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/type_traits
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/c++/6/utility
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/channel_descriptor.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/common_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/device_double_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/device_double_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/device_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/math_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/math_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/sm_70_rt.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/crt/sm_70_rt.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuComplex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cublas_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cublas_v2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_device_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_fp16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_fp16.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_runtime.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_runtime_api.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/cuda_texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/curand.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/device_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/device_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/device_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/device_launch_parameters.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/device_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/driver_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/driver_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/features.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/host_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/host_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/library_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/linux/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/math.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/pthread.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_20_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_20_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_20_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_20_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_30_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_30_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_32_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_32_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_32_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_32_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_35_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_35_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_60_atomic_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_60_atomic_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_61_intrinsics.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/sm_61_intrinsics.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/stdc-predef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/string.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/strings.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/surface_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/surface_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/surface_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/texture_fetch_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/texture_indirect_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/texture_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/vector_functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/vector_functions.hpp
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/vector_types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/_G_config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/c++config.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/cpu_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/c++/6/bits/os_defines.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/limits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed/syslimits.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/float.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o.Release.cmake
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network_kernels.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o"
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -E make_directory /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/.
+	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_network_kernels.cu.o -D generated_cubin_file:STRING=/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/./darknet_ros_lib_generated_network_kernels.cu.o.cubin.txt -P /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o.Release.cmake
+
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.i: cmake_force
@@ -83,7 +2267,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/sr
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/src/image_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/src/image_interface.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.i: cmake_force
@@ -107,7 +2291,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/sr
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activation_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activation_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.i: cmake_force
@@ -131,7 +2315,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/im2col.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.i: cmake_force
@@ -155,7 +2339,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/activations.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.i: cmake_force
@@ -179,7 +2363,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.i: cmake_force
@@ -203,7 +2387,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/avgpool_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.i: cmake_force
@@ -227,7 +2411,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.i: cmake_force
@@ -251,7 +2435,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/batchnorm_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/batchnorm_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.i: cmake_force
@@ -275,7 +2459,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/list.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.i: cmake_force
@@ -299,7 +2483,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/blas.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.i: cmake_force
@@ -323,7 +2507,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/local_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/local_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.i: cmake_force
@@ -347,7 +2531,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/box.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.i: cmake_force
@@ -371,7 +2555,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/lstm_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/lstm_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.i: cmake_force
@@ -395,7 +2579,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/col2im.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.i: cmake_force
@@ -419,7 +2603,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/matrix.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.i: cmake_force
@@ -443,7 +2627,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/connected_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/connected_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.i: cmake_force
@@ -467,7 +2651,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/maxpool_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.i: cmake_force
@@ -491,7 +2675,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/convolutional_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.i: cmake_force
@@ -515,7 +2699,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/network.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.i: cmake_force
@@ -539,7 +2723,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/cost_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/cost_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.i: cmake_force
@@ -563,7 +2747,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/normalization_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/normalization_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.i: cmake_force
@@ -587,7 +2771,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crnn_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crnn_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.i: cmake_force
@@ -611,7 +2795,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/option_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/option_list.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.i: cmake_force
@@ -635,7 +2819,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/crop_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.i: cmake_force
@@ -659,7 +2843,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/parser.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.i: cmake_force
@@ -683,7 +2867,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dark_cuda.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dark_cuda.c.i: cmake_force
@@ -707,7 +2891,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/region_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/region_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.i: cmake_force
@@ -731,7 +2915,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/data.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.i: cmake_force
@@ -755,7 +2939,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/reorg_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/reorg_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.i: cmake_force
@@ -779,7 +2963,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/deconvolutional_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/deconvolutional_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.i: cmake_force
@@ -803,7 +2987,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.i: cmake_force
@@ -827,7 +3011,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/demo.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.i: cmake_force
@@ -851,7 +3035,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/route_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/route_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.i: cmake_force
@@ -875,7 +3059,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/detection_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/detection_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.i: cmake_force
@@ -899,7 +3083,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/shortcut_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/shortcut_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.i: cmake_force
@@ -923,7 +3107,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dropout_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.i: cmake_force
@@ -947,7 +3131,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/softmax_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/softmax_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.i: cmake_force
@@ -971,7 +3155,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gemm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gemm.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.i: cmake_force
@@ -995,7 +3179,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tree.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.i: cmake_force
@@ -1019,7 +3203,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gru_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gru_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.i: cmake_force
@@ -1043,7 +3227,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/utils.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.i: cmake_force
@@ -1067,7 +3251,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/upsample_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/upsample_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.i: cmake_force
@@ -1091,7 +3275,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/art.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/art.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/art.c.i: cmake_force
@@ -1115,7 +3299,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/captcha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/captcha.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/captcha.c.i: cmake_force
@@ -1139,7 +3323,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/cifar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/cifar.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cifar.c.i: cmake_force
@@ -1163,7 +3347,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn.c.i: cmake_force
@@ -1187,7 +3371,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/classifier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/classifier.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/classifier.c.i: cmake_force
@@ -1211,7 +3395,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/coco.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/coco.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/coco.c.i: cmake_force
@@ -1235,7 +3419,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/super.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/super.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/super.c.i: cmake_force
@@ -1259,7 +3443,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/darknet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/darknet.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet.c.i: cmake_force
@@ -1283,7 +3467,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/tag.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tag.c.i: cmake_force
@@ -1307,7 +3491,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/detector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/detector.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detector.c.i: cmake_force
@@ -1331,7 +3515,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/yolo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/yolo.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo.c.i: cmake_force
@@ -1355,7 +3539,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/go.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/go.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/go.c.i: cmake_force
@@ -1379,7 +3563,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.o -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/image_opencv.cpp
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image_opencv.cpp.i: cmake_force
@@ -1403,7 +3587,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/conv_lstm_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/conv_lstm_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/conv_lstm_layer.c.i: cmake_force
@@ -1427,7 +3611,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/sam_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/sam_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/sam_layer.c.i: cmake_force
@@ -1451,7 +3635,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gaussian_yolo_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/gaussian_yolo_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gaussian_yolo_layer.c.i: cmake_force
@@ -1475,7 +3659,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/http_stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.o -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/http_stream.cpp
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/http_stream.cpp.i: cmake_force
@@ -1499,7 +3683,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/scale_channels_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/scale_channels_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/scale_channels_layer.c.i: cmake_force
@@ -1523,7 +3707,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/nightmare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/nightmare.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/nightmare.c.i: cmake_force
@@ -1547,7 +3731,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/voxel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/voxel.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/voxel.c.i: cmake_force
@@ -1571,7 +3755,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/compare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/compare.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/compare.c.i: cmake_force
@@ -1595,7 +3779,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/reorg_old_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/reorg_old_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_old_layer.c.i: cmake_force
@@ -1619,7 +3803,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/writing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/writing.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/writing.c.i: cmake_force
@@ -1643,7 +3827,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/yolo_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/yolo_layer.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.i: cmake_force
@@ -1667,7 +3851,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/dice.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.i: cmake_force
@@ -1691,7 +3875,7 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/flags.make
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn_vid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o   -c /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet/src/rnn_vid.c
 
 yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.i: cmake_force
@@ -1786,7 +3970,18 @@ darknet_ros_lib_OBJECTS = \
 "CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o"
 
 # External object files for target darknet_ros_lib
-darknet_ros_lib_EXTERNAL_OBJECTS =
+darknet_ros_lib_EXTERNAL_OBJECTS = \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o" \
+"/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o"
 
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o
@@ -1857,11 +4052,24 @@ darknet_ros_lib_EXTERNAL_OBJECTS =
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/build.make
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libSM.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libICE.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libX11.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libXext.so
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libcudart_static.a
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/librt.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -1970,7 +4178,7 @@ darknet_ros_lib_EXTERNAL_OBJECTS =
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX shared library /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nancy/lidar_camera_fusion/perception_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX shared library /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so"
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/darknet_ros_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2054,7 +4262,17 @@ yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/cl
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros && $(CMAKE_COMMAND) -P CMakeFiles/darknet_ros_lib.dir/cmake_clean.cmake
 .PHONY : yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/clean
 
-yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend:
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o
+yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend: yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_network_kernels.cu.o
 	cd /home/nancy/lidar_camera_fusion/perception_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nancy/lidar_camera_fusion/perception_ws/src /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros /home/nancy/lidar_camera_fusion/perception_ws/build /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros /home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : yolov4-for-darknet_ros/darknet_ros/darknet_ros/CMakeFiles/darknet_ros_lib.dir/depend
 

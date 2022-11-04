@@ -94,11 +94,15 @@ darknet_ros_EXTERNAL_OBJECTS =
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libICE.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libX11.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libXext.so
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libcudart_static.a
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/librt.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libSM.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libICE.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libX11.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libXext.so
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libcudart_static.a
+/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/librt.so
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
 /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0

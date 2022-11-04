@@ -69,16 +69,17 @@ add_message_files(FILES
     ObstacleRanges.msg
 )
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  ObstacleInfo.srv
+#add_service_files(
+#  FILES
+#  ObstacleInfo.srv
 #   Service2.srv
-)
+#)
 
 ## Generate actions in the 'action' folder
 add_action_files(
   FILES
     CheckForObjects.action
+    ObstacleInfo.action
 )
 
 generate_messages(DEPENDENCIES 
