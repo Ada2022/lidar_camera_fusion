@@ -74,9 +74,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  bbox_client,  obstacle_c
                        (points3D[:, 2] < 15) &
                        (np.abs(points3D[:, 0]) < 6) &
                        (np.abs(points3D[:, 1]) < 6))
-    points3D = points3D[inrange[0]]
-
-    # Transform the point cloud
+        # Transform the point cloud
     try:
         transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
         velodyne = do_transform_cloud(velodyne, transform)
@@ -158,7 +156,7 @@ def listener(camera_info, image_color, velodyne_points, bounding_boxes,obstacle_
     velodyne_sub = message_filters.Subscriber(velodyne_points, PointCloud2)
 
     ats = message_filters.ApproximateTimeSynchronizer(
-        [image_sub, info_sub, velodyne_sub], queue_size=5, slop=0.1)
+        [image_sub, info_sub, velodyne_sub], queue_size=1, slop=0.1)
 
     bbox_client = actionlib.SimpleActionClient(bounding_boxes, CheckForObjectsAction)
     obstacle_client = actionlib.SimpleActionClient(obstacle_range, ObstacleInfoAction)

@@ -5,16 +5,29 @@
     <!--include file="$(find darknet_ros)/launch/yolo_v4.launch"></include-->
     <!-- Wire static transform from the world to velodyne frame -->
     <!-- Fill args below with estimated transform X Y Z Y P R -->
+    <arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag"/>
+    <node
+        pkg="rosbag"
+        type="play"
+        name="player"
+        args="--clock --loop $(find lidar_camera_calibration)/bagfiles/$(arg bagfile)" />
     <node
         pkg="tf2_ros"
         type="static_transform_publisher"
         name="world_velodyne_tf"
         output="screen"
         args="-0.06485756 -0.05683201 -0.10448115 3.1409457979447306 -0.01855264674509845 -1.5478010455633737 world velodyne" />
+
     <!-- Run sensor fusion script -->
     <node   
         pkg="sensor_fusion"
         type="sensor_fusion_node.py"
         name="sensor_fusion"
         output="screen" />
+
+    <!--node   
+        pkg="lidar_obstacle_detector"
+        type="obstacle_detect_node.py"
+        name="lidar_obstacle_detector"
+        output="screen" /-->
 </launch>
