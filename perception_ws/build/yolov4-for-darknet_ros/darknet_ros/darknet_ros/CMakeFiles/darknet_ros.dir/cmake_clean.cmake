@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros.pdb"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/darknet_ros/darknet_ros.pdb"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/darknet_ros/darknet_ros"
 )
 
 # Per-language clean rules from dependency scanning.

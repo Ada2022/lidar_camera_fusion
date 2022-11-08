@@ -78,8 +78,8 @@ add_message_files(FILES
 ## Generate actions in the 'action' folder
 add_action_files(
   FILES
-    CheckForObjects.action
-    ObstacleInfo.action
+    fusion2yolo.action
+    fusion2lidar.action
 )
 
 generate_messages(DEPENDENCIES 

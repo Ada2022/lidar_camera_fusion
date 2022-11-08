@@ -1,4 +1,4 @@
-prefix=/home/nancy/lidar_camera_fusion/perception_ws/install
+prefix=/home/ada/Desktop/Capstone/perception_ws/install
 
 Name: darknet_ros_msgs
 Description: Description of darknet_ros_msgs

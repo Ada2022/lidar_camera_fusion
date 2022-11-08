@@ -138,6 +138,9 @@ namespace lidar_obstacle_detector
     // Downsampleing, ROI, and removing the car roof
     auto filtered_cloud = obstacle_detector->filterCloud(raw_cloud, VOXEL_GRID_SIZE, ROI_MIN_POINT, ROI_MAX_POINT);
 
+    // cout << ROI_MAX_POINT << endl;
+    // cout << ROI_MIN_POINT << endl;
+
     // Segment the groud plane and obstacles
     auto segmented_clouds = obstacle_detector->segmentPlane(filtered_cloud, 30, GROUND_THRESH);
 

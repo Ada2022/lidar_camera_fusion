@@ -19,8 +19,8 @@ class ObstacleDetectorNode():
         pass
     def processGoal(self, goal):
         print("receive goals!")
-        result = lidar_obstacle_detector.msg.Obstacle()
         for raw_data in goal.obstacle_ranges.obstacle_ranges:
+            result = lidar_obstacle_detector.msg.Obstacle()
             point_cloud = raw_data.points
             self.processPcl(point_cloud)
             center_x = (raw_data.xmin + raw_data.xmax)/2
@@ -34,8 +34,9 @@ class ObstacleDetectorNode():
             [result.length, result.width, result.height] = [l, w, h]
             self._result.obstacles.obstacles.append(result)
         self._action_server.set_succeeded(self._result)
-        self._result = lidar_obstacle_detector.msg.ObstacleInfoResult()
         print("result!", self._result)
+        self._result = lidar_obstacle_detector.msg.ObstacleInfoResult()
+        
        
 
 def main():

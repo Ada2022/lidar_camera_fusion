@@ -1,16 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_msgs_generate_messages_eus"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsFeedback.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsActionGoal.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/BoundingBoxes.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsResult.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsActionResult.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/ObjectCount.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsActionFeedback.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsAction.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/BoundingBox.l"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/manifest.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloActionGoal.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloGoal.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloActionFeedback.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/BoundingBox.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloAction.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/ObjectCount.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloResult.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloActionResult.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/BoundingBoxes.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/msg/fusion2yoloFeedback.l"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/darknet_ros_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

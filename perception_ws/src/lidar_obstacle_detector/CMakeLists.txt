@@ -75,7 +75,7 @@ add_message_files(
 ## Generate actions in the 'action' folder
  add_action_files(
    FILES
-   ObstacleInfo.action
+   fusion2lidar.action
 #   Action1.action
 #   Action2.action
  )

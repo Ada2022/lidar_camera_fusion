@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/src/ros.cpp" "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/CMakeFiles/ouster_ros.dir/src/ros.cpp.o"
+  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/src/ros.cpp" "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/CMakeFiles/ouster_ros.dir/src/ros.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include"
-  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/include"
-  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
-  "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include"
+  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/include"
+  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
+  "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -45,7 +45,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/DependInfo.cmake"
+  "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

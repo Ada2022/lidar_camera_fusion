@@ -1,190 +1,152 @@
 #! /usr/bin/env python
-import rospy
-import actionlib
-
-import tf2_ros
-import message_filters
-from sensor_msgs.msg import Image, CameraInfo, PointCloud2
-from sensor_fusion.msg import CheckForObjectsAction,CheckForObjectsGoal, ObstacleRange, Obstacles
-from sensor_fusion.msg import ObstacleInfoAction, ObstacleInfoGoal
-#from sensor_fusion.action import CheckForObjects
-
-import ros_numpy
-import image_geometry
-from tf2_sensor_msgs.tf2_sensor_msgs import do_transform_cloud
-from cv_bridge import CvBridge, CvBridgeError
-from geometry_msgs.msg import Point
-import numpy as np
+# import python pkg
 import cv2
-# import queue
-# Global variables
+import time
+import numpy as np
+
+# import ros pkg
+import rospy
+import tf2_ros
+import actionlib
+import ros_numpy
+import message_filters
+import image_geometry
+from geometry_msgs.msg import Point
+from cv_bridge import CvBridge, CvBridgeError
+from tf2_sensor_msgs.tf2_sensor_msgs import do_transform_cloud
+from sensor_msgs.msg import Image, CameraInfo, PointCloud2
+
+# import message/action type
+# action type with yolo
+from sensor_fusion.msg import fusion2yoloAction, fusion2yoloGoal
+# message type with yolo
+# action type with lidar
+from sensor_fusion.msg import fusion2lidarAction, fusion2lidarGoal
+# message type with lidar
+from sensor_fusion.msg import Obstacle, Obstacles
+
+
 FIRST_TIME = True
 TF_BUFFER = None
 TF_LISTENER = None
 CAMERA_MODEL = image_geometry.PinholeCameraModel()
 CV_BRIDGE = CvBridge()
+last_time = 0
 
 
-def sensorFusionCallback(image, camera_info, velodyne,  bbox_client,  obstacle_client, obstacle_pub):
-    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER
-    
+def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
+    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time
     rospy.loginfo('arrive at sensorfusion callback')
-    Img = CheckForObjectsGoal()
-    Img.image = image
-    Img.id = 0
-    bbox_client.wait_for_server()
-    bbox_client.send_goal(Img)
-    bbox_client.wait_for_result()    
-    bboxes = bbox_client.get_result()      
-    print('get yolo result') 
 
+    # initialization
     if FIRST_TIME:
         FIRST_TIME = False
 
         # Setup camera model
-        rospy.loginfo('Setting up camera model')
         CAMERA_MODEL.fromCameraInfo(camera_info)
 
         # TF listener
-        rospy.loginfo('Setting up static transform listener')
         TF_BUFFER = tf2_ros.Buffer()
         TF_LISTENER = tf2_ros.TransformListener(TF_BUFFER)
-    
-    # ros image msg to cv2
-    try:
-        img = CV_BRIDGE.imgmsg_to_cv2(image, 'bgr8')        
-    except CvBridgeError as e:
-        rospy.logerr(e)
-        return
 
-    # Extract points from message
-    points3D = ros_numpy.point_cloud2.pointcloud2_to_array(velodyne)
-    points3D = np.asarray(points3D.tolist())
-    # Group all beams together and pick the first 4 columns for X, Y, Z, intensity.
-    points3D = points3D.reshape(-1, 9)[:, :4]
+    # send img to yolo and receive 2D bbox
+    img_synced = fusion2yoloGoal()
+    img_synced.id = 0
+    img_synced.image = image
+    yolo_client.wait_for_server()
+    print("successfully wait for server")
+    yolo_client.send_goal(img_synced)
+    yolo_client.wait_for_result()
+    print("successfully wait for result")
+    yolo_bboxes = yolo_client.get_result()
 
-    # Select field-of-view
-    # inrange = np.where((points3D[:, 0] > 1.0) &   # backward -> forward as value increases    # [1.5, 5.5]
-    #                    (points3D[:, 0] < 20) &
-    #                    (points3D[:, 1] > -10) &  # left -> right as value increases          # [-1.7, 2.7]
-    #                    (points3D[:, 1] < 10) &
-    #                    (points3D[:, 2] > -0.7) &  # buttom -> top as value increases          # [-0.7, 2]
-    #                    (points3D[:, 2] <  2))
-    inrange = np.where((points3D[:, 2] > 0) &
-                       (points3D[:, 2] < 15) &
-                       (np.abs(points3D[:, 0]) < 6) &
-                       (np.abs(points3D[:, 1]) < 6))
-        # Transform the point cloud
-    try:
-        transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
-        velodyne = do_transform_cloud(velodyne, transform)
-    except tf2_ros.LookupException:
-        pass
-    
-    points_world = ros_numpy.point_cloud2.pointcloud2_to_array(velodyne)
-    points_world = np.asarray(points_world.tolist())
-    points_world = points_world.reshape(-1, 9)[:, :4]
-    points3D = points_world[inrange[0]]
-    # Project to 2D and filter points within image boundaries
-    points2D = [ CAMERA_MODEL.project3dToPixel(point) for point in points3D[:, :3] ]
-    points2D = np.asarray(points2D)
-    # print("point 2D", points2D)
-    # print("point 3d", points3D)
+    # send point clouds to lidar and receive 3D bbox
+    pcl_synced = fusion2lidarGoal()
+    pcl_synced = velodyne
+    lidar_client.wait_for_server()
+    lidar_client.send_goal(pcl_synced)
+    lidar_bboxes = lidar_client.get_result()
 
-    if np.size(points2D) > 0 :
-        inrange = np.where((points2D[:, 0] >= 0) &
-                           (points2D[:, 1] >= 0) &
-                           (points2D[:, 0] < img.shape[1]) &
-                           (points2D[:, 1] < img.shape[0]))
-        points2D = points2D[inrange[0]].round().astype('int')
-    # for i in range(len(points2D)):
-    #     cv2.circle(img, tuple(points2D[i]), 2, tuple((0,0,0)), -1)
-    # cv2.imshow('test', img)
-    # cv2.waitKey(1)
-    
-    obstacleRangesMsg = ObstacleInfoGoal()
-    obstacle_range_msg = ObstacleRange()
-    # print("point_2D after inrange", points2D)
-    
-    for bbox in bboxes.bounding_boxes.bounding_boxes:
-        print("box_info", bbox.xmax, bbox.xmin, bbox.ymax,bbox.ymin)     
-        if np.size(points2D) < 1:
-            print("Nothing after inrange, try check your projection!!!!")
-            continue  
-        filter = np.where((points2D[:,0] <= bbox.xmax)&
-                        (points2D[:,0] >= bbox.xmin)&
-                        (points2D[:,1] <= bbox.ymax)&
-                        (points2D[:,1] >= bbox.ymin))
-        point_cloud = points3D[filter[0]]
-        if np.size(point_cloud) < 1:
-            print("No point found in Yolo bbox, Check yolo result!")
-            continue  
-        xyz_min = np.amin(point_cloud[0:3,:], axis = 0)
-        xyz_max = np.amax(point_cloud[0:3,:], axis = 0)
-        [obstacle_range_msg.xmin, obstacle_range_msg.ymin, obstacle_range_msg.zmin, _] = xyz_min
-        [obstacle_range_msg.xmax, obstacle_range_msg.ymax, obstacle_range_msg.zmax, _] = xyz_max
-        obstacle_range_msg.Class = bbox.Class
-        #obstacle_range_msg.points = Point(point_cloud[:,0], point_cloud[:, 1], point_cloud[:, 2])
-        for p in range(point_cloud.shape[0]):
-            obstacle_range_msg.points.append(Point(point_cloud[p,0], point_cloud[p,1],point_cloud[p,2]))
-        print("found object with {} points".format(point_cloud.shape[0]))
-        obstacleRangesMsg.obstacle_ranges.obstacle_ranges.append(obstacle_range_msg)
+    print("yolo res", yolo_bboxes)
+    print("lidar res", lidar_bboxes)
+    print("FPS", 1 / (time.time() - last_time))
+    last_time = time.time()
+
+    # # parse lidar_bboxes to 8 points each
+    # lidar_bboxes_points = None
+
+    # # transform lidar_bboxes_points from lidar frame to camera frame
+    # try:
+    #     transform = TF_BUFFER.lookup_transform(
+    #         'world', 'velodyne', rospy.Time())
+    #     lidar_bboxes_points = do_transform_cloud(
+    #         lidar_bboxes_points, transform)
+    # except tf2_ros.LookupException:
+    #     pass
+
+    # # project lidar_bboxes_points from 3D to 2D
+    # lidar_bboxes_points_2D = [CAMERA_MODEL.project3dToPixel(
+    #     point) for point in lidar_bboxes_points[:, :3]]
+
+    # # campare lidar_bboxes_points_2D with yolo_bboxes and output idx
+    # idx = list()
+    # final_class = yolo_bboxes[idx]
+    # final_bboxes = lidar_bboxes[idx]
+    # final_res = [[final_class, final_bboxes]]
+
+    # print("finished!")
 
 
-    obstacles = None
-    obstacle_client.wait_for_server()
-    obstacle_client.send_goal(obstacleRangesMsg)
-    obstacle_client.wait_for_result()
-    obstacles = obstacle_client.get_result()
-    print('get obstacle result')
-    print('show result', obstacles)
-
-    # if not obstacles: obstacle_pub.publish(obstacles)
-    print("published!")
-
-
-def listener(camera_info, image_color, velodyne_points, bounding_boxes,obstacle_range, obstacle_info):
-    # Start node
+def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxes, obstacle_meas):
+    # start node
     rospy.init_node('sensor_fusion', anonymous=True)
     rospy.loginfo('CameraInfo topic: %s' % camera_info)
     rospy.loginfo('Image topic: %s' % image_color)
     rospy.loginfo('PointCloud2 topic: %s' % velodyne_points)
 
-    # Subscribe to topics
+    # subscribe topics
     info_sub = message_filters.Subscriber(camera_info, CameraInfo)
     image_sub = message_filters.Subscriber(image_color, Image)
     velodyne_sub = message_filters.Subscriber(velodyne_points, PointCloud2)
 
+    # synchronize topics
     ats = message_filters.ApproximateTimeSynchronizer(
-        [image_sub, info_sub, velodyne_sub], queue_size=1, slop=0.1)
+        [image_sub, info_sub, velodyne_sub], queue_size=5, slop=0.1)
 
-    bbox_client = actionlib.SimpleActionClient(bounding_boxes, CheckForObjectsAction)
-    obstacle_client = actionlib.SimpleActionClient(obstacle_range, ObstacleInfoAction)
+    # action initialization
+    yolo_client = actionlib.SimpleActionClient(
+        yolo_bboxes, fusion2yoloAction)
+    lidar_client = actionlib.SimpleActionClient(
+        lidar_bboxes, fusion2lidarAction)
 
-    obstacle_pub = rospy.Subscriber(obstacle_info, Obstacles)
+    # publish topics
+    obstacle_pub = rospy.Subscriber(obstacle_meas, Obstacles)
 
-    # Synchronize the topics by time
-    ats.registerCallback(sensorFusionCallback,  bbox_client, obstacle_client, obstacle_pub)
-    print("register ")
+    ats.registerCallback(sensorFusionCallback,  yolo_client,
+                         lidar_client, obstacle_pub)
+
     try:
         rospy.spin()
     except rospy.ROSInterruptException:
         rospy.loginfo('Shutting down')
 
+
 if __name__ == '__main__':
 
     yolo_src = None
-    obstacle_info = None
-    
+    obstacle_meas = None
+
     # subscribe topics
     camera_info = rospy.get_param('camera_info_topic', '/camera/color/camera_info')
     image_color = rospy.get_param('image_color_topic', '/camera/color/image_raw')
-    velodyne_points = rospy.get_param('velodyne_points_topic','/os_cloud_node/points')
-    bounding_boxes = rospy.get_param('bounding_boxes_topic','/darknet_ros/check_for_objects')
+    velodyne_points = rospy.get_param('velodyne_points_topic', '/os_cloud_node/points')
+    yolo_bboxes = rospy.get_param('bounding_boxes_topic','/darknet_ros/check_for_objects')
+    lidar_bboxes = rospy.get_param('lidar_bboxes_topic', '/lidar_bboxes')
 
-    obstacle_range = rospy.get_param('obstacle_range_topic','/obstacles_range')
     # publish topics
-    obstacle_info = rospy.get_param('obstacle_info_topic','/obstacles')
+    obstacle_meas = rospy.get_param(
+        'obstacle_meas_topic', '/obstacles_meas')
 
     # Start subscriber
-    listener(camera_info, image_color, velodyne_points, bounding_boxes, obstacle_range, obstacle_info)
+    listener(camera_info, image_color, velodyne_points,
+             yolo_bboxes, lidar_bboxes, obstacle_meas)

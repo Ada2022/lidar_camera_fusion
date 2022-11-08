@@ -228,10 +228,10 @@
   "6b8f03f076d75c692c40b501a56253e0")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<BoundingBox>)))
   "Returns full string definition for message of type '<BoundingBox>"
-  (cl:format cl:nil "float64 probability~%int64 xmin~%int64 ymin~%int64 xmax~%int64 ymax~%int16 id~%string Class~%~%~%"))
+  (cl:format cl:nil "float64 probability~%int64 xmin~%int64 ymin~%int64 xmax~%int64 ymax~%int16 id~%string Class~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'BoundingBox)))
   "Returns full string definition for message of type 'BoundingBox"
-  (cl:format cl:nil "float64 probability~%int64 xmin~%int64 ymin~%int64 xmax~%int64 ymax~%int16 id~%string Class~%~%~%"))
+  (cl:format cl:nil "float64 probability~%int64 xmin~%int64 ymin~%int64 xmax~%int64 ymax~%int16 id~%string Class~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <BoundingBox>))
   (cl:+ 0
      8

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/obstacle_detector_Config.h
+/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/obstacle_detector_Config.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,11 +24,11 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
+/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
 Eigen/Geometry
 -
 
-/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/obstacle_detector.hpp
+/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/obstacle_detector.hpp
 iostream
 -
 string
@@ -60,9 +60,9 @@ pcl/segmentation/sac_segmentation.h
 pcl/segmentation/extract_clusters.h
 -
 box.hpp
-/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
+/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
 
-/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/src/obstacle_detector_node.cpp
+/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/src/obstacle_detector_node.cpp
 ros/ros.h
 -
 ros/console.h
@@ -88,7 +88,7 @@ dynamic_reconfigure/server.h
 lidar_obstacle_detector/obstacle_detector_Config.h
 -
 lidar_obstacle_detector/obstacle_detector.hpp
-/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/src/lidar_obstacle_detector/obstacle_detector.hpp
+/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/src/lidar_obstacle_detector/obstacle_detector.hpp
 
 /opt/ros/melodic/include/autoware_msgs/DTLane.h
 string

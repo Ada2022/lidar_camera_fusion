@@ -1,0 +1,11 @@
+# Return objects location 
+
+# Goal definition
+geometry_msgs/Point[] points
+
+---
+# Result definition
+sensor_fusion/Obstacles obstacles
+
+---
+# Feedback definition

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros
+# Install script for directory: /home/ada/Desktop/Capstone/perception_ws/src/ouster-ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nancy/lidar_camera_fusion/perception_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ada/Desktop/Capstone/perception_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,62 +38,62 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/msg" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/msg/PacketMsg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/msg" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/msg/PacketMsg.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/srv" TYPE FILE FILES
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/srv/GetConfig.srv"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/srv/SetConfig.srv"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/srv/GetMetadata.srv"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/srv/GetConfig.srv"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/srv/SetConfig.srv"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/srv/GetMetadata.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/include/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/gennodejs/ros/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/gennodejs/ros/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/ouster_ros")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/ouster_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/ouster_ros")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_ros-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros/cmake" TYPE FILE FILES
-    "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_rosConfig.cmake"
-    "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_rosConfig-version.cmake"
+    "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_rosConfig.cmake"
+    "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/catkin_generated/installspace/ouster_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,7 +103,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libouster_ros.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libouster_ros.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libouster_ros.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libouster_ros.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libouster_ros.so")
     file(RPATH_CHANGE
@@ -123,12 +123,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnodelets_os.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libnodelets_os.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libnodelets_os.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnodelets_os.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnodelets_os.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnodelets_os.so"
-         OLD_RPATH "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi:/usr/lib/x86_64-linux-gnu/openmpi/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/ada/Desktop/Capstone/perception_ws/devel/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi:/usr/lib/x86_64-linux-gnu/openmpi/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnodelets_os.so")
@@ -138,23 +138,23 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ouster_ros" TYPE DIRECTORY FILES
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/include"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/include"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE FILE FILES
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/LICENSE"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/nodelets_os.xml"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/LICENSE"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/nodelets_os.xml"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ouster_ros" TYPE DIRECTORY FILES
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/launch"
-    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/config"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/launch"
+    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/config"
     )
 endif()
 

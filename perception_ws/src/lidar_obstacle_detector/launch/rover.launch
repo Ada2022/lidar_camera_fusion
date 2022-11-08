@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <launch>
 
-  <include file="$(find ouster_ros)/ouster.launch">
-    <arg name="sensor_hostname" value="192.168.50.13" />
-    <arg name="metadata" value="/home/dev/.ros/lidar_metadata.json" />
-  </include>
+<!--  <include file="$(find ouster_ros)/ouster.launch">-->
+<!--    <arg name="sensor_hostname" value="192.168.50.13" />-->
+<!--    <arg name="metadata" value="/home/dev/.ros/lidar_metadata.json" />-->
+<!--  </include>-->
 
   <node name="obstacle_detector_node" pkg="lidar_obstacle_detector" type="obstacle_detector_node" output="screen">
     <!-- Input Topic Names -->
@@ -37,6 +37,6 @@
   <node type="rviz" name="rviz" pkg="rviz" args="-d $(find lidar_obstacle_detector)/rviz/rover.rviz" output="log" respawn="true" />
 
   <!-- Camera -->
-  <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+<!--  <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>-->
 
 </launch>

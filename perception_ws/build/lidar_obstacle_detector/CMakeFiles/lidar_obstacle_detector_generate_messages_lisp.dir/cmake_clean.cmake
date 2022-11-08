@@ -1,16 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lidar_obstacle_detector_generate_messages_lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/Obstacle.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoAction.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoActionGoal.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoResult.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleRange.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleRanges.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoFeedback.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoActionFeedback.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoGoal.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleInfoActionResult.lisp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/Obstacles.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarResult.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarActionResult.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/Obstacles.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarFeedback.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarGoal.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/Obstacle.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarAction.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleRange.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/fusion2lidarActionGoal.lisp"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_obstacle_detector/msg/ObstacleRanges.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

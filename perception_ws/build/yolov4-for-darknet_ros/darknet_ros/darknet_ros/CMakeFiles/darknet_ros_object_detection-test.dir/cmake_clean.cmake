@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_object_detection-test.dir/test/test_main.cpp.o"
   "CMakeFiles/darknet_ros_object_detection-test.dir/test/ObjectDetection.cpp.o"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test.pdb"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test.pdb"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test"
 )
 
 # Per-language clean rules from dependency scanning.

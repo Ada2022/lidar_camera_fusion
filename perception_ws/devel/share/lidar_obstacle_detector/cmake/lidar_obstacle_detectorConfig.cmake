@@ -67,14 +67,14 @@ set(lidar_obstacle_detector_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(lidar_obstacle_detector_SOURCE_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector)
-  set(lidar_obstacle_detector_DEVEL_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/devel)
+  set(lidar_obstacle_detector_SOURCE_PREFIX /home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector)
+  set(lidar_obstacle_detector_DEVEL_PREFIX /home/ada/Desktop/Capstone/perception_ws/devel)
   set(lidar_obstacle_detector_INSTALL_PREFIX "")
   set(lidar_obstacle_detector_PREFIX ${lidar_obstacle_detector_DEVEL_PREFIX})
 else()
   set(lidar_obstacle_detector_SOURCE_PREFIX "")
   set(lidar_obstacle_detector_DEVEL_PREFIX "")
-  set(lidar_obstacle_detector_INSTALL_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/install)
+  set(lidar_obstacle_detector_INSTALL_PREFIX /home/ada/Desktop/Capstone/perception_ws/install)
   set(lidar_obstacle_detector_PREFIX ${lidar_obstacle_detector_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(lidar_obstacle_detector_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include " STREQUAL " ")
+if(NOT "/home/ada/Desktop/Capstone/perception_ws/devel/include;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include " STREQUAL " ")
   set(lidar_obstacle_detector_INCLUDE_DIRS "")
-  set(_include_dirs "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include")
+  set(_include_dirs "/home/ada/Desktop/Capstone/perception_ws/devel/include;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/
         message(FATAL_ERROR "Project 'lidar_obstacle_detector' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'lidar_obstacle_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'lidar_obstacle_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/${idir}'.  ${_report}")
     endif()
     _list_append_unique(lidar_obstacle_detector_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nancy/lidar_camera_fusion/perception_ws/devel/lib;/home/nancy/lidar_camera_fusion/perception_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/ada/Desktop/Capstone/perception_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

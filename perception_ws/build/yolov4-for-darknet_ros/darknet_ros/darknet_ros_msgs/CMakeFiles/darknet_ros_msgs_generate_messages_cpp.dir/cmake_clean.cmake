@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_msgs_generate_messages_cpp"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsFeedback.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsActionGoal.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/BoundingBoxes.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsResult.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsActionResult.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/ObjectCount.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsActionFeedback.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsAction.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/CheckForObjectsGoal.h"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/darknet_ros_msgs/BoundingBox.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloActionGoal.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloGoal.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloActionFeedback.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/BoundingBox.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloAction.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/ObjectCount.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloResult.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloActionResult.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/BoundingBoxes.h"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/include/darknet_ros_msgs/fusion2yoloFeedback.h"
 )
 
 # Per-language clean rules from dependency scanning.

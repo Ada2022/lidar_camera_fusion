@@ -9,3 +9,10 @@ from ._ObstacleInfoResult import *
 from ._ObstacleRange import *
 from ._ObstacleRanges import *
 from ._Obstacles import *
+from ._fusion2lidarAction import *
+from ._fusion2lidarActionFeedback import *
+from ._fusion2lidarActionGoal import *
+from ._fusion2lidarActionResult import *
+from ._fusion2lidarFeedback import *
+from ._fusion2lidarGoal import *
+from ._fusion2lidarResult import *
