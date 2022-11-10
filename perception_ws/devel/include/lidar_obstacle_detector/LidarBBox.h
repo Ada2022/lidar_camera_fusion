@@ -26,22 +26,22 @@ struct LidarBBox_
   typedef LidarBBox_<ContainerAllocator> Type;
 
   LidarBBox_()
-    : point_min()
-    , point_max()  {
+    : position()
+    , dimension()  {
     }
   LidarBBox_(const ContainerAllocator& _alloc)
-    : point_min(_alloc)
-    , point_max(_alloc)  {
+    : position(_alloc)
+    , dimension(_alloc)  {
   (void)_alloc;
     }
 
 
 
-   typedef  ::geometry_msgs::Point_<ContainerAllocator>  _point_min_type;
-  _point_min_type point_min;
+   typedef  ::geometry_msgs::Point_<ContainerAllocator>  _position_type;
+  _position_type position;
 
-   typedef  ::geometry_msgs::Point_<ContainerAllocator>  _point_max_type;
-  _point_max_type point_max;
+   typedef  ::geometry_msgs::Point_<ContainerAllocator>  _dimension_type;
+  _dimension_type dimension;
 
 
 
@@ -72,8 +72,8 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator1> & lhs, const ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator2> & rhs)
 {
-  return lhs.point_min == rhs.point_min &&
-    lhs.point_max == rhs.point_max;
+  return lhs.position == rhs.position &&
+    lhs.dimension == rhs.dimension;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -130,12 +130,12 @@ struct MD5Sum< ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "32eb6a28d30b2cdd8029c55836d8a97e";
+    return "5a7abdc1c089cd4f9701ead0a10c7460";
   }
 
   static const char* value(const ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x32eb6a28d30b2cddULL;
-  static const uint64_t static_value2 = 0x8029c55836d8a97eULL;
+  static const uint64_t static_value1 = 0x5a7abdc1c089cd4fULL;
+  static const uint64_t static_value2 = 0x9701ead0a10c7460ULL;
 };
 
 template<class ContainerAllocator>
@@ -154,8 +154,8 @@ struct Definition< ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "geometry_msgs/Point point_min\n"
-"geometry_msgs/Point point_max\n"
+    return "geometry_msgs/Point position\n"
+"geometry_msgs/Point dimension\n"
 "\n"
 "================================================================================\n"
 "MSG: geometry_msgs/Point\n"
@@ -181,8 +181,8 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.point_min);
-      stream.next(m.point_max);
+      stream.next(m.position);
+      stream.next(m.dimension);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -201,12 +201,12 @@ struct Printer< ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::lidar_obstacle_detector::LidarBBox_<ContainerAllocator>& v)
   {
-    s << indent << "point_min: ";
+    s << indent << "position: ";
     s << std::endl;
-    Printer< ::geometry_msgs::Point_<ContainerAllocator> >::stream(s, indent + "  ", v.point_min);
-    s << indent << "point_max: ";
+    Printer< ::geometry_msgs::Point_<ContainerAllocator> >::stream(s, indent + "  ", v.position);
+    s << indent << "dimension: ";
     s << std::endl;
-    Printer< ::geometry_msgs::Point_<ContainerAllocator> >::stream(s, indent + "  ", v.point_max);
+    Printer< ::geometry_msgs::Point_<ContainerAllocator> >::stream(s, indent + "  ", v.dimension);
   }
 };
 

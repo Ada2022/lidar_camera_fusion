@@ -86,7 +86,7 @@ class fusion2lidarActionResult {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '1fcef7b00b385f8769ad089896935ee7';
+    return '44e76dc32cfb3b4f9a1f8c4251af7b61';
   }
 
   static messageDefinition() {
@@ -162,8 +162,8 @@ class fusion2lidarActionResult {
     
     ================================================================================
     MSG: sensor_fusion/LidarBBox
-    geometry_msgs/Point point_min
-    geometry_msgs/Point point_max
+    geometry_msgs/Point position
+    geometry_msgs/Point dimension
     
     ================================================================================
     MSG: geometry_msgs/Point

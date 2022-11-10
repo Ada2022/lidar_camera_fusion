@@ -9,11 +9,11 @@ import struct
 import geometry_msgs.msg
 
 class LidarBBox(genpy.Message):
-  _md5sum = "32eb6a28d30b2cdd8029c55836d8a97e"
+  _md5sum = "5a7abdc1c089cd4f9701ead0a10c7460"
   _type = "lidar_obstacle_detector/LidarBBox"
   _has_header = False  # flag to mark the presence of a Header object
-  _full_text = """geometry_msgs/Point point_min
-geometry_msgs/Point point_max
+  _full_text = """geometry_msgs/Point position
+geometry_msgs/Point dimension
 
 ================================================================================
 MSG: geometry_msgs/Point
@@ -22,7 +22,7 @@ float64 x
 float64 y
 float64 z
 """
-  __slots__ = ['point_min','point_max']
+  __slots__ = ['position','dimension']
   _slot_types = ['geometry_msgs/Point','geometry_msgs/Point']
 
   def __init__(self, *args, **kwds):
@@ -33,7 +33,7 @@ float64 z
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       point_min,point_max
+       position,dimension
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -42,13 +42,13 @@ float64 z
     if args or kwds:
       super(LidarBBox, self).__init__(*args, **kwds)
       # message fields cannot be None, assign default values for those that are
-      if self.point_min is None:
-        self.point_min = geometry_msgs.msg.Point()
-      if self.point_max is None:
-        self.point_max = geometry_msgs.msg.Point()
+      if self.position is None:
+        self.position = geometry_msgs.msg.Point()
+      if self.dimension is None:
+        self.dimension = geometry_msgs.msg.Point()
     else:
-      self.point_min = geometry_msgs.msg.Point()
-      self.point_max = geometry_msgs.msg.Point()
+      self.position = geometry_msgs.msg.Point()
+      self.dimension = geometry_msgs.msg.Point()
 
   def _get_types(self):
     """
@@ -63,7 +63,7 @@ float64 z
     """
     try:
       _x = self
-      buff.write(_get_struct_6d().pack(_x.point_min.x, _x.point_min.y, _x.point_min.z, _x.point_max.x, _x.point_max.y, _x.point_max.z))
+      buff.write(_get_struct_6d().pack(_x.position.x, _x.position.y, _x.position.z, _x.dimension.x, _x.dimension.y, _x.dimension.z))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -75,15 +75,15 @@ float64 z
     if python3:
       codecs.lookup_error("rosmsg").msg_type = self._type
     try:
-      if self.point_min is None:
-        self.point_min = geometry_msgs.msg.Point()
-      if self.point_max is None:
-        self.point_max = geometry_msgs.msg.Point()
+      if self.position is None:
+        self.position = geometry_msgs.msg.Point()
+      if self.dimension is None:
+        self.dimension = geometry_msgs.msg.Point()
       end = 0
       _x = self
       start = end
       end += 48
-      (_x.point_min.x, _x.point_min.y, _x.point_min.z, _x.point_max.x, _x.point_max.y, _x.point_max.z,) = _get_struct_6d().unpack(str[start:end])
+      (_x.position.x, _x.position.y, _x.position.z, _x.dimension.x, _x.dimension.y, _x.dimension.z,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -97,7 +97,7 @@ float64 z
     """
     try:
       _x = self
-      buff.write(_get_struct_6d().pack(_x.point_min.x, _x.point_min.y, _x.point_min.z, _x.point_max.x, _x.point_max.y, _x.point_max.z))
+      buff.write(_get_struct_6d().pack(_x.position.x, _x.position.y, _x.position.z, _x.dimension.x, _x.dimension.y, _x.dimension.z))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -110,15 +110,15 @@ float64 z
     if python3:
       codecs.lookup_error("rosmsg").msg_type = self._type
     try:
-      if self.point_min is None:
-        self.point_min = geometry_msgs.msg.Point()
-      if self.point_max is None:
-        self.point_max = geometry_msgs.msg.Point()
+      if self.position is None:
+        self.position = geometry_msgs.msg.Point()
+      if self.dimension is None:
+        self.dimension = geometry_msgs.msg.Point()
       end = 0
       _x = self
       start = end
       end += 48
-      (_x.point_min.x, _x.point_min.y, _x.point_min.z, _x.point_max.x, _x.point_max.y, _x.point_max.z,) = _get_struct_6d().unpack(str[start:end])
+      (_x.position.x, _x.position.y, _x.position.z, _x.dimension.x, _x.dimension.y, _x.dimension.z,) = _get_struct_6d().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill

@@ -208,12 +208,12 @@ namespace lidar_obstacle_detector
     {
       geometry_msgs::Pose pose, pose_transformed;
       lidar_obstacle_detector::LidarBBox lidar_bbox;
-      lidar_bbox.point_min.x = box.position(0) - box.dimension(0);
-      lidar_bbox.point_min.y = box.position(1) - box.dimension(1);
-      lidar_bbox.point_min.z = box.position(2) - box.dimension(2);
-      lidar_bbox.point_max.x = box.position(0) + box.dimension(0);
-      lidar_bbox.point_max.y = box.position(1) + box.dimension(1);
-      lidar_bbox.point_max.z = box.position(2) + box.dimension(2);
+      lidar_bbox.position.x = box.position(0);
+      lidar_bbox.position.y = box.position(1);
+      lidar_bbox.position.z = box.position(2);
+      lidar_bbox.dimension.x = box.dimension(0);
+      lidar_bbox.dimension.y = box.dimension(1);
+      lidar_bbox.dimension.z = box.dimension(2);
 
       // std::cout << lidar_bbox.point_min.x << std::endl;
       // std::cout << lidar_bbox.point_min.y << std::endl;

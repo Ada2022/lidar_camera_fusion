@@ -137,12 +137,12 @@ struct MD5Sum< ::sensor_fusion::fusion2lidarActionResult_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "1fcef7b00b385f8769ad089896935ee7";
+    return "44e76dc32cfb3b4f9a1f8c4251af7b61";
   }
 
   static const char* value(const ::sensor_fusion::fusion2lidarActionResult_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x1fcef7b00b385f87ULL;
-  static const uint64_t static_value2 = 0x69ad089896935ee7ULL;
+  static const uint64_t static_value1 = 0x44e76dc32cfb3b4fULL;
+  static const uint64_t static_value2 = 0x9a1f8c4251af7b61ULL;
 };
 
 template<class ContainerAllocator>
@@ -231,8 +231,8 @@ struct Definition< ::sensor_fusion::fusion2lidarActionResult_<ContainerAllocator
 "\n"
 "================================================================================\n"
 "MSG: sensor_fusion/LidarBBox\n"
-"geometry_msgs/Point point_min\n"
-"geometry_msgs/Point point_max\n"
+"geometry_msgs/Point position\n"
+"geometry_msgs/Point dimension\n"
 "\n"
 "================================================================================\n"
 "MSG: geometry_msgs/Point\n"

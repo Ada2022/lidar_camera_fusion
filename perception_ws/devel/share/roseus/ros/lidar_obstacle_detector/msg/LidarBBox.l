@@ -16,65 +16,65 @@
 
 (defclass lidar_obstacle_detector::LidarBBox
   :super ros::object
-  :slots (_point_min _point_max ))
+  :slots (_position _dimension ))
 
 (defmethod lidar_obstacle_detector::LidarBBox
   (:init
    (&key
-    ((:point_min __point_min) (instance geometry_msgs::Point :init))
-    ((:point_max __point_max) (instance geometry_msgs::Point :init))
+    ((:position __position) (instance geometry_msgs::Point :init))
+    ((:dimension __dimension) (instance geometry_msgs::Point :init))
     )
    (send-super :init)
-   (setq _point_min __point_min)
-   (setq _point_max __point_max)
+   (setq _position __position)
+   (setq _dimension __dimension)
    self)
-  (:point_min
-   (&rest __point_min)
-   (if (keywordp (car __point_min))
-       (send* _point_min __point_min)
+  (:position
+   (&rest __position)
+   (if (keywordp (car __position))
+       (send* _position __position)
      (progn
-       (if __point_min (setq _point_min (car __point_min)))
-       _point_min)))
-  (:point_max
-   (&rest __point_max)
-   (if (keywordp (car __point_max))
-       (send* _point_max __point_max)
+       (if __position (setq _position (car __position)))
+       _position)))
+  (:dimension
+   (&rest __dimension)
+   (if (keywordp (car __dimension))
+       (send* _dimension __dimension)
      (progn
-       (if __point_max (setq _point_max (car __point_max)))
-       _point_max)))
+       (if __dimension (setq _dimension (car __dimension)))
+       _dimension)))
   (:serialization-length
    ()
    (+
-    ;; geometry_msgs/Point _point_min
-    (send _point_min :serialization-length)
-    ;; geometry_msgs/Point _point_max
-    (send _point_max :serialization-length)
+    ;; geometry_msgs/Point _position
+    (send _position :serialization-length)
+    ;; geometry_msgs/Point _dimension
+    (send _dimension :serialization-length)
     ))
   (:serialize
    (&optional strm)
    (let ((s (if strm strm
               (make-string-output-stream (send self :serialization-length)))))
-     ;; geometry_msgs/Point _point_min
-       (send _point_min :serialize s)
-     ;; geometry_msgs/Point _point_max
-       (send _point_max :serialize s)
+     ;; geometry_msgs/Point _position
+       (send _position :serialize s)
+     ;; geometry_msgs/Point _dimension
+       (send _dimension :serialize s)
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
-   ;; geometry_msgs/Point _point_min
-     (send _point_min :deserialize buf ptr-) (incf ptr- (send _point_min :serialization-length))
-   ;; geometry_msgs/Point _point_max
-     (send _point_max :deserialize buf ptr-) (incf ptr- (send _point_max :serialization-length))
+   ;; geometry_msgs/Point _position
+     (send _position :deserialize buf ptr-) (incf ptr- (send _position :serialization-length))
+   ;; geometry_msgs/Point _dimension
+     (send _dimension :deserialize buf ptr-) (incf ptr- (send _dimension :serialization-length))
    ;;
    self)
   )
 
-(setf (get lidar_obstacle_detector::LidarBBox :md5sum-) "32eb6a28d30b2cdd8029c55836d8a97e")
+(setf (get lidar_obstacle_detector::LidarBBox :md5sum-) "5a7abdc1c089cd4f9701ead0a10c7460")
 (setf (get lidar_obstacle_detector::LidarBBox :datatype-) "lidar_obstacle_detector/LidarBBox")
 (setf (get lidar_obstacle_detector::LidarBBox :definition-)
-      "geometry_msgs/Point point_min
-geometry_msgs/Point point_max
+      "geometry_msgs/Point position
+geometry_msgs/Point dimension
 
 ================================================================================
 MSG: geometry_msgs/Point
@@ -87,6 +87,6 @@ float64 z
 
 
 
-(provide :lidar_obstacle_detector/LidarBBox "32eb6a28d30b2cdd8029c55836d8a97e")
+(provide :lidar_obstacle_detector/LidarBBox "5a7abdc1c089cd4f9701ead0a10c7460")
 
 
