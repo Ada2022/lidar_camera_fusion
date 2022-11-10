@@ -1,0 +1,12 @@
+yolo_model:
+
+  config_file:
+    name: yolov4.cfg
+  weight_file:
+    name: yolov4.weights
+  threshold:
+    value: 0.7
+  detection_classes:
+    names:
+      - person
+      - pier
