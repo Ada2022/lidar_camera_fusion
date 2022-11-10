@@ -1,11 +1,11 @@
 # Return objects location 
 
 # Goal definition
-geometry_msgs/Point[] points
+sensor_msgs/PointCloud2 point_cloud
 
 ---
 # Result definition
-sensor_fusion/Obstacles obstacles
+sensor_fusion/LidarBBox[] lidar_bboxes
 
 ---
 # Feedback definition

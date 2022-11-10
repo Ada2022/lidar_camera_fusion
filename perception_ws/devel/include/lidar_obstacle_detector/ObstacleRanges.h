@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -34,7 +34,7 @@ struct ObstacleRanges_
 
 
 
-   typedef std::vector< ::lidar_obstacle_detector::ObstacleRange_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::lidar_obstacle_detector::ObstacleRange_<ContainerAllocator> >::other >  _obstacle_ranges_type;
+   typedef std::vector< ::lidar_obstacle_detector::ObstacleRange_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::lidar_obstacle_detector::ObstacleRange_<ContainerAllocator> >> _obstacle_ranges_type;
   _obstacle_ranges_type obstacle_ranges;
 
 

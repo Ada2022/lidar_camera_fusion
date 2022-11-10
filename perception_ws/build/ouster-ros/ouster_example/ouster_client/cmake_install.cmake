@@ -1,8 +1,8 @@
-# Install script for directory: /home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client
+# Install script for directory: /home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ada/Desktop/Capstone/perception_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nancy/lidar_camera_fusion/perception_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libouster_client.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libouster_client.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES
-    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster"
-    "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
     )
 endif()
 

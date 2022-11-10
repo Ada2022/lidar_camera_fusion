@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_msgs_generate_messages_lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloActionGoal.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloGoal.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloActionFeedback.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/BoundingBox.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloAction.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/ObjectCount.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloResult.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloActionResult.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/BoundingBoxes.lisp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/fusion2yoloFeedback.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsFeedback.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsActionGoal.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/BoundingBoxes.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsResult.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsActionResult.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/ObjectCount.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsActionFeedback.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsAction.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.lisp"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/darknet_ros_msgs/msg/BoundingBox.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

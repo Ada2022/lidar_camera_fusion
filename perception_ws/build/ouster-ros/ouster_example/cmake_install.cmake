@@ -1,8 +1,8 @@
-# Install script for directory: /home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk
+# Install script for directory: /home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ada/Desktop/Capstone/perception_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nancy/lidar_camera_fusion/perception_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/generated/ouster")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/generated/ouster")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets.cmake"
-         "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
+         "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,26 +54,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES
-    "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/OusterSDKConfig.cmake"
-    "/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/OusterSDKConfigVersion.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/OusterSDKConfig.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/OusterSDKConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/ouster-sdk" TYPE FILE RENAME "copyright" FILES "/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/ouster-sdk" TYPE FILE RENAME "copyright" FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/LICENSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ada/Desktop/Capstone/perception_ws/build/ouster-ros/ouster_example/ouster_client/cmake_install.cmake")
+  include("/home/nancy/lidar_camera_fusion/perception_ws/build/ouster-ros/ouster_example/ouster_client/cmake_install.cmake")
 
 endif()
 

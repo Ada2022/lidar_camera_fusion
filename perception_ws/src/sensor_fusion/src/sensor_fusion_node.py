@@ -62,10 +62,12 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
 
     # send point clouds to lidar and receive 3D bbox
     pcl_synced = fusion2lidarGoal()
-    pcl_synced = velodyne
+    pcl_synced.point_cloud = velodyne
     lidar_client.wait_for_server()
     lidar_client.send_goal(pcl_synced)
+    lidar_client.wait_for_result()
     lidar_bboxes = lidar_client.get_result()
+    
 
     print("yolo res", yolo_bboxes)
     print("lidar res", lidar_bboxes)

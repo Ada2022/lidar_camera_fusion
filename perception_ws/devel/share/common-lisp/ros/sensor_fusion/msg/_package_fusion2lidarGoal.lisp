@@ -1,4 +1,4 @@
 (cl:in-package sensor_fusion-msg)
-(cl:export '(POINTS-VAL
-          POINTS
+(cl:export '(POINT_CLOUD-VAL
+          POINT_CLOUD
 ))

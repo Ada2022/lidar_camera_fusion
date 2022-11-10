@@ -2,5 +2,5 @@
 # Return objects location 
 
 # Goal definition
-geometry_msgs/Point[] points
+sensor_msgs/PointCloud2 point_cloud
 

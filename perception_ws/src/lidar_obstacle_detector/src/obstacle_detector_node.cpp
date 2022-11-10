@@ -9,9 +9,12 @@
 #include <ros/ros.h>
 #include <ros/console.h>
 
+#include <actionlib/server/simple_action_server.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <tf2_ros/transform_listener.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <lidar_obstacle_detector/fusion2lidarAction.h>
+#include <lidar_obstacle_detector/LidarBBox.h>
 
 #include <jsk_recognition_msgs/BoundingBox.h>
 #include <jsk_recognition_msgs/BoundingBoxArray.h>
@@ -41,8 +44,14 @@ namespace lidar_obstacle_detector
   class ObstacleDetectorNode
   {
   public:
-    ObstacleDetectorNode();
+    ObstacleDetectorNode(std::string name);
     virtual ~ObstacleDetectorNode(){};
+
+  protected:
+    ros::NodeHandle nh;
+    actionlib::SimpleActionServer<lidar_obstacle_detector::fusion2lidarAction> lidar_server_;
+    std::string action_name_;
+    lidar_obstacle_detector::fusion2lidarResult result_;
 
   private:
     size_t obstacle_id_;
@@ -50,23 +59,26 @@ namespace lidar_obstacle_detector
     std::vector<Box> prev_boxes_, curr_boxes_;
     std::shared_ptr<ObstacleDetector<pcl::PointXYZ>> obstacle_detector;
 
-    ros::NodeHandle nh;
+    //ros::NodeHandle nh;
     tf2_ros::Buffer tf2_buffer;
     tf2_ros::TransformListener tf2_listener;
     dynamic_reconfigure::Server<lidar_obstacle_detector::obstacle_detector_Config> server;
     dynamic_reconfigure::Server<lidar_obstacle_detector::obstacle_detector_Config>::CallbackType f;
 
-    ros::Subscriber sub_lidar_points;
+    //ros::Subscriber sub_lidar_points;
     ros::Publisher pub_cloud_ground;
     ros::Publisher pub_cloud_clusters;
     ros::Publisher pub_jsk_bboxes;
     ros::Publisher pub_autoware_objects;
+    
 
-    void lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points);
+    //void lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points);
+    void lidarPointsCallback(const lidar_obstacle_detector::fusion2lidarGoalConstPtr& goal);
     void publishClouds(const std::pair<pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr> &&segmented_clouds, const std_msgs::Header &header);
     jsk_recognition_msgs::BoundingBox transformJskBbox(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
     autoware_msgs::DetectedObject transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
-    void publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header);
+    void publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header);   
+  
   };
 
   // Dynamic parameter server callback function
@@ -86,8 +98,11 @@ namespace lidar_obstacle_detector
     IOU_THRESH = config.iou_threshold;
   }
 
-  ObstacleDetectorNode::ObstacleDetectorNode() : tf2_listener(tf2_buffer)
+  ObstacleDetectorNode::ObstacleDetectorNode(std::string name):lidar_server_(nh, name, boost::bind(&ObstacleDetectorNode::lidarPointsCallback, this, _1), false),
+  action_name_(name), tf2_listener(tf2_buffer)
   {
+
+    std::cout<<"arrive"<<std::endl;
     ros::NodeHandle private_nh("~");
 
     std::string lidar_points_topic;
@@ -95,6 +110,7 @@ namespace lidar_obstacle_detector
     std::string cloud_clusters_topic;
     std::string jsk_bboxes_topic;
     std::string autoware_objects_topic;
+
 
     // ROS_ASSERT(private_nh.getParam("lidar_points_topic", lidar_points_topic));
     // ROS_ASSERT(private_nh.getParam("cloud_ground_topic", cloud_ground_topic));
@@ -109,37 +125,40 @@ namespace lidar_obstacle_detector
     private_nh.getParam("autoware_objects_topic", autoware_objects_topic);
     private_nh.getParam("bbox_target_frame", bbox_target_frame_);
 
-    sub_lidar_points = nh.subscribe(lidar_points_topic, 1, &ObstacleDetectorNode::lidarPointsCallback, this);
+
+    lidar_server_.start(); 
+    //sub_lidar_points = nh.subscribe(lidar_points_action, 1, &ObstacleDetectorNode::lidarPointsCallback, this);
     pub_cloud_ground = nh.advertise<sensor_msgs::PointCloud2>(cloud_ground_topic, 1);
     pub_cloud_clusters = nh.advertise<sensor_msgs::PointCloud2>(cloud_clusters_topic, 1);
     pub_jsk_bboxes = nh.advertise<jsk_recognition_msgs::BoundingBoxArray>(jsk_bboxes_topic, 1);
     pub_autoware_objects = nh.advertise<autoware_msgs::DetectedObjectArray>(autoware_objects_topic, 1);
-
     // Dynamic Parameter Server & Function
     f = boost::bind(&dynamicParamCallback, _1, _2);
     server.setCallback(f);
-
     // Create point processor
     obstacle_detector = std::make_shared<ObstacleDetector<pcl::PointXYZ>>();
     obstacle_id_ = 0;
+
   }
 
-  void ObstacleDetectorNode::lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points)
+  //void ObstacleDetectorNode::lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points)
+  void ObstacleDetectorNode::lidarPointsCallback(const lidar_obstacle_detector::fusion2lidarGoalConstPtr& goal)
   {
     ROS_DEBUG("lidar points recieved");
+
     // Time the whole process
     const auto start_time = std::chrono::steady_clock::now();
-    const auto pointcloud_header = lidar_points->header;
-    bbox_source_frame_ = lidar_points->header.frame_id;
+    const auto pointcloud_header = goal->point_cloud.header;
+    bbox_source_frame_ = goal->point_cloud.header.frame_id;
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr raw_cloud(new pcl::PointCloud<pcl::PointXYZ>);
-    pcl::fromROSMsg(*lidar_points, *raw_cloud);
+    pcl::fromROSMsg(goal->point_cloud, *raw_cloud);
 
     // Downsampleing, ROI, and removing the car roof
     auto filtered_cloud = obstacle_detector->filterCloud(raw_cloud, VOXEL_GRID_SIZE, ROI_MIN_POINT, ROI_MAX_POINT);
 
-    // cout << ROI_MAX_POINT << endl;
-    // cout << ROI_MIN_POINT << endl;
+    // std::cout <<"ROI_MAX_POINT"<< ROI_MAX_POINT << std::endl;
+    // std::cout << "ROI_MIN_POINT"<< ROI_MIN_POINT << std::endl;
 
     // Segment the groud plane and obstacles
     auto segmented_clouds = obstacle_detector->segmentPlane(filtered_cloud, 30, GROUND_THRESH);
@@ -147,10 +166,80 @@ namespace lidar_obstacle_detector
     // Cluster objects
     auto cloud_clusters = obstacle_detector->clustering(segmented_clouds.first, CLUSTER_THRESH, CLUSTER_MIN_SIZE, CLUSTER_MAX_SIZE);
 
+    
     // Publish ground cloud and obstacle cloud
     publishClouds(std::move(segmented_clouds), pointcloud_header);
     // Publish Obstacles
     publishDetectedObjects(std::move(cloud_clusters), pointcloud_header);
+
+    for (auto &cluster : cloud_clusters)
+    {
+      // Create Bounding Boxes
+      Box box = USE_PCA_BOX ? obstacle_detector->pcaBoundingBox(cluster, obstacle_id_) : obstacle_detector->axisAlignedBoundingBox(cluster, obstacle_id_);
+
+      obstacle_id_ = (obstacle_id_ < SIZE_MAX) ? ++obstacle_id_ : 0;
+      curr_boxes_.emplace_back(box);
+    }
+
+    // Lookup for frame transform between the lidar frame and the target frame
+    geometry_msgs::TransformStamped transform_stamped;
+    try
+    {
+      transform_stamped = tf2_buffer.lookupTransform(bbox_target_frame_, bbox_source_frame_, ros::Time(0));
+    }
+    catch (tf2::TransformException &ex)
+    {
+      ROS_WARN("%s", ex.what());
+      ROS_WARN("Frame Transform Given Up! Outputing obstacles in the original LiDAR frame %s instead...", bbox_source_frame_.c_str());
+      try
+      {
+        transform_stamped = tf2_buffer.lookupTransform(bbox_source_frame_, bbox_source_frame_, ros::Time(0));
+      }
+      catch (tf2::TransformException &ex2)
+      {
+        ROS_ERROR("%s", ex2.what());
+        return;
+      }
+    }
+
+    // Transform boxes from lidar frame to base_link frame, and publish msg
+    
+    for (auto &box : curr_boxes_)
+    {
+      geometry_msgs::Pose pose, pose_transformed;
+      lidar_obstacle_detector::LidarBBox lidar_bbox;
+      lidar_bbox.point_min.x = box.position(0) - box.dimension(0);
+      lidar_bbox.point_min.y = box.position(1) - box.dimension(1);
+      lidar_bbox.point_min.z = box.position(2) - box.dimension(2);
+      lidar_bbox.point_max.x = box.position(0) + box.dimension(0);
+      lidar_bbox.point_max.y = box.position(1) + box.dimension(1);
+      lidar_bbox.point_max.z = box.position(2) + box.dimension(2);
+
+      // std::cout << lidar_bbox.point_min.x << std::endl;
+      // std::cout << lidar_bbox.point_min.y << std::endl;
+      // std::cout << lidar_bbox.point_min.z << std::endl;
+      // std::cout << lidar_bbox.point_max.x << std::endl;
+      // std::cout << lidar_bbox.point_max.y << std::endl;
+      // std::cout << lidar_bbox.point_max.z << std::endl << std::endl;
+
+      pose.position.x = box.position(0);
+      pose.position.y = box.position(1);
+      pose.position.z = box.position(2);
+      pose.orientation.w = box.quaternion.w();
+      pose.orientation.x = box.quaternion.x();
+      pose.orientation.y = box.quaternion.y();
+      pose.orientation.z = box.quaternion.z();
+      tf2::doTransform(pose, pose_transformed, transform_stamped);
+
+      result_.lidar_bboxes.push_back(lidar_bbox);
+    }
+    // Update previous bounding boxes
+    prev_boxes_.swap(curr_boxes_);
+    curr_boxes_.clear();
+
+    
+    lidar_server_.setSucceeded(result_);
+    result_ =  lidar_obstacle_detector::fusion2lidarResult(); //clear result
 
     // Time the whole process
     const auto end_time = std::chrono::steady_clock::now();
@@ -276,8 +365,11 @@ namespace lidar_obstacle_detector
 
 int main(int argc, char **argv)
 {
+  
+  ROS_DEBUG("begin");
   ros::init(argc, argv, "obstacle_detector_node");
-  lidar_obstacle_detector::ObstacleDetectorNode obstacle_detector_node;
+  lidar_obstacle_detector::ObstacleDetectorNode obstacle_detector_node("/lidar_bboxes");
+  std::cout<<"ckpt5"<<std::endl;
   ros::spin();
   return 0;
 }

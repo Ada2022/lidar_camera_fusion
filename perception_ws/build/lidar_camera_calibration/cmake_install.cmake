@@ -1,8 +1,8 @@
-# Install script for directory: /home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration
+# Install script for directory: /home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ada/Desktop/Capstone/perception_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nancy/lidar_camera_fusion/perception_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,62 +39,62 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/msg" TYPE FILE FILES
-    "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/BoundingBox.msg"
-    "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/BoundingBoxes.msg"
-    "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/ObjectCount.msg"
-    "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/Obstacle.msg"
-    "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/msg/Obstacles.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/msg/BoundingBox.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/msg/BoundingBoxes.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/msg/ObjectCount.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/msg/Obstacle.msg"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/msg/Obstacles.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/cmake" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/cmake" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_camera_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/roseus/ros/lidar_camera_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/roseus/ros/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/common-lisp/ros/lidar_camera_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp/ros/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/share/gennodejs/ros/lidar_camera_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/gennodejs/ros/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/lidar_camera_calibration")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/lidar_camera_calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/lidar_camera_calibration")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/cmake" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/cmake" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibration-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration/cmake" TYPE FILE FILES
-    "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibrationConfig.cmake"
-    "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibrationConfig-version.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibrationConfig.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/lidar_camera_calibrationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/src/lidar_camera_calibration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_camera_calibration" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_camera_calibration/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lidar_camera_calibration" TYPE PROGRAM FILES "/home/ada/Desktop/Capstone/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/calibrate_camera_lidar.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lidar_camera_calibration" TYPE PROGRAM FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/lidar_camera_calibration/catkin_generated/installspace/calibrate_camera_lidar.py")
 endif()
 

@@ -1,16 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_msgs_generate_messages_py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloActionGoal.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloGoal.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloActionFeedback.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBox.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloAction.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_ObjectCount.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloResult.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloActionResult.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBoxes.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_fusion2yoloFeedback.py"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/__init__.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsFeedback.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsActionGoal.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBoxes.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsResult.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsActionResult.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_ObjectCount.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsActionFeedback.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsAction.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_CheckForObjectsGoal.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/_BoundingBox.py"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/python2.7/dist-packages/darknet_ros_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

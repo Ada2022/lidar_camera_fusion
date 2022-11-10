@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ada/Desktop/Capstone/perception_ws/src
-# Build directory: /home/ada/Desktop/Capstone/perception_ws/build
+# Source directory: /home/nancy/lidar_camera_fusion/perception_ws/src
+# Build directory: /home/nancy/lidar_camera_fusion/perception_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

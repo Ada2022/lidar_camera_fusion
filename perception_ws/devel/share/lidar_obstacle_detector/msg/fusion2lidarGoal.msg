@@ -2,5 +2,5 @@
 # Return objects location 
 
 # Goal definition
-lidar_obstacle_detector/ObstacleRanges obstacle_ranges
+sensor_msgs/PointCloud2 point_cloud
 

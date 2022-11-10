@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -137,12 +137,12 @@ struct MD5Sum< ::sensor_fusion::fusion2lidarActionGoal_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "d7acdd999b5bf36065f8ec908df71fa9";
+    return "9ad0203bbb40de68732d7bd16f9ae094";
   }
 
   static const char* value(const ::sensor_fusion::fusion2lidarActionGoal_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xd7acdd999b5bf360ULL;
-  static const uint64_t static_value2 = 0x65f8ec908df71fa9ULL;
+  static const uint64_t static_value1 = 0x9ad0203bbb40de68ULL;
+  static const uint64_t static_value2 = 0x732d7bd16f9ae094ULL;
 };
 
 template<class ContainerAllocator>
@@ -202,15 +202,56 @@ struct Definition< ::sensor_fusion::fusion2lidarActionGoal_<ContainerAllocator> 
 "# Return objects location \n"
 "\n"
 "# Goal definition\n"
-"geometry_msgs/Point[] points\n"
+"sensor_msgs/PointCloud2 point_cloud\n"
 "\n"
 "\n"
 "================================================================================\n"
-"MSG: geometry_msgs/Point\n"
-"# This contains the position of a point in free space\n"
-"float64 x\n"
-"float64 y\n"
-"float64 z\n"
+"MSG: sensor_msgs/PointCloud2\n"
+"# This message holds a collection of N-dimensional points, which may\n"
+"# contain additional information such as normals, intensity, etc. The\n"
+"# point data is stored as a binary blob, its layout described by the\n"
+"# contents of the \"fields\" array.\n"
+"\n"
+"# The point cloud data may be organized 2d (image-like) or 1d\n"
+"# (unordered). Point clouds organized as 2d images may be produced by\n"
+"# camera depth sensors such as stereo or time-of-flight.\n"
+"\n"
+"# Time of sensor data acquisition, and the coordinate frame ID (for 3d\n"
+"# points).\n"
+"Header header\n"
+"\n"
+"# 2D structure of the point cloud. If the cloud is unordered, height is\n"
+"# 1 and width is the length of the point cloud.\n"
+"uint32 height\n"
+"uint32 width\n"
+"\n"
+"# Describes the channels and their layout in the binary data blob.\n"
+"PointField[] fields\n"
+"\n"
+"bool    is_bigendian # Is this data bigendian?\n"
+"uint32  point_step   # Length of a point in bytes\n"
+"uint32  row_step     # Length of a row in bytes\n"
+"uint8[] data         # Actual point data, size is (row_step*height)\n"
+"\n"
+"bool is_dense        # True if there are no invalid points\n"
+"\n"
+"================================================================================\n"
+"MSG: sensor_msgs/PointField\n"
+"# This message holds the description of one point entry in the\n"
+"# PointCloud2 message format.\n"
+"uint8 INT8    = 1\n"
+"uint8 UINT8   = 2\n"
+"uint8 INT16   = 3\n"
+"uint8 UINT16  = 4\n"
+"uint8 INT32   = 5\n"
+"uint8 UINT32  = 6\n"
+"uint8 FLOAT32 = 7\n"
+"uint8 FLOAT64 = 8\n"
+"\n"
+"string name      # Name of field\n"
+"uint32 offset    # Offset from start of point struct\n"
+"uint8  datatype  # Datatype enumeration, see above\n"
+"uint32 count     # How many elements in the field\n"
 ;
   }
 

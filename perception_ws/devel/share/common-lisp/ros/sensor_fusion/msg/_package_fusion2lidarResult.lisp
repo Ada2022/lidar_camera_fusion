@@ -1,4 +1,4 @@
 (cl:in-package sensor_fusion-msg)
-(cl:export '(OBSTACLES-VAL
-          OBSTACLES
+(cl:export '(LIDAR_BBOXES-VAL
+          LIDAR_BBOXES
 ))

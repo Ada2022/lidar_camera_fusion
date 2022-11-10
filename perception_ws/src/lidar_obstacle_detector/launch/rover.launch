@@ -8,7 +8,8 @@
 
   <node name="obstacle_detector_node" pkg="lidar_obstacle_detector" type="obstacle_detector_node" output="screen">
     <!-- Input Topic Names -->
-    <param name="lidar_points_topic"      value="/os_cloud_node/points"/>
+    <!--param name="lidar_points_topic"      value="/os_cloud_node/points"/-->
+    <param name="lidar_points_topic"      value="/lidar_bboxes"/>
     <!-- Output Topic Names -->
     <param name="cloud_ground_topic"      value="obstacle_detector/cloud_ground"/>
     <param name="cloud_clusters_topic"    value="obstacle_detector/cloud_clusters"/>
@@ -18,7 +19,7 @@
     <param name="bbox_target_frame"       value="os_lidar"/>
   </node>
 
-  <node name="safety_checker_node" pkg="lidar_obstacle_detector" type="safety_checker.py" output="screen">
+  <node name="safety_checker_node" pkg="lidar_obstacle_detector" type="safety_checker.py" output="screen" >
     <param name="x_min"        type="double"  value="-2.0"/>
     <param name="x_max"        type="double"  value="2.0"/>
     <param name="y_min"        type="double"  value="0.0"/>

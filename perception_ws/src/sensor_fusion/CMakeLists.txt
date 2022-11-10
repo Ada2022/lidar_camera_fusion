@@ -67,6 +67,7 @@ add_message_files(FILES
     Obstacles.msg
     ObstacleRange.msg
     ObstacleRanges.msg
+    LidarBBox.msg
 )
 ## Generate services in the 'srv' folder
 #add_service_files(
