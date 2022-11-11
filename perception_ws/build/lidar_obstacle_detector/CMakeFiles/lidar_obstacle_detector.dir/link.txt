@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblidar_obstacle_detector.so -o /home/nancy/lidar_camera_fusion/perception_ws/devel/lib/liblidar_obstacle_detector.so  
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblidar_obstacle_detector.so -o /home/ada/Desktop/Capstone/perception_ws/devel/lib/liblidar_obstacle_detector.so  

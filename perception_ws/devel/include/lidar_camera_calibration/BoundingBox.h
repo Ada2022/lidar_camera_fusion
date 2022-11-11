@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <memory>
+#include <map>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -63,7 +63,7 @@ struct BoundingBox_
    typedef int16_t _id_type;
   _id_type id;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _Class_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _Class_type;
   _Class_type Class;
 
 
@@ -245,7 +245,7 @@ struct Printer< ::lidar_camera_calibration::BoundingBox_<ContainerAllocator> >
     s << indent << "id: ";
     Printer<int16_t>::stream(s, indent + "  ", v.id);
     s << indent << "Class: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.Class);
+    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.Class);
   }
 };
 

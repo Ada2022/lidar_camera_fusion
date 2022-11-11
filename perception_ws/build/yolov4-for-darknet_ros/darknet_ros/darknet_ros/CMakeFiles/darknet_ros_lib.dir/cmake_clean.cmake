@@ -79,8 +79,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o"
   "CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dice.c.o"
   "CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_vid.c.o"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.pdb"
-  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libdarknet_ros_lib.pdb"
+  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libdarknet_ros_lib.so"
 )
 
 # Per-language clean rules from dependency scanning.

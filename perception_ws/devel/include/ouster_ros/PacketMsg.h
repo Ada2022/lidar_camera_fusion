@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <memory>
+#include <map>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -33,7 +33,7 @@ struct PacketMsg_
 
 
 
-   typedef std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> _buf_type;
+   typedef std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other >  _buf_type;
   _buf_type buf;
 
 

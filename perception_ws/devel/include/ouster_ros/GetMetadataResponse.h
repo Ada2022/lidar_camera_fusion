@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <memory>
+#include <map>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -33,7 +33,7 @@ struct GetMetadataResponse_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _metadata_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _metadata_type;
   _metadata_type metadata;
 
 
@@ -186,7 +186,7 @@ struct Printer< ::ouster_ros::GetMetadataResponse_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::ouster_ros::GetMetadataResponse_<ContainerAllocator>& v)
   {
     s << indent << "metadata: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.metadata);
+    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.metadata);
   }
 };
 

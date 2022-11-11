@@ -1,8 +1,8 @@
-prefix=/home/nancy/lidar_camera_fusion/perception_ws/devel
+prefix=/home/ada/Desktop/Capstone/perception_ws/devel
 
 Name: ouster_ros
 Description: Description of ouster_ros
 Version: 0.5.2
-Cflags: -I/home/nancy/lidar_camera_fusion/perception_ws/devel/include -I/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/include -I/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include -I/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -I/usr/include/eigen3
+Cflags: -I/home/ada/Desktop/Capstone/perception_ws/devel/include -I/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/include -I/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include -I/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -I/usr/include/eigen3
 Libs: -L${prefix}/lib -louster_ros
 Requires: roscpp message_runtime std_msgs sensor_msgs geometry_msgs

@@ -67,14 +67,14 @@ set(ouster_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ouster_ros_SOURCE_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros)
-  set(ouster_ros_DEVEL_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/devel)
+  set(ouster_ros_SOURCE_PREFIX /home/ada/Desktop/Capstone/perception_ws/src/ouster-ros)
+  set(ouster_ros_DEVEL_PREFIX /home/ada/Desktop/Capstone/perception_ws/devel)
   set(ouster_ros_INSTALL_PREFIX "")
   set(ouster_ros_PREFIX ${ouster_ros_DEVEL_PREFIX})
 else()
   set(ouster_ros_SOURCE_PREFIX "")
   set(ouster_ros_DEVEL_PREFIX "")
-  set(ouster_ros_INSTALL_PREFIX /home/nancy/lidar_camera_fusion/perception_ws/install)
+  set(ouster_ros_INSTALL_PREFIX /home/ada/Desktop/Capstone/perception_ws/install)
   set(ouster_ros_PREFIX ${ouster_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ouster_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/ada/Desktop/Capstone/perception_ws/devel/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite;/usr/include/eigen3 " STREQUAL " ")
   set(ouster_ros_INCLUDE_DIRS "")
-  set(_include_dirs "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include;/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite;/usr/include/eigen3")
+  set(_include_dirs "/home/ada/Desktop/Capstone/perception_ws/devel/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include;/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/ouster-sdk/ouster_client/include/optional-lite;/usr/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/nancy/lidar_camera_fusion/perception_ws/devel/include;/home/nancy/
         message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nancy/lidar_camera_fusion/perception_ws/src/ouster-ros/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ouster_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ada/Desktop/Capstone/perception_ws/src/ouster-ros/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ouster_ros_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nancy/lidar_camera_fusion/perception_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/ada/Desktop/Capstone/perception_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

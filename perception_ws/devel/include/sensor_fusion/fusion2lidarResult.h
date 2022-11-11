@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <memory>
+#include <map>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -34,7 +34,7 @@ struct fusion2lidarResult_
 
 
 
-   typedef std::vector< ::sensor_fusion::LidarBBox_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::sensor_fusion::LidarBBox_<ContainerAllocator> >> _lidar_bboxes_type;
+   typedef std::vector< ::sensor_fusion::LidarBBox_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::sensor_fusion::LidarBBox_<ContainerAllocator> >::other >  _lidar_bboxes_type;
   _lidar_bboxes_type lidar_bboxes;
 
 

@@ -1,2 +1,2 @@
 lidar_camera_calibration:lidar_obstacle_detector:ouster-ros:sensor_fusion:yolov4-for-darknet_ros/darknet_ros/darknet_ros:yolov4-for-darknet_ros/darknet_ros/darknet_ros_msgs
--DCATKIN_DEVEL_PREFIX=/home/nancy/lidar_camera_fusion/perception_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nancy/lidar_camera_fusion/perception_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ada/Desktop/Capstone/perception_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ada/Desktop/Capstone/perception_ws/install -G Unix Makefiles

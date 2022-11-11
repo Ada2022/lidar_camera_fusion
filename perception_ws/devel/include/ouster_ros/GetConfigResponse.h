@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <memory>
+#include <map>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -33,7 +33,7 @@ struct GetConfigResponse_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _config_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _config_type;
   _config_type config;
 
 
@@ -186,7 +186,7 @@ struct Printer< ::ouster_ros::GetConfigResponse_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::ouster_ros::GetConfigResponse_<ContainerAllocator>& v)
   {
     s << indent << "config: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.config);
+    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.config);
   }
 };
 
