@@ -4,6 +4,8 @@ import cv2
 import time
 import numpy as np
 
+import matplotlib.pyplot as plt
+
 # import ros pkg
 import rospy
 import tf2_ros
@@ -36,6 +38,8 @@ last_time = 0
 
 
 def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
+    plt.clf() 
+
     global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time
     rospy.loginfo('arrive at sensorfusion callback')
 
@@ -79,6 +83,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     img = CV_BRIDGE.imgmsg_to_cv2(image, 'bgr8')
     lidar_bboxes_M = [] # list of shape (M, 4) --> list of M candidates of [x1, y1, x2, y2] from LIDAR object detection
 
+    x_pts, y_pts = [], []
     for res in lidar_bboxes.lidar_bboxes:
         point1 = [res.position.x + res.dimension.x / 2, res.position.y - res.dimension.y / 2, res.position.z - res.dimension.z / 2]
         point2 = [res.position.x + res.dimension.x / 2, res.position.y - res.dimension.y / 2, res.position.z + res.dimension.z / 2]
@@ -89,6 +94,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         point7 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z - res.dimension.z / 2]
         point8 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z + res.dimension.z / 2]
         points = [point1, point2, point3, point4, point5, point6, point7, point8]
+
         # print("check point", points)
         
         try:
@@ -200,6 +206,8 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         '''end test:It seems that this method can better emcompass the objects(green boxes)'''
 
         lidar_bboxes_M.append([x1, y1, x2, y2])
+        x_pts.append(res.position.x)
+        y_pts.append(res.position.y)
 
     ### PARSE YOLO INPUT ---> TODO: ultimately need to create list of size (N, 4) --> list of [x1, y1, x2, y2]
     yolo_bboxes_N = [] # list of shape (N, 4) --> list of N candidates of [x1, y1, x2, y2] from YOLO camera object detection
@@ -239,6 +247,19 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
                 best_candidate = m
 
         matchings_m_n.append([n, best_candidate]) # append best pair, closest M-index LIDAR box to the N-index YOLO box
+    selected_lidar_idx = [val[1] for val in matchings_m_n]
+
+
+    x_pts = [-x_pts[idx] for idx in selected_lidar_idx]
+    y_pts = [-y_pts[idx] for idx in selected_lidar_idx]
+
+    # print(x_pts, y_pts)
+
+    plt.xlim([-50, 50])
+    plt.ylim([0, 50])
+    plt.scatter(x_pts, y_pts)
+    plt.pause(0.0000001)
+
 
     for  n, m in matchings_m_n:
         if m == -1:
@@ -306,8 +327,15 @@ def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxe
     # publish topics
     obstacle_pub = rospy.Subscriber(obstacle_meas, Obstacles)
 
+    # # define figure
+    # fig = plt.plot(range(10), range(10))
+    # plt.show()
+
     ats.registerCallback(sensorFusionCallback,  yolo_client,
                          lidar_client, obstacle_pub)
+    
+    plt.ion()
+    plt.show()
 
     try:
         rospy.spin()
