@@ -15,6 +15,7 @@
     <param name="cloud_clusters_topic"    value="obstacle_detector/cloud_clusters"/>
     <param name="jsk_bboxes_topic"        value="obstacle_detector/jsk_bboxes"/>
     <param name="autoware_objects_topic"  value="obstacle_detector/objects"/>
+    <param name="convex_hull_topic"  value="obstacle_detector/convex_hull"/>
     <!-- Parameters -->
     <param name="bbox_target_frame"       value="os_lidar"/>
   </node>

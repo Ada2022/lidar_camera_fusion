@@ -24,6 +24,11 @@
 #include <pcl/kdtree/kdtree.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/segmentation/extract_clusters.h>
+#include <pcl/filters/project_inliers.h>
+#include <pcl/surface/convex_hull.h>
+#include <pcl_conversions/pcl_conversions.h>
+
+
 
 #include "box.hpp"
 
@@ -43,6 +48,8 @@ namespace lidar_obstacle_detector
     std::pair<typename pcl::PointCloud<PointT>::Ptr, typename pcl::PointCloud<PointT>::Ptr> segmentPlane(const typename pcl::PointCloud<PointT>::ConstPtr &cloud, const int max_iterations, const float distance_thresh);
 
     std::vector<typename pcl::PointCloud<PointT>::Ptr> clustering(const typename pcl::PointCloud<PointT>::ConstPtr &cloud, const float cluster_tolerance, const int min_size, const int max_size);
+
+    std::vector<typename pcl::PointCloud<PointT>::Ptr> hull(std::vector<typename pcl::PointCloud<PointT>::Ptr> &clusters);
 
     Box axisAlignedBoundingBox(const typename pcl::PointCloud<PointT>::ConstPtr &cluster, const int id);
 
@@ -220,8 +227,43 @@ namespace lidar_obstacle_detector
     // const auto end_time = std::chrono::steady_clock::now();
     // const auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
     // std::cout << "clustering took " << elapsed_time.count() << " milliseconds and found " << clusters.size() << " clusters" << std::endl;
-
     return clusters;
+  }
+
+  template <typename PointT>
+  std::vector<typename pcl::PointCloud<PointT>::Ptr> ObstacleDetector<PointT>::hull(std::vector<typename pcl::PointCloud<PointT>::Ptr> &clusters)
+  {
+    std::vector<typename pcl::PointCloud<PointT>::Ptr> convex_hulls;
+
+    pcl::ModelCoefficients::Ptr pcl_model(new pcl::ModelCoefficients()); //Note: Norm vector of surface,used to define a plane
+    pcl_model->values.resize(4);
+    pcl_model->values[0] = pcl_model->values[1] = 0;
+    pcl_model->values[2] = 1.0;
+    pcl_model->values[3] = 0;
+
+    pcl::ConvexHull<pcl::PointXYZ> hull_;
+    pcl::ProjectInliers<pcl::PointXYZ> proj;
+    for (auto& cluster:clusters)
+    {
+      //project to plane z = 0
+      pcl::PointCloud<pcl::PointXYZ>::Ptr proj_cloud(new pcl::PointCloud<PointT>);
+      proj.setModelCoefficients(pcl_model);
+      proj.setInputCloud(cluster);
+      proj.filter(*proj_cloud);
+      
+      // doing convex hull
+      typename pcl::PointCloud<PointT>::Ptr output_poly(new pcl::PointCloud<PointT>);
+      hull_.setInputCloud(proj_cloud);
+      hull_.reconstruct(*output_poly);
+
+      output_poly->width = output_poly->points.size();
+      output_poly->height = 1;
+      output_poly->is_dense = true;
+
+      convex_hulls.push_back(output_poly);
+    }
+
+    return convex_hulls;
   }
 
   template <typename PointT>
@@ -275,6 +317,9 @@ namespace lidar_obstacle_detector
 
     return Box(id, position, dimension, quaternion);
   }
+
+
+
 
   // ************************* Tracking ***************************
   template <typename PointT>

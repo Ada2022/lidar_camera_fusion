@@ -70,15 +70,17 @@ namespace lidar_obstacle_detector
     ros::Publisher pub_cloud_clusters;
     ros::Publisher pub_jsk_bboxes;
     ros::Publisher pub_autoware_objects;
+    ros::Publisher pub_convex_hull;
     
 
     //void lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points);
     void lidarPointsCallback(const lidar_obstacle_detector::fusion2lidarGoalConstPtr& goal);
     void publishClouds(const std::pair<pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr> &&segmented_clouds, const std_msgs::Header &header);
     jsk_recognition_msgs::BoundingBox transformJskBbox(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
-    autoware_msgs::DetectedObject transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
+    // autoware_msgs::DetectedObject transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
     void publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header);   
-  
+    void publishConvexHulls(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header);
+
   };
 
   // Dynamic parameter server callback function
@@ -98,11 +100,14 @@ namespace lidar_obstacle_detector
     IOU_THRESH = config.iou_threshold;
   }
 
+
+
+
   ObstacleDetectorNode::ObstacleDetectorNode(std::string name):lidar_server_(nh, name, boost::bind(&ObstacleDetectorNode::lidarPointsCallback, this, _1), false),
   action_name_(name), tf2_listener(tf2_buffer)
   {
 
-    std::cout<<"arrive"<<std::endl;
+    // std::cout<<"arrive"<<std::endl;
     ros::NodeHandle private_nh("~");
 
     std::string lidar_points_topic;
@@ -110,6 +115,7 @@ namespace lidar_obstacle_detector
     std::string cloud_clusters_topic;
     std::string jsk_bboxes_topic;
     std::string autoware_objects_topic;
+    std::string convex_hull_topic;
 
 
     // ROS_ASSERT(private_nh.getParam("lidar_points_topic", lidar_points_topic));
@@ -124,6 +130,7 @@ namespace lidar_obstacle_detector
     private_nh.getParam("jsk_bboxes_topic", jsk_bboxes_topic);
     private_nh.getParam("autoware_objects_topic", autoware_objects_topic);
     private_nh.getParam("bbox_target_frame", bbox_target_frame_);
+    private_nh.getParam("convex_hull_topic", convex_hull_topic );
 
 
     lidar_server_.start(); 
@@ -132,6 +139,9 @@ namespace lidar_obstacle_detector
     pub_cloud_clusters = nh.advertise<sensor_msgs::PointCloud2>(cloud_clusters_topic, 1);
     pub_jsk_bboxes = nh.advertise<jsk_recognition_msgs::BoundingBoxArray>(jsk_bboxes_topic, 1);
     pub_autoware_objects = nh.advertise<autoware_msgs::DetectedObjectArray>(autoware_objects_topic, 1);
+    pub_convex_hull = nh.advertise<sensor_msgs::PointCloud2>(convex_hull_topic, 1);
+ 
+   
     // Dynamic Parameter Server & Function
     f = boost::bind(&dynamicParamCallback, _1, _2);
     server.setCallback(f);
@@ -166,80 +176,16 @@ namespace lidar_obstacle_detector
     // Cluster objects
     auto cloud_clusters = obstacle_detector->clustering(segmented_clouds.first, CLUSTER_THRESH, CLUSTER_MIN_SIZE, CLUSTER_MAX_SIZE);
 
+    // Convex hull objects
+    auto convex_hulls = obstacle_detector->hull(cloud_clusters);
+
     
     // Publish ground cloud and obstacle cloud
     publishClouds(std::move(segmented_clouds), pointcloud_header);
     // Publish Obstacles
     publishDetectedObjects(std::move(cloud_clusters), pointcloud_header);
-
-    for (auto &cluster : cloud_clusters)
-    {
-      // Create Bounding Boxes
-      Box box = USE_PCA_BOX ? obstacle_detector->pcaBoundingBox(cluster, obstacle_id_) : obstacle_detector->axisAlignedBoundingBox(cluster, obstacle_id_);
-
-      obstacle_id_ = (obstacle_id_ < SIZE_MAX) ? ++obstacle_id_ : 0;
-      curr_boxes_.emplace_back(box);
-    }
-
-    // Lookup for frame transform between the lidar frame and the target frame
-    geometry_msgs::TransformStamped transform_stamped;
-    try
-    {
-      transform_stamped = tf2_buffer.lookupTransform(bbox_target_frame_, bbox_source_frame_, ros::Time(0));
-    }
-    catch (tf2::TransformException &ex)
-    {
-      ROS_WARN("%s", ex.what());
-      ROS_WARN("Frame Transform Given Up! Outputing obstacles in the original LiDAR frame %s instead...", bbox_source_frame_.c_str());
-      try
-      {
-        transform_stamped = tf2_buffer.lookupTransform(bbox_source_frame_, bbox_source_frame_, ros::Time(0));
-      }
-      catch (tf2::TransformException &ex2)
-      {
-        ROS_ERROR("%s", ex2.what());
-        return;
-      }
-    }
-
-    // Transform boxes from lidar frame to base_link frame, and publish msg
-    
-    for (auto &box : curr_boxes_)
-    {
-      geometry_msgs::Pose pose, pose_transformed;
-      lidar_obstacle_detector::LidarBBox lidar_bbox;
-      lidar_bbox.position.x = box.position(0);
-      lidar_bbox.position.y = box.position(1);
-      lidar_bbox.position.z = box.position(2);
-      lidar_bbox.dimension.x = box.dimension(0);
-      lidar_bbox.dimension.y = box.dimension(1);
-      lidar_bbox.dimension.z = box.dimension(2);
-
-      // std::cout << lidar_bbox.point_min.x << std::endl;
-      // std::cout << lidar_bbox.point_min.y << std::endl;
-      // std::cout << lidar_bbox.point_min.z << std::endl;
-      // std::cout << lidar_bbox.point_max.x << std::endl;
-      // std::cout << lidar_bbox.point_max.y << std::endl;
-      // std::cout << lidar_bbox.point_max.z << std::endl << std::endl;
-
-      pose.position.x = box.position(0);
-      pose.position.y = box.position(1);
-      pose.position.z = box.position(2);
-      pose.orientation.w = box.quaternion.w();
-      pose.orientation.x = box.quaternion.x();
-      pose.orientation.y = box.quaternion.y();
-      pose.orientation.z = box.quaternion.z();
-      tf2::doTransform(pose, pose_transformed, transform_stamped);
-
-      result_.lidar_bboxes.push_back(lidar_bbox);
-    }
-    // Update previous bounding boxes
-    prev_boxes_.swap(curr_boxes_);
-    curr_boxes_.clear();
-
-    
-    lidar_server_.setSucceeded(result_);
-    result_ =  lidar_obstacle_detector::fusion2lidarResult(); //clear result
+    // Publish Convex Hull
+    publishConvexHulls(std::move(convex_hulls), pointcloud_header);
 
     // Time the whole process
     const auto end_time = std::chrono::steady_clock::now();
@@ -261,6 +207,28 @@ namespace lidar_obstacle_detector
     pub_cloud_clusters.publish(std::move(obstacle_cloud));
   }
 
+  void ObstacleDetectorNode::publishConvexHulls(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header)
+  {
+      pcl::PointCloud<pcl::PointXYZ>::Ptr hulls(new pcl::PointCloud<pcl::PointXYZ>);
+      hulls->width = 0;
+      sensor_msgs::PointCloud2::Ptr results(new sensor_msgs::PointCloud2);
+      // std::cout << "function called" << std::endl;
+      for (int i = 0; i < convex_hulls.size(); i++)
+      { 
+        *(hulls) += *(convex_hulls[i]);
+        hulls->width = hulls->points.size();
+        // std::cout << hulls->width << std::endl;
+      }
+      hulls->height = 1;
+      hulls->is_dense = true;
+      pcl::toROSMsg(*hulls, *results);
+      results->header = header;
+
+      pub_convex_hull.publish(std::move(results));
+
+  }
+
+
   jsk_recognition_msgs::BoundingBox ObstacleDetectorNode::transformJskBbox(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed)
   {
     jsk_recognition_msgs::BoundingBox jsk_bbox;
@@ -275,22 +243,22 @@ namespace lidar_obstacle_detector
     return std::move(jsk_bbox);
   }
 
-  autoware_msgs::DetectedObject ObstacleDetectorNode::transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed)
-  {
-    autoware_msgs::DetectedObject autoware_object;
-    autoware_object.header = header;
-    autoware_object.id = box.id;
-    autoware_object.label = "unknown";
-    autoware_object.score = 1.0f;
-    autoware_object.pose = pose_transformed;
-    autoware_object.pose_reliable = true;
-    autoware_object.dimensions.x = box.dimension(0);
-    autoware_object.dimensions.y = box.dimension(1);
-    autoware_object.dimensions.z = box.dimension(2);
-    autoware_object.valid = true;
+  // autoware_msgs::DetectedObject ObstacleDetectorNode::transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed)
+  // {
+  //   autoware_msgs::DetectedObject autoware_object;
+  //   autoware_object.header = header;
+  //   autoware_object.id = box.id;
+  //   autoware_object.label = "unknown";
+  //   autoware_object.score = 1.0f;
+  //   autoware_object.pose = pose_transformed;
+  //   autoware_object.pose_reliable = true;
+  //   autoware_object.dimensions.x = box.dimension(0);
+  //   autoware_object.dimensions.y = box.dimension(1);
+  //   autoware_object.dimensions.z = box.dimension(2);
+  //   autoware_object.valid = true;
 
-    return std::move(autoware_object);
-  }
+  //   return std::move(autoware_object);
+  // }
 
   void ObstacleDetectorNode::publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header)
   {
@@ -340,7 +308,17 @@ namespace lidar_obstacle_detector
     // Transform boxes from lidar frame to base_link frame, and convert to jsk and autoware msg formats
     for (auto &box : curr_boxes_)
     {
+      lidar_obstacle_detector::LidarBBox lidar_bbox;
       geometry_msgs::Pose pose, pose_transformed;
+
+      lidar_bbox.position.x =  box.position(0);
+      lidar_bbox.position.y =  box.position(1);
+      lidar_bbox.position.z =  box.position(2);
+      lidar_bbox.dimension.x = box.dimension(0);
+      lidar_bbox.dimension.y = box.dimension(1);
+      lidar_bbox.dimension.z = box.dimension(2);
+
+
       pose.position.x = box.position(0);
       pose.position.y = box.position(1);
       pose.position.z = box.position(2);
@@ -350,15 +328,21 @@ namespace lidar_obstacle_detector
       pose.orientation.z = box.quaternion.z();
       tf2::doTransform(pose, pose_transformed, transform_stamped);
 
+
+      result_.lidar_bboxes.push_back(lidar_bbox);
       jsk_bboxes.boxes.emplace_back(transformJskBbox(box, bbox_header, pose_transformed));
-      autoware_objects.objects.emplace_back(transformAutowareObject(box, bbox_header, pose_transformed));
+      // autoware_objects.objects.emplace_back(transformAutowareObject(box, bbox_header, pose_transformed));
     }
     pub_jsk_bboxes.publish(std::move(jsk_bboxes));
-    pub_autoware_objects.publish(std::move(autoware_objects));
+    // pub_autoware_objects.publish(std::move(autoware_objects));
 
     // Update previous bounding boxes
     prev_boxes_.swap(curr_boxes_);
     curr_boxes_.clear();
+   
+    lidar_server_.setSucceeded(result_);
+    result_ =  lidar_obstacle_detector::fusion2lidarResult(); //clear result
+
   }
 
 } // namespace lidar_obstacle_detector
@@ -369,7 +353,6 @@ int main(int argc, char **argv)
   ROS_DEBUG("begin");
   ros::init(argc, argv, "obstacle_detector_node");
   lidar_obstacle_detector::ObstacleDetectorNode obstacle_detector_node("/lidar_bboxes");
-  std::cout<<"ckpt5"<<std::endl;
   ros::spin();
   return 0;
 }

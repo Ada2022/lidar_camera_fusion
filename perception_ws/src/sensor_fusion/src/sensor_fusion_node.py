@@ -38,7 +38,7 @@ last_time = 0
 
 
 def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
-    plt.clf() 
+    # plt.clf() 
 
     global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time
     rospy.loginfo('arrive at sensorfusion callback')
@@ -100,43 +100,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         try:
             transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
 
-            '''test field: compare the result from built-in function do_transform_cloud and my result from transformation matrix'''
-            # print("velodynes")
-            # print(ros_numpy.point_cloud2.pointcloud2_to_array(velodyne))
 
-            # points = np.array(points)
-            # msg = PointCloud2()
-            # msg.data = np.asarray(point1, np.float32).tostring()
-            # msg.height = 1
-            # msg.width = len(points)
-            # msg.fields = [
-            #     PointField('x', 0, PointField.FLOAT32, 1),
-            #     PointField('y', 4, PointField.FLOAT32, 1),
-            #     PointField('z', 8, PointField.FLOAT32, 1)]
-            # msg.is_bigendian = False
-            # msg.point_step = 12
-            # msg.row_step = 12*points.shape[0]
-            # msg.is_dense = int(np.isfinite(points).all())
-            # msg.data = np.asarray(points, np.float32).tostring()
-            # msg = do_transform_cloud(msg, transform)
-            # msg = ros_numpy.point_cloud2.pointcloud2_to_array(msg)
-            # print("do transform cloud msg", msg)
-
-            # msg_2D = [CAMERA_MODEL.project3dToPixel(m) for m in msg]
-            # print("velodyne after projection", msg_2D)
-
-            # [x1,y1] = msg_2D[1]
-            # [x2,y2] = msg_2D[2]
-            # if any([x1 < 0, x1 > img.shape[1], y1 < 0 ,y1 > img.shape[0], x2 < 0, x2 > img.shape[1], y2 < 0 ,y2 > img.shape[0]]):
-            #     pass
-            # else:
-            #     cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (255,0,0))
-            # [x1,y1] = msg_2D[5]
-            # [x2,y2] = msg_2D[6]
-            # if any([x1 < 0, x1 > img.shape[1], y1 < 0 ,y1 > img.shape[0], x2 < 0, x2 > img.shape[1], y2 < 0 ,y2 > img.shape[0]]):
-            #     pass
-            # else:
-            #     cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (0,0,255))
             '''test end: by verifying in the picture, the result are almost the same'''
 
             transform = transform.transform           
@@ -152,53 +116,14 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
             
         except tf2_ros.LookupException: 
             pass
-       
 
-        '''test: to see if I'm wrong in dimension or other things(draw red dots)'''
-        # p = [res.position.x, res.position.y, res.position.z]
-        # p = np.dot(trans_mat, np.array(p).reshape(3,1)) + np.array(translation).reshape(3,1)
-        # p = CAMERA_MODEL.project3dToPixel(p)
-        # p = (int(p[0]), int(p[1]))
-        # print(p)
-        # cv2.circle(img, p, 4, (0,0,255), 2)
-        '''The tracking seems alright.....'''
 
         lidar_bboxes_points_2D = [CAMERA_MODEL.project3dToPixel(point) for point in points]
-        # print("points_2D",lidar_bboxes_points_2D)
-        
-        '''test field: draw eight points'''
-        # color = [(0,0,0),(255,255,255),(255,255,255),(0,0,0),(0,255,0),(255,0,255),(255,0,255), (0,255,0)]
-        # for i in range(8):
-        #     p = (int(lidar_bboxes_points_2D[i][0]), int(lidar_bboxes_points_2D[i][1]))
-        #     cv2.circle(img, p, 2, color[i], 2)
-        '''test end'''
 
-        # draw bigger(in black) and smaller boxes(in white)
-        # [x1,y1] = lidar_bboxes_points_2D[0]
-        # [x2,y2] = lidar_bboxes_points_2D[2]
-        # if any([x1 < 0, x1 > img.shape[1], y1 < 0 ,y1 > img.shape[0], x2 < 0, x2 > img.shape[1], y2 < 0 ,y2 > img.shape[0]]):
-        #     continue
-        # else:
-        #     cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (0,0,0))
-        # [x1,y1] = lidar_bboxes_points_2D[4]
-        # [x2,y2] = lidar_bboxes_points_2D[6]
-        # if any([x1 < 0, x1 > img.shape[1], y1 < 0 ,y1 > img.shape[0], x2 < 0, x2 > img.shape[1], y2 < 0 ,y2 > img.shape[0]]):
-        #     continue
-        # else:
-        #     cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (255,255,255))
-
-
-        # '''test field: combine boxes'''
-        # print("lidar bboxes")
-        # print(lidar_bboxes_points_2D)
         t = sorted(lidar_bboxes_points_2D[0:4], key = lambda x:(x[1]))
         [x1, y1] = [min(t[0][0], t[1][0]), min(t[0][1], t[1][1])]
         t = sorted(lidar_bboxes_points_2D[4:8], key = lambda x:(x[1]))
         [x2, y2] = [max(t[2][0], t[3][0]), max(t[2][1], t[3][1])]
-        # [x1, y1] = [min([x for x in lidar_bboxes_points_2D[:][0]]), min([y for y in lidar_bboxes_points_2D[:][1]])]
-        # [x2, y2] = [max([x for x in lidar_bboxes_points_2D[:][0]]), max([y for y in lidar_bboxes_points_2D[:][1]])]
-        # [x1,y1] = [max(lidar_bboxes_points_2D[0][0], lidar_bboxes_points_2D[2][0]), max(lidar_bboxes_points_2D[0][1], lidar_bboxes_points_2D[2][1])]
-        # [x2,y2] = [min(lidar_bboxes_points_2D[5][0], lidar_bboxes_points_2D[7][0]), min(lidar_bboxes_points_2D[5][1], lidar_bboxes_points_2D[7][1])]
         if any([x1 < 0, x1 > img.shape[1], y1 < 0 ,y1 > img.shape[0], x2 < 0, x2 > img.shape[1], y2 < 0 ,y2 > img.shape[0]]):
             continue
         else:
@@ -254,11 +179,20 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     y_pts = [-y_pts[idx] for idx in selected_lidar_idx]
 
     # print(x_pts, y_pts)
+    # plt.ion()
+    # plt.clf()
+    # plt.xlim([-50, 50])
+    # plt.ylim([0, 50])
+    # plt.plot(x_pts, y_pts,marker = 'o')
+    # plt.pause(0.0000001)
+    # plt.ioff()
 
-    plt.xlim([-50, 50])
-    plt.ylim([0, 50])
-    plt.scatter(x_pts, y_pts)
-    plt.pause(0.0000001)
+    # plt.xlim([-50, 50])
+    # plt.ylim([0, 50])
+    # plt.scatter(x_pts, y_pts)
+    # plt.draw()
+    # plt.pause(0.0000001)
+
 
 
     for  n, m in matchings_m_n:
@@ -334,8 +268,8 @@ def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxe
     ats.registerCallback(sensorFusionCallback,  yolo_client,
                          lidar_client, obstacle_pub)
     
-    plt.ion()
-    plt.show()
+    # plt.ion()
+    # plt.show()
 
     try:
         rospy.spin()
