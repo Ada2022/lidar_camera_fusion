@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -45,7 +45,7 @@ struct Obstacle_
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _Class_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _Class_type;
   _Class_type Class;
 
    typedef double _xCenter_type;
@@ -234,7 +234,7 @@ struct Printer< ::lidar_obstacle_detector::Obstacle_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::lidar_obstacle_detector::Obstacle_<ContainerAllocator>& v)
   {
     s << indent << "Class: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.Class);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.Class);
     s << indent << "xCenter: ";
     Printer<double>::stream(s, indent + "  ", v.xCenter);
     s << indent << "yCenter: ";

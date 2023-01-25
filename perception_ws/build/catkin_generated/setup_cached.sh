@@ -7,6 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ada/Desktop/Capstone/perception_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/ada/Desktop/Capstone/perception_ws/build'
-export ROS_PACKAGE_PATH="/home/ada/Desktop/Capstone/perception_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nancy/lidar_camera_fusion/perception_ws/devel:$CMAKE_PREFIX_PATH"
+export PATH='/opt/ros/melodic/bin:/home/nancy/anaconda3/condabin:/home/nancy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin'
+export PWD='/home/nancy/lidar_camera_fusion/perception_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/nancy/lidar_camera_fusion/perception_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/nancy/lidar_camera_fusion/perception_ws/src:$ROS_PACKAGE_PATH"

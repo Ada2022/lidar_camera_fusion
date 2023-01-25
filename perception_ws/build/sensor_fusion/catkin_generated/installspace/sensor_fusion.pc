@@ -1,4 +1,4 @@
-prefix=/home/ada/Desktop/Capstone/perception_ws/install
+prefix=/home/nancy/lidar_camera_fusion/perception_ws/install
 
 Name: sensor_fusion
 Description: Description of sensor_fusion

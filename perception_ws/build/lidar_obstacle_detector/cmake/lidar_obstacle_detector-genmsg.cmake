@@ -2,7 +2,7 @@
 
 message(STATUS "lidar_obstacle_detector: 12 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ilidar_obstacle_detector:/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg;-Ilidar_obstacle_detector:/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg;-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,64 +17,64 @@ add_custom_target(lidar_obstacle_detector_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" "lidar_obstacle_detector/LidarBBox:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" ""
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:lidar_obstacle_detector/fusion2lidarFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" "sensor_msgs/PointCloud2:sensor_msgs/PointField:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:lidar_obstacle_detector/fusion2lidarResult:std_msgs/Header:lidar_obstacle_detector/LidarBBox:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" "lidar_obstacle_detector/Obstacle"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" "actionlib_msgs/GoalID:lidar_obstacle_detector/fusion2lidarGoal:actionlib_msgs/GoalStatus:sensor_msgs/PointCloud2:sensor_msgs/PointField:lidar_obstacle_detector/fusion2lidarActionResult:lidar_obstacle_detector/LidarBBox:lidar_obstacle_detector/fusion2lidarResult:lidar_obstacle_detector/fusion2lidarFeedback:std_msgs/Header:lidar_obstacle_detector/fusion2lidarActionGoal:lidar_obstacle_detector/fusion2lidarActionFeedback:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" "geometry_msgs/Point:lidar_obstacle_detector/ObstacleRange"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" "sensor_msgs/PointCloud2:sensor_msgs/PointField:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" "sensor_msgs/PointCloud2:actionlib_msgs/GoalID:sensor_msgs/PointField:lidar_obstacle_detector/fusion2lidarGoal:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:lidar_obstacle_detector/LidarBBox:lidar_obstacle_detector/fusion2lidarResult:std_msgs/Header:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" "actionlib_msgs/GoalID:lidar_obstacle_detector/fusion2lidarActionResult:actionlib_msgs/GoalStatus:sensor_msgs/PointCloud2:sensor_msgs/PointField:lidar_obstacle_detector/fusion2lidarGoal:lidar_obstacle_detector/fusion2lidarFeedback:lidar_obstacle_detector/fusion2lidarResult:lidar_obstacle_detector/fusion2lidarActionGoal:std_msgs/Header:lidar_obstacle_detector/fusion2lidarActionFeedback:lidar_obstacle_detector/LidarBBox:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" "lidar_obstacle_detector/LidarBBox:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:lidar_obstacle_detector/fusion2lidarFeedback:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" "sensor_msgs/PointCloud2:actionlib_msgs/GoalID:sensor_msgs/PointField:lidar_obstacle_detector/fusion2lidarGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" ""
 )
 
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" "lidar_obstacle_detector/ObstacleRange:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lidar_obstacle_detector" "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" "lidar_obstacle_detector/Obstacle"
 )
 
 #
@@ -84,75 +84,75 @@ add_custom_target(_lidar_obstacle_detector_generate_messages_check_deps_${_filen
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_cpp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
   "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_cpp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lidar_obstacle_detector
 )
 
@@ -170,29 +170,29 @@ add_custom_target(lidar_obstacle_detector_generate_messages_cpp
 add_dependencies(lidar_obstacle_detector_generate_messages lidar_obstacle_detector_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_cpp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -205,75 +205,75 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS lidar_obstacle_detector_generate_me
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_eus(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
   "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_eus(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector
 )
 
@@ -291,29 +291,29 @@ add_custom_target(lidar_obstacle_detector_generate_messages_eus
 add_dependencies(lidar_obstacle_detector_generate_messages lidar_obstacle_detector_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_eus _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -326,75 +326,75 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS lidar_obstacle_detector_generate_me
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_lisp(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
   "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_lisp(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector
 )
 
@@ -412,29 +412,29 @@ add_custom_target(lidar_obstacle_detector_generate_messages_lisp
 add_dependencies(lidar_obstacle_detector_generate_messages lidar_obstacle_detector_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_lisp _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -447,75 +447,75 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS lidar_obstacle_detector_generate_me
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_nodejs(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
   "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_nodejs(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector
 )
 
@@ -533,29 +533,29 @@ add_custom_target(lidar_obstacle_detector_generate_messages_nodejs
 add_dependencies(lidar_obstacle_detector_generate_messages lidar_obstacle_detector_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_nodejs _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -568,75 +568,75 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS lidar_obstacle_detector_generate_me
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
-)
-_generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
 )
 _generate_msg_py(lidar_obstacle_detector
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg"
   "${MSG_I_FLAGS}"
-  "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/PointField.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg;/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
+)
+_generate_msg_py(lidar_obstacle_detector
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg"
+  "${MSG_I_FLAGS}"
+  "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector
 )
 
@@ -654,29 +654,29 @@ add_custom_target(lidar_obstacle_detector_generate_messages_py
 add_dependencies(lidar_obstacle_detector_generate_messages lidar_obstacle_detector_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/Obstacle.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarAction.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarResult.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/LidarBBox.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRange.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg/fusion2lidarFeedback.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/msg/ObstacleRanges.msg" NAME_WE)
+get_filename_component(_filename "/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg/Obstacles.msg" NAME_WE)
 add_dependencies(lidar_obstacle_detector_generate_messages_py _lidar_obstacle_detector_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ouster_ros_generate_messages_cpp"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/include/ouster_ros/PacketMsg.h"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/include/ouster_ros/SetConfig.h"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/include/ouster_ros/GetMetadata.h"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/include/ouster_ros/GetConfig.h"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/ouster_ros/PacketMsg.h"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/ouster_ros/GetConfig.h"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/ouster_ros/SetConfig.h"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/include/ouster_ros/GetMetadata.h"
 )
 
 # Per-language clean rules from dependency scanning.

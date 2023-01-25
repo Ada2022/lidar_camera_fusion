@@ -1,8 +1,8 @@
-prefix=/home/ada/Desktop/Capstone/perception_ws/devel
+prefix=/home/nancy/lidar_camera_fusion/perception_ws/devel
 
 Name: darknet_ros_msgs
 Description: Description of darknet_ros_msgs
 Version: 1.1.4
-Cflags: -I/home/ada/Desktop/Capstone/perception_ws/devel/include
+Cflags: -I/home/nancy/lidar_camera_fusion/perception_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: actionlib_msgs geometry_msgs sensor_msgs message_runtime std_msgs

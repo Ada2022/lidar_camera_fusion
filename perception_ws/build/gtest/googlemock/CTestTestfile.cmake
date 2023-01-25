@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/ada/Desktop/Capstone/perception_ws/build/gtest/googlemock
+# Build directory: /home/nancy/lidar_camera_fusion/perception_ws/build/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

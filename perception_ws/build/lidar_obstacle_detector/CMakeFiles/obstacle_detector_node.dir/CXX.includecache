@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/LidarBBox.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/LidarBBox.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -26,12 +26,12 @@ geometry_msgs/Point.h
 geometry_msgs/Point.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarAction.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarAction.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -48,12 +48,12 @@ lidar_obstacle_detector/fusion2lidarActionResult.h
 lidar_obstacle_detector/fusion2lidarActionFeedback.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionFeedback.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionFeedback.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -70,12 +70,12 @@ actionlib_msgs/GoalStatus.h
 lidar_obstacle_detector/fusion2lidarFeedback.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionGoal.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionGoal.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -92,12 +92,12 @@ actionlib_msgs/GoalID.h
 lidar_obstacle_detector/fusion2lidarGoal.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionResult.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarActionResult.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -114,12 +114,12 @@ actionlib_msgs/GoalStatus.h
 lidar_obstacle_detector/fusion2lidarResult.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarFeedback.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarFeedback.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -130,12 +130,12 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarGoal.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarGoal.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -148,12 +148,12 @@ ros/message_operations.h
 sensor_msgs/PointCloud2.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarResult.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/fusion2lidarResult.h
 string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -166,7 +166,7 @@ ros/message_operations.h
 lidar_obstacle_detector/LidarBBox.h
 -
 
-/home/ada/Desktop/Capstone/perception_ws/devel/include/lidar_obstacle_detector/obstacle_detector_Config.h
+/home/nancy/lidar_camera_fusion/perception_ws/devel/include/lidar_obstacle_detector/obstacle_detector_Config.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -184,11 +184,11 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
+/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
 Eigen/Geometry
 -
 
-/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/obstacle_detector.hpp
+/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/obstacle_detector.hpp
 iostream
 -
 string
@@ -219,10 +219,16 @@ pcl/segmentation/sac_segmentation.h
 -
 pcl/segmentation/extract_clusters.h
 -
+pcl/filters/project_inliers.h
+-
+pcl/surface/convex_hull.h
+-
+pcl_conversions/pcl_conversions.h
+-
 box.hpp
-/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
+/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/box.hpp
 
-/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/src/obstacle_detector_node.cpp
+/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/src/obstacle_detector_node.cpp
 ros/ros.h
 -
 ros/console.h
@@ -254,7 +260,7 @@ dynamic_reconfigure/server.h
 lidar_obstacle_detector/obstacle_detector_Config.h
 -
 lidar_obstacle_detector/obstacle_detector.hpp
-/home/ada/Desktop/Capstone/perception_ws/src/lidar_obstacle_detector/src/lidar_obstacle_detector/obstacle_detector.hpp
+/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/src/lidar_obstacle_detector/obstacle_detector.hpp
 
 /opt/ros/melodic/include/actionlib/action_definition.h
 
@@ -447,7 +453,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -463,7 +469,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -481,7 +487,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -501,7 +507,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -517,7 +523,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -555,7 +561,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -575,7 +581,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -595,7 +601,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -613,7 +619,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -637,7 +643,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -653,7 +659,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -669,7 +675,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -695,7 +701,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -719,7 +725,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -735,7 +741,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -753,7 +759,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -769,7 +775,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -785,7 +791,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -809,7 +815,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -827,7 +833,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -845,7 +851,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -889,7 +895,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -905,7 +911,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -921,7 +927,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -941,7 +947,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -959,7 +965,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -979,7 +985,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -999,7 +1005,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1019,7 +1025,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1037,7 +1043,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1057,7 +1063,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1073,7 +1079,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1093,7 +1099,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1113,7 +1119,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1133,7 +1139,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1153,7 +1159,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1173,7 +1179,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1189,7 +1195,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1209,7 +1215,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1229,7 +1235,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1249,7 +1255,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1271,7 +1277,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1359,7 +1365,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1377,7 +1383,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1395,7 +1401,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -1417,7 +1423,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2145,7 +2151,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2163,7 +2169,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2183,7 +2189,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2199,7 +2205,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2215,7 +2221,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2231,7 +2237,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2393,7 +2399,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2409,7 +2415,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -2425,7 +2431,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -4056,6 +4062,10 @@ pcl/pcl_macros.h
 pcl/filters/filter_indices.h
 -
 
+/usr/include/pcl-1.8/pcl/filters/impl/project_inliers.hpp
+pcl/filters/project_inliers.h
+-
+
 /usr/include/pcl-1.8/pcl/filters/impl/voxel_grid.hpp
 pcl/common/centroid.h
 -
@@ -4064,6 +4074,44 @@ pcl/common/common.h
 pcl/common/io.h
 -
 pcl/filters/voxel_grid.h
+-
+
+/usr/include/pcl-1.8/pcl/filters/project_inliers.h
+pcl/point_types.h
+-
+pcl/filters/filter.h
+-
+pcl/ModelCoefficients.h
+-
+pcl/sample_consensus/model_types.h
+-
+pcl/sample_consensus/sac_model.h
+-
+pcl/sample_consensus/sac_model_circle.h
+-
+pcl/sample_consensus/sac_model_cylinder.h
+-
+pcl/sample_consensus/sac_model_cone.h
+-
+pcl/sample_consensus/sac_model_line.h
+-
+pcl/sample_consensus/sac_model_normal_plane.h
+-
+pcl/sample_consensus/sac_model_normal_sphere.h
+-
+pcl/sample_consensus/sac_model_parallel_plane.h
+-
+pcl/sample_consensus/sac_model_normal_parallel_plane.h
+-
+pcl/sample_consensus/sac_model_parallel_line.h
+-
+pcl/sample_consensus/sac_model_perpendicular_plane.h
+-
+pcl/sample_consensus/sac_model_plane.h
+-
+pcl/sample_consensus/sac_model_sphere.h
+-
+pcl/filters/impl/project_inliers.hpp
 -
 
 /usr/include/pcl-1.8/pcl/filters/voxel_grid.h
@@ -5028,6 +5076,106 @@ pcl/sample_consensus/sac_model.h
 pcl/search/search.h
 -
 pcl/segmentation/impl/sac_segmentation.hpp
+-
+
+/usr/include/pcl-1.8/pcl/surface/boost.h
+boost/bind.hpp
+-
+boost/function.hpp
+-
+boost/random.hpp
+-
+boost/unordered_map.hpp
+-
+boost/dynamic_bitset/dynamic_bitset.hpp
+-
+boost/shared_ptr.hpp
+-
+
+/usr/include/pcl-1.8/pcl/surface/convex_hull.h
+pcl/pcl_config.h
+-
+pcl/surface/reconstruction.h
+-
+pcl/ModelCoefficients.h
+-
+pcl/PolygonMesh.h
+-
+pcl/surface/impl/convex_hull.hpp
+-
+
+/usr/include/pcl-1.8/pcl/surface/impl/convex_hull.hpp
+pcl/pcl_config.h
+-
+pcl/surface/convex_hull.h
+-
+pcl/common/common.h
+-
+pcl/common/eigen.h
+-
+pcl/common/transforms.h
+-
+pcl/common/io.h
+-
+stdio.h
+-
+stdlib.h
+-
+pcl/surface/qhull.h
+-
+
+/usr/include/pcl-1.8/pcl/surface/impl/reconstruction.hpp
+pcl/search/pcl_search.h
+-
+
+/usr/include/pcl-1.8/pcl/surface/qhull.h
+pcl/pcl_config.h
+-
+libqhull/libqhull.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/libqhull.h
+libqhull/mem.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/mem.h
+libqhull/qset.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/qset.h
+libqhull/geom.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/geom.h
+libqhull/merge.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/merge.h
+libqhull/poly.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/poly.h
+libqhull/io.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/io.h
+libqhull/stat.h
+/usr/include/pcl-1.8/pcl/surface/libqhull/stat.h
+qhull/qhull.h
+/usr/include/pcl-1.8/pcl/surface/qhull/qhull.h
+qhull/mem.h
+/usr/include/pcl-1.8/pcl/surface/qhull/mem.h
+qhull/qset.h
+/usr/include/pcl-1.8/pcl/surface/qhull/qset.h
+qhull/geom.h
+/usr/include/pcl-1.8/pcl/surface/qhull/geom.h
+qhull/merge.h
+/usr/include/pcl-1.8/pcl/surface/qhull/merge.h
+qhull/poly.h
+/usr/include/pcl-1.8/pcl/surface/qhull/poly.h
+qhull/io.h
+/usr/include/pcl-1.8/pcl/surface/qhull/io.h
+qhull/stat.h
+/usr/include/pcl-1.8/pcl/surface/qhull/stat.h
+
+/usr/include/pcl-1.8/pcl/surface/reconstruction.h
+pcl/pcl_base.h
+-
+pcl/PolygonMesh.h
+-
+pcl/search/pcl_search.h
+-
+pcl/conversions.h
+-
+pcl/surface/boost.h
+-
+pcl/surface/impl/reconstruction.hpp
 -
 
 /usr/include/x86_64-linux-gnu/bits/mman-linux.h

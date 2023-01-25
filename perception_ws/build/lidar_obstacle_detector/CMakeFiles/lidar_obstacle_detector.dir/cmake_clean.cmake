@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/liblidar_obstacle_detector.pdb"
-  "/home/ada/Desktop/Capstone/perception_ws/devel/lib/liblidar_obstacle_detector.so"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/liblidar_obstacle_detector.pdb"
+  "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/liblidar_obstacle_detector.so"
 )
 
 # Per-language clean rules from dependency scanning.

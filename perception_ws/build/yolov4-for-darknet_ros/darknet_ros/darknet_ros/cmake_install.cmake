@@ -1,8 +1,8 @@
-# Install script for directory: /home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros
+# Install script for directory: /home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ada/Desktop/Capstone/perception_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nancy/lidar_camera_fusion/perception_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros/cmake" TYPE FILE FILES
-    "/home/ada/Desktop/Capstone/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_rosConfig.cmake"
-    "/home/ada/Desktop/Capstone/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_rosConfig-version.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_rosConfig.cmake"
+    "/home/nancy/lidar_camera_fusion/perception_ws/build/yolov4-for-darknet_ros/darknet_ros/darknet_ros/catkin_generated/installspace/darknet_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE FILE FILES "/home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE FILE FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/libdarknet_ros_lib.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/libdarknet_ros_lib.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so")
     file(RPATH_CHANGE
@@ -79,12 +79,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/darknet_ros" TYPE EXECUTABLE FILES "/home/ada/Desktop/Capstone/perception_ws/devel/lib/darknet_ros/darknet_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/darknet_ros" TYPE EXECUTABLE FILES "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib/darknet_ros/darknet_ros")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros"
-         OLD_RPATH "/home/ada/Desktop/Capstone/perception_ws/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/nancy/lidar_camera_fusion/perception_ws/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros")
@@ -93,14 +93,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/darknet_ros" TYPE DIRECTORY FILES "/home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/darknet_ros" TYPE DIRECTORY FILES "/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE DIRECTORY FILES
-    "/home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/config"
-    "/home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/launch"
-    "/home/ada/Desktop/Capstone/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/yolo_network_config"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/config"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/launch"
+    "/home/nancy/lidar_camera_fusion/perception_ws/src/yolov4-for-darknet_ros/darknet_ros/darknet_ros/yolo_network_config"
     )
 endif()
 
