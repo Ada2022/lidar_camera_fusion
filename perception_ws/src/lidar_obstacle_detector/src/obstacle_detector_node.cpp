@@ -19,6 +19,7 @@
 #include <jsk_recognition_msgs/BoundingBox.h>
 #include <jsk_recognition_msgs/BoundingBoxArray.h>
 #include <autoware_msgs/DetectedObjectArray.h>
+#include <visualization_msgs/MarkerArray.h>
 
 #include <pcl_ros/point_cloud.h>
 #include <pcl_conversions/pcl_conversions.h>
@@ -71,6 +72,7 @@ namespace lidar_obstacle_detector
     ros::Publisher pub_jsk_bboxes;
     ros::Publisher pub_autoware_objects;
     ros::Publisher pub_convex_hull;
+    ros::Publisher pub_convex_markers;
     
 
     //void lidarPointsCallback(const sensor_msgs::PointCloud2::ConstPtr &lidar_points);
@@ -78,6 +80,7 @@ namespace lidar_obstacle_detector
     void publishClouds(const std::pair<pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr> &&segmented_clouds, const std_msgs::Header &header);
     jsk_recognition_msgs::BoundingBox transformJskBbox(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
     // autoware_msgs::DetectedObject transformAutowareObject(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed);
+    visualization_msgs::MarkerArray getPolyMarkers(pcl::PointCloud<pcl::PointXYZ>::Ptr &&cloud, size_t i, float min_z, float max_z);
     void publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header);   
     void publishConvexHulls(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header);
 
@@ -116,6 +119,7 @@ namespace lidar_obstacle_detector
     std::string jsk_bboxes_topic;
     std::string autoware_objects_topic;
     std::string convex_hull_topic;
+    std::string convex_marker_topic;
 
 
     // ROS_ASSERT(private_nh.getParam("lidar_points_topic", lidar_points_topic));
@@ -131,6 +135,8 @@ namespace lidar_obstacle_detector
     private_nh.getParam("autoware_objects_topic", autoware_objects_topic);
     private_nh.getParam("bbox_target_frame", bbox_target_frame_);
     private_nh.getParam("convex_hull_topic", convex_hull_topic );
+    private_nh.getParam("convex_marker_topic", convex_marker_topic );
+    
 
 
     lidar_server_.start(); 
@@ -140,6 +146,8 @@ namespace lidar_obstacle_detector
     pub_jsk_bboxes = nh.advertise<jsk_recognition_msgs::BoundingBoxArray>(jsk_bboxes_topic, 1);
     pub_autoware_objects = nh.advertise<autoware_msgs::DetectedObjectArray>(autoware_objects_topic, 1);
     pub_convex_hull = nh.advertise<sensor_msgs::PointCloud2>(convex_hull_topic, 1);
+    pub_convex_markers = nh.advertise<visualization_msgs::MarkerArray>(convex_marker_topic, 1);
+
  
    
     // Dynamic Parameter Server & Function
@@ -210,13 +218,18 @@ namespace lidar_obstacle_detector
   void ObstacleDetectorNode::publishConvexHulls(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header)
   {
       pcl::PointCloud<pcl::PointXYZ>::Ptr hulls(new pcl::PointCloud<pcl::PointXYZ>);
+      visualization_msgs::MarkerArray marker_array;
       hulls->width = 0;
       sensor_msgs::PointCloud2::Ptr results(new sensor_msgs::PointCloud2);
       // std::cout << "function called" << std::endl;
-      for (int i = 0; i < convex_hulls.size(); i++)
+      size_t size = convex_hulls.size();
+      for (int i = 0; i < size; i++)
       { 
         *(hulls) += *(convex_hulls[i]);
         hulls->width = hulls->points.size();
+
+        visualization_msgs::MarkerArray markers = getPolyMarkers(std::move(convex_hulls[i]), size, -0.1, 0.1);
+        for (auto& marker : markers.markers) marker_array.markers.push_back(marker);
         // std::cout << hulls->width << std::endl;
       }
       hulls->height = 1;
@@ -225,10 +238,53 @@ namespace lidar_obstacle_detector
       results->header = header;
 
       pub_convex_hull.publish(std::move(results));
+      pub_convex_markers.publish(marker_array);
 
   }
 
+  visualization_msgs::MarkerArray ObstacleDetectorNode::getPolyMarkers(pcl::PointCloud<pcl::PointXYZ>::Ptr &&cloud, size_t i, float min_z, float max_z) {
+    visualization_msgs::MarkerArray polygon;
+    visualization_msgs::Marker marker_top;
+    marker_top.header = pcl_conversions::fromPCL(cloud->header);
+    marker_top.header.frame_id = bbox_source_frame_;
+    // sensor_msgs::PointCloud2::Ptr results(new sensor_msgs::PointCloud2);
+    // pcl::toROSMsg(*cloud, *results);
+    // marker_top.header = results->header;
+    marker_top.type = visualization_msgs::Marker::LINE_STRIP;
+    marker_top.action = visualization_msgs::Marker::ADD;
+    marker_top.ns = "polytopes_" + std::to_string(i);
+    marker_top.pose.orientation.w = 1.;
+    marker_top.id = 0;
+    marker_top.scale.x = 0.01;
+    marker_top.color.r = 0.8;
+    marker_top.color.a = 1.0;
+    marker_top.lifetime = ros::Duration(1.0);
+    visualization_msgs::Marker marker_bottom = marker_top;
+    marker_bottom.id = 1;
+    visualization_msgs::Marker marker_middle = marker_top;
+    marker_middle.id = 2;
+    marker_middle.type = visualization_msgs::Marker::LINE_LIST;
 
+    for (auto& p : cloud->points) {
+      geometry_msgs::Point point;
+      point.x = p.x;
+      point.y = p.y;
+      point.z = max_z;
+      marker_top.points.push_back(point);
+      marker_middle.points.push_back(point);
+      point.z = min_z;
+      marker_bottom.points.push_back(point);
+      marker_middle.points.push_back(point);
+    }
+    marker_top.points.emplace_back(marker_top.points.front());
+    marker_bottom.points.emplace_back(marker_bottom.points.front());
+    polygon.markers.push_back(marker_top);
+    polygon.markers.push_back(marker_bottom);
+    polygon.markers.push_back(marker_middle);
+
+    return polygon;
+  }
+ 
   jsk_recognition_msgs::BoundingBox ObstacleDetectorNode::transformJskBbox(const Box &box, const std_msgs::Header &header, const geometry_msgs::Pose &pose_transformed)
   {
     jsk_recognition_msgs::BoundingBox jsk_bbox;

@@ -1,5 +1,7 @@
 # ignore all .a files
 *.bag
 
-./build
-./devel
+build
+devel
+*.vscode
+*.weight

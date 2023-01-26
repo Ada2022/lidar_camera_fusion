@@ -10,6 +10,7 @@ Panels:
         - /BoundingBoxArray1
         - /Axes1
         - /ConvexHulls1
+        - /MarkerArray1
       Splitter Ratio: 0.5
     Tree Height: 259
   - Class: rviz/Selection
@@ -191,7 +192,7 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: Intensity
       Decay Time: 0
-      Enabled: true
+      Enabled: false
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
@@ -206,6 +207,30 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
+      Value: false
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /obstacle_detector/convex_marker
+      Name: MarkerArray
+      Namespaces:
+        polytopes_20: true
+        polytopes_21: true
+        polytopes_22: true
+        polytopes_23: true
+        polytopes_24: true
+        polytopes_25: true
+        polytopes_26: true
+        polytopes_27: true
+        polytopes_28: true
+        polytopes_29: true
+        polytopes_30: true
+        polytopes_31: true
+        polytopes_32: true
+        polytopes_33: true
+        polytopes_34: true
+        polytopes_35: true
+        polytopes_36: true
+      Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
@@ -235,7 +260,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 22.491477966308594
+      Distance: 49.72149658203125
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -250,10 +275,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.1597963571548462
+      Pitch: 1.2197961807250977
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.435451507568359
+      Yaw: 4.2854509353637695
     Saved: ~
 Window Geometry:
   Displays:

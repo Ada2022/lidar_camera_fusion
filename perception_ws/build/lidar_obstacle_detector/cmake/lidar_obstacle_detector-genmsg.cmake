@@ -2,7 +2,7 @@
 
 message(STATUS "lidar_obstacle_detector: 12 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg;-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/src/lidar_obstacle_detector/msg;-Ilidar_obstacle_detector:/home/nancy/lidar_camera_fusion/perception_ws/devel/share/lidar_obstacle_detector/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Ivisualization_msgs:/opt/ros/melodic/share/visualization_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -707,6 +707,9 @@ endif()
 if(TARGET geometry_msgs_generate_messages_cpp)
   add_dependencies(lidar_obstacle_detector_generate_messages_cpp geometry_msgs_generate_messages_cpp)
 endif()
+if(TARGET visualization_msgs_generate_messages_cpp)
+  add_dependencies(lidar_obstacle_detector_generate_messages_cpp visualization_msgs_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lidar_obstacle_detector)
   # install generated code
@@ -726,6 +729,9 @@ if(TARGET sensor_msgs_generate_messages_eus)
 endif()
 if(TARGET geometry_msgs_generate_messages_eus)
   add_dependencies(lidar_obstacle_detector_generate_messages_eus geometry_msgs_generate_messages_eus)
+endif()
+if(TARGET visualization_msgs_generate_messages_eus)
+  add_dependencies(lidar_obstacle_detector_generate_messages_eus visualization_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lidar_obstacle_detector)
@@ -747,6 +753,9 @@ endif()
 if(TARGET geometry_msgs_generate_messages_lisp)
   add_dependencies(lidar_obstacle_detector_generate_messages_lisp geometry_msgs_generate_messages_lisp)
 endif()
+if(TARGET visualization_msgs_generate_messages_lisp)
+  add_dependencies(lidar_obstacle_detector_generate_messages_lisp visualization_msgs_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lidar_obstacle_detector)
   # install generated code
@@ -766,6 +775,9 @@ if(TARGET sensor_msgs_generate_messages_nodejs)
 endif()
 if(TARGET geometry_msgs_generate_messages_nodejs)
   add_dependencies(lidar_obstacle_detector_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
+endif()
+if(TARGET visualization_msgs_generate_messages_nodejs)
+  add_dependencies(lidar_obstacle_detector_generate_messages_nodejs visualization_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lidar_obstacle_detector)
@@ -787,4 +799,7 @@ if(TARGET sensor_msgs_generate_messages_py)
 endif()
 if(TARGET geometry_msgs_generate_messages_py)
   add_dependencies(lidar_obstacle_detector_generate_messages_py geometry_msgs_generate_messages_py)
+endif()
+if(TARGET visualization_msgs_generate_messages_py)
+  add_dependencies(lidar_obstacle_detector_generate_messages_py visualization_msgs_generate_messages_py)
 endif()
