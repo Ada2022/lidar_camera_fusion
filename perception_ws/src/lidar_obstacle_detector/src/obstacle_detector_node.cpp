@@ -83,6 +83,7 @@ namespace lidar_obstacle_detector
     visualization_msgs::MarkerArray getPolyMarkers(pcl::PointCloud<pcl::PointXYZ>::Ptr &&cloud, size_t i, float min_z, float max_z);
     void publishDetectedObjects(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&cloud_clusters, const std_msgs::Header &header);   
     void publishConvexHulls(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header);
+    void publishConvexHullsAndMarkers(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&clusters, std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header);
 
   };
 
@@ -188,12 +189,15 @@ namespace lidar_obstacle_detector
     auto convex_hulls = obstacle_detector->hull(cloud_clusters);
 
     
+    
     // Publish ground cloud and obstacle cloud
     publishClouds(std::move(segmented_clouds), pointcloud_header);
     // Publish Obstacles
     publishDetectedObjects(std::move(cloud_clusters), pointcloud_header);
     // Publish Convex Hull
-    publishConvexHulls(std::move(convex_hulls), pointcloud_header);
+    //publishConvexHulls(std::move(convex_hulls), pointcloud_header);
+    publishConvexHullsAndMarkers(std::move(cloud_clusters), std::move(convex_hulls), pointcloud_header);
+
 
     // Time the whole process
     const auto end_time = std::chrono::steady_clock::now();
@@ -232,6 +236,7 @@ namespace lidar_obstacle_detector
         for (auto& marker : markers.markers) marker_array.markers.push_back(marker);
         // std::cout << hulls->width << std::endl;
       }
+
       hulls->height = 1;
       hulls->is_dense = true;
       pcl::toROSMsg(*hulls, *results);
@@ -241,6 +246,42 @@ namespace lidar_obstacle_detector
       pub_convex_markers.publish(marker_array);
 
   }
+
+  void ObstacleDetectorNode::publishConvexHullsAndMarkers(std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&clusters, std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> &&convex_hulls, const std_msgs::Header &header)
+  {
+      pcl::PointCloud<pcl::PointXYZ>::Ptr hulls(new pcl::PointCloud<pcl::PointXYZ>);
+      visualization_msgs::MarkerArray marker_array;
+      hulls->width = 0;
+      sensor_msgs::PointCloud2::Ptr results(new sensor_msgs::PointCloud2);
+      // std::cout << "function called" << std::endl;
+      size_t size = convex_hulls.size();
+      for (int i = 0; i < size; i++)
+      { 
+        *(hulls) += *(convex_hulls[i]);
+        hulls->width = hulls->points.size();
+
+
+        float min_z{std::numeric_limits<float>::max()};
+        float max_z{std::numeric_limits<float>::lowest()};
+        for (auto& point : clusters[i]->points) 
+        {
+          min_z = std::min(min_z, point.z);
+          max_z = std::max(max_z, point.z);
+        }
+        visualization_msgs::MarkerArray markers = getPolyMarkers(std::move(convex_hulls[i]), i, min_z, max_z);
+
+        for (auto& marker : markers.markers) marker_array.markers.push_back(marker);
+        // std::cout << hulls->width << std::endl;
+      }
+
+      hulls->height = 1;
+      hulls->is_dense = true;
+      pcl::toROSMsg(*hulls, *results);
+      results->header = header;
+
+      pub_convex_hull.publish(std::move(results));
+      pub_convex_markers.publish(marker_array);
+  } 
 
   visualization_msgs::MarkerArray ObstacleDetectorNode::getPolyMarkers(pcl::PointCloud<pcl::PointXYZ>::Ptr &&cloud, size_t i, float min_z, float max_z) {
     visualization_msgs::MarkerArray polygon;

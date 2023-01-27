@@ -51,6 +51,8 @@ namespace lidar_obstacle_detector
 
     std::vector<typename pcl::PointCloud<PointT>::Ptr> hull(std::vector<typename pcl::PointCloud<PointT>::Ptr> &clusters);
 
+    // typename pcl::PointCloud<PointT>::Ptr ObstacleDetector<PointT>::hull_and_marker(typename pcl::PointCloud<PointT>::Ptr &cluster);
+
     Box axisAlignedBoundingBox(const typename pcl::PointCloud<PointT>::ConstPtr &cluster, const int id);
 
     Box pcaBoundingBox(typename pcl::PointCloud<PointT>::Ptr &cluster, const int id);
@@ -265,6 +267,35 @@ namespace lidar_obstacle_detector
 
     return convex_hulls;
   }
+
+  // template <typename PointT>
+  // typename pcl::PointCloud<PointT>::Ptr ObstacleDetector<PointT>::hull_and_marker(typename pcl::PointCloud<PointT>::Ptr &cluster)
+  // {
+  //   pcl::ModelCoefficients::Ptr pcl_model(new pcl::ModelCoefficients()); //Note: Norm vector of surface,used to define a plane
+  //   pcl_model->values.resize(4);
+  //   pcl_model->values[0] = pcl_model->values[1] = 0;
+  //   pcl_model->values[2] = 1.0;
+  //   pcl_model->values[3] = 0;
+
+  //   pcl::ConvexHull<pcl::PointXYZ> hull_;
+  //   pcl::ProjectInliers<pcl::PointXYZ> proj;
+
+  //   pcl::PointCloud<pcl::PointXYZ>::Ptr proj_cloud(new pcl::PointCloud<PointT>);
+  //   proj.setModelCoefficients(pcl_model);
+  //   proj.setInputCloud(cluster);
+  //   proj.filter(*proj_cloud);
+    
+  //   // doing convex hull
+  //   typename pcl::PointCloud<PointT>::Ptr output_poly(new pcl::PointCloud<PointT>);
+  //   hull_.setInputCloud(proj_cloud);
+  //   hull_.reconstruct(*output_poly);
+
+  //   output_poly->width = output_poly->points.size();
+  //   output_poly->height = 1;
+  //   output_poly->is_dense = true;
+
+  //   return output_poly;
+  // }
 
   template <typename PointT>
   Box ObstacleDetector<PointT>::axisAlignedBoundingBox(const typename pcl::PointCloud<PointT>::ConstPtr &cluster, const int id)
