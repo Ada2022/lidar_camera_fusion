@@ -228,7 +228,7 @@ namespace lidar_obstacle_detector
         *(hulls) += *(convex_hulls[i]);
         hulls->width = hulls->points.size();
 
-        visualization_msgs::MarkerArray markers = getPolyMarkers(std::move(convex_hulls[i]), size, -0.1, 0.1);
+        visualization_msgs::MarkerArray markers = getPolyMarkers(std::move(convex_hulls[i]), i, -0.1, 0.1);
         for (auto& marker : markers.markers) marker_array.markers.push_back(marker);
         // std::cout << hulls->width << std::endl;
       }
@@ -258,7 +258,7 @@ namespace lidar_obstacle_detector
     marker_top.scale.x = 0.01;
     marker_top.color.r = 0.8;
     marker_top.color.a = 1.0;
-    marker_top.lifetime = ros::Duration(1.0);
+    marker_top.lifetime = ros::Duration(0.5);
     visualization_msgs::Marker marker_bottom = marker_top;
     marker_bottom.id = 1;
     visualization_msgs::Marker marker_middle = marker_top;
