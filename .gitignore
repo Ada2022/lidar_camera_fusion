@@ -8,9 +8,4 @@ devel/**/*
 
 *.vscode
 *.weight
-*.o
-*.cmake
-*.make
-*.internal
-*.pre-gen
-*.so
+
