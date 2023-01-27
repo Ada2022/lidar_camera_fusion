@@ -2,7 +2,7 @@
 
 namespace ouster {
 
-const char* const BUILD_HASH = "aac3e54-dirty";
+const char* const BUILD_HASH = "9d19907-dirty";
 
 const char* const BUILD_TYPE = "release";
 
@@ -12,6 +12,6 @@ const char* const SDK_VERSION =
     "0.5.2";
 
 const char* const SDK_VERSION_FULL =
-    "0.5.2+aac3e54-dirty-release";
+    "0.5.2+9d19907-dirty-release";
 
 }

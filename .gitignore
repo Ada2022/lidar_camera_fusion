@@ -1,7 +1,15 @@
 # ignore all .a files
 *.bag
 
-build
-devel
+build/*
+build/**/*
+devel/*
+devel/**/*
 *.vscode
 *.weight
+*.o
+*.cmake
+*.make
+*.internal
+*.pre-gen
+*.so
