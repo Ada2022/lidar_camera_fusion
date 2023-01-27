@@ -5,6 +5,7 @@ build/*
 build/**/*
 devel/*
 devel/**/*
+
 *.vscode
 *.weight
 *.o
