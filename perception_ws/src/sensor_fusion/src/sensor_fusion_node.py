@@ -40,12 +40,12 @@ TF_LISTENER = None
 CAMERA_MODEL = image_geometry.PinholeCameraModel()
 CV_BRIDGE = CvBridge()
 last_time = 0
-
+record_index = 0
 
 def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
     # plt.clf() 
 
-    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time
+    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, record_index
     rospy.loginfo('arrive at sensorfusion callback')
 
     # initialization
@@ -97,7 +97,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         point7 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z - res.dimension.z / 2]
         point8 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z + res.dimension.z / 2]
         points = [point1, point2, point3, point4, point5, point6, point7, point8]
-        raw_lidar_points.append([point4, point5])
+        
 
         # print("check point", points)
         
@@ -137,6 +137,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
 
         
         lidar_bboxes_M.append([x1, y1, x2, y2])
+        raw_lidar_points.append([point4, point5])
         x_pts.append(res.position.x)
         y_pts.append(res.position.y)
 
@@ -186,6 +187,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     x_pts = [-x_pts[idx] for idx in selected_lidar_idx]
     y_pts = [-y_pts[idx] for idx in selected_lidar_idx]
 
+
     # print(x_pts, y_pts)
     # plt.ion()
     # plt.clf()
@@ -202,7 +204,6 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     # plt.pause(0.0000001)
 
 
-
     for  n, m in matchings_m_n:
         if m == -1:
             continue
@@ -212,8 +213,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         cv2.putText(img, object_class, (lidar_x1, lidar_y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0,0,255), 2)
 
     res = []
-    time_stamp = time.time()
-    res.append((time_stamp))
+
     for  n, m in matchings_m_n:
         if m == -1:
             continue
@@ -222,21 +222,18 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         down_right = lidar_raw[1]
         position = [(up_left[0] + down_right[0]) / 2, (up_left[1] + down_right[1]) / 2 , (up_left[2] + down_right[2]) / 2]
         object_class = yolo_bboxes_N_labels[n]
-        res.append((object_class, position[0], position[1], position[2]))
-
+        res.append([record_index, object_class, position[0], position[1], position[2]])
+    record_index += 1
 
     if not os.path.exists("/home/nancy/Desktop/test.csv"):
         with open('/home/nancy/Desktop/test.csv', 'w') as f: 
             writer=csv.writer(f)
             writer.writerow(["Time", "class", "x", "y", "z"])
-            print("reate")
+            print("create csv")
     with open('/home/nancy/Desktop/test.csv', 'a+') as f:
         writer=csv.writer(f)
         for data in res:
-            if isinstance(data, float): 
-                t = str(data)[-11:]
-                continue
-            writer.writerow([t, data[0], data[1], data[2], data[3]])
+            writer.writerow(data)
 
     
     print(res)
