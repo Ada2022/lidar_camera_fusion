@@ -1,0 +1,8 @@
+prefix=/home/nancy/lidar_camera_fusion/perception_ws/install
+
+Name: lidar_obstacle_detector
+Description: Description of lidar_obstacle_detector
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llidar_obstacle_detector
+Requires: roscpp rospy std_msgs pcl_ros tf2_ros tf2_geometry_msgs dynamic_reconfigure autoware_msgs jsk_recognition_msgs actionlib_msgs visualization_msgs

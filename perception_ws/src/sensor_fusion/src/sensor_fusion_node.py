@@ -6,6 +6,11 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
+import xlwt,xlrd
+from xlutils.copy import copy
+import csv
+import os
+
 # import ros pkg
 import rospy
 import tf2_ros
@@ -73,16 +78,14 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     lidar_client.wait_for_result()
     lidar_bboxes = lidar_client.get_result()
 
-    # print("yolo res", yolo_bboxes)
-    # print("lidar res", lidar_bboxes)
-    print("FPS", 1 / (time.time() - last_time))
+    # print("Message Received FPS", 1 / (time.time() - last_time))
     last_time = time.time()
 
     # parse lidar_bboxes to 8 points each
     lidar_bboxes_points = []
     img = CV_BRIDGE.imgmsg_to_cv2(image, 'bgr8')
     lidar_bboxes_M = [] # list of shape (M, 4) --> list of M candidates of [x1, y1, x2, y2] from LIDAR object detection
-
+    raw_lidar_points = []
     x_pts, y_pts = [], []
     for res in lidar_bboxes.lidar_bboxes:
         point1 = [res.position.x + res.dimension.x / 2, res.position.y - res.dimension.y / 2, res.position.z - res.dimension.z / 2]
@@ -94,6 +97,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         point7 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z - res.dimension.z / 2]
         point8 = [res.position.x - res.dimension.x / 2, res.position.y + res.dimension.y / 2, res.position.z + res.dimension.z / 2]
         points = [point1, point2, point3, point4, point5, point6, point7, point8]
+        raw_lidar_points.append([point4, point5])
 
         # print("check point", points)
         
@@ -130,21 +134,25 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
             cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (0,255,0))
         '''end test:It seems that this method can better emcompass the objects(green boxes)'''
 
+
+        
         lidar_bboxes_M.append([x1, y1, x2, y2])
         x_pts.append(res.position.x)
         y_pts.append(res.position.y)
+
+        
 
     ### PARSE YOLO INPUT ---> TODO: ultimately need to create list of size (N, 4) --> list of [x1, y1, x2, y2]
     yolo_bboxes_N = [] # list of shape (N, 4) --> list of N candidates of [x1, y1, x2, y2] from YOLO camera object detection
     yolo_bboxes_N_labels = [] # the corresponding labels for the N candidates
 
-    print("yolo boxes:", yolo_bboxes.bounding_boxes.bounding_boxes)
+    # print("yolo boxes:", yolo_bboxes.bounding_boxes.bounding_boxes)
     if not yolo_bboxes.bounding_boxes.bounding_boxes:
         return
 
     for  res in yolo_bboxes.bounding_boxes.bounding_boxes:
-        print(type(res))
-        print(res)
+        # print(type(res))
+        # print(res)
         yolo_bboxes_N_labels.append(res.Class)
         yolo_point=[res.xmin, res.ymin, res.xmax, res.ymax]
         yolo_bboxes_N.append(yolo_point)
@@ -203,13 +211,49 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         cv2.rectangle(img, (lidar_x1, lidar_y1), (lidar_x2, lidar_y2), (0,0,255), thickness=10)
         cv2.putText(img, object_class, (lidar_x1, lidar_y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0,0,255), 2)
 
+    res = []
+    time_stamp = time.time()
+    res.append((time_stamp))
+    for  n, m in matchings_m_n:
+        if m == -1:
+            continue
+        lidar_raw = raw_lidar_points[m]
+        up_left = lidar_raw[0]
+        down_right = lidar_raw[1]
+        position = [(up_left[0] + down_right[0]) / 2, (up_left[1] + down_right[1]) / 2 , (up_left[2] + down_right[2]) / 2]
+        object_class = yolo_bboxes_N_labels[n]
+        res.append((object_class, position[0], position[1], position[2]))
+
+
+    if not os.path.exists("/home/nancy/Desktop/test.csv"):
+        with open('/home/nancy/Desktop/test.csv', 'w') as f: 
+            writer=csv.writer(f)
+            writer.writerow(["Time", "class", "x", "y", "z"])
+            print("reate")
+    with open('/home/nancy/Desktop/test.csv', 'a+') as f:
+        writer=csv.writer(f)
+        for data in res:
+            if isinstance(data, float): 
+                t = str(data)[-11:]
+                continue
+            writer.writerow([t, data[0], data[1], data[2], data[3]])
+
+    
+    print(res)
+
+
+
     ### DONE: matchings_m_n has shape (N, 2) --> each row corresponds to a YOLO bbox detected, and contains [n, m] pair for best matching LIDAR bbox at index "m"
 
     ### NEXT STEPS: go through the list "matchings_m_n", extract 3D info on shape/location for each LIDAR box, and correspond it to label from YOLO box
-
+    
     cv2.imshow('lidar result', img)
     cv2.waitKey(1)
+    
 
+    time_process_finish = time.time()
+    # print("Process fps: ", 1/(time_process_finish - last_time))
+    last_time = time.time()
 
 
         
