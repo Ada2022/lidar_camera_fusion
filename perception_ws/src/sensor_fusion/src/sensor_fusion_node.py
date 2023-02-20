@@ -6,8 +6,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-import xlwt,xlrd
-from xlutils.copy import copy
+from pykalman import KalmanFilter
 import csv
 import os
 
@@ -33,6 +32,11 @@ from sensor_fusion.msg import fusion2lidarAction, fusion2lidarGoal
 # message type with lidar
 from sensor_fusion.msg import Obstacle, Obstacles
 
+from pykalman import KalmanFilter
+
+
+
+
 
 FIRST_TIME = True
 TF_BUFFER = None
@@ -42,10 +46,34 @@ CV_BRIDGE = CvBridge()
 last_time = 0
 record_index = 0
 
+pier_ekf = None
+pier_mean = None
+pier_covariance = None
+
+def kalman_filter_init():
+
+    transition_matrix = np.array([[1, 0], [0, 1]])
+    observation_matrix = np.array([[1, 0], [0, 1]])
+    initial_state_mean = np.array([[0, 0], [0, 0]])
+    initial_state_covariance = np.array([[0.1, 0], [0, 0.1]])
+    transition_covariance = np.array([[0.1, 0], [0, 0.1]])
+    observation_covariance = np.array([[0.3, 0], [0, 0.3]])
+
+    kf = KalmanFilter(transition_matrices=transition_matrix,
+                      observation_matrices=observation_matrix,
+                      initial_state_mean=initial_state_mean,
+                      initial_state_covariance=initial_state_covariance,
+                      transition_covariance=transition_covariance,
+                      observation_covariance=observation_covariance)
+    
+    return kf
+    
+
+
 def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
     # plt.clf() 
 
-    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, record_index
+    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, record_index, pier_ekf, pier_mean, pier_covariance
     rospy.loginfo('arrive at sensorfusion callback')
 
     # initialization
@@ -214,6 +242,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
 
     res = []
 
+    ### obtain objects' coordinate in lidar coordinate system
     for  n, m in matchings_m_n:
         if m == -1:
             continue
@@ -225,18 +254,43 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         res.append([record_index, object_class, position[0], position[1], position[2]])
     record_index += 1
 
-    if not os.path.exists("/home/nancy/Desktop/test.csv"):
-        with open('/home/nancy/Desktop/test.csv', 'w') as f: 
-            writer=csv.writer(f)
-            writer.writerow(["Time", "class", "x", "y", "z"])
-            print("create csv")
-    with open('/home/nancy/Desktop/test.csv', 'a+') as f:
-        writer=csv.writer(f)
-        for data in res:
-            writer.writerow(data)
+    ## state estimation for pier
+    for _, object_class, x, y, z in res:
+        if object_class == 'pier': 
+            position = np.array([x,y])
+            if pier_mean is None: 
+                pier_ekf = kalman_filter_init()
+                pier_mean = position
+                pier_covariance = pier_ekf.observation_covariance
+                continue
+            pier_mean, pier_covariance = pier_ekf.filter_update(
+                pier_mean, pier_covariance, position)
+
+    # if not os.path.exists("/home/nancy/Desktop/test_single.csv"):
+    #     with open('/home/nancy/Desktop/test.csv', 'w') as f: 
+    #         writer=csv.writer(f)
+    #         writer.writerow(["Time", "class", "x", "y", "z","est_x", "est_y"])
+    #         print("create csv")
+    # with open('/home/nancy/Desktop/test_single.csv', 'a+') as f:
+    #     writer=csv.writer(f)
+    #     for i, object_class, x, y, z in res:
+    #         if object_class == 'pier':
+    #             writer.writerow([i, object_class, x, y, z, pier_mean[0], pier_mean[1]])
+                
+
+    #### record data
+    # if not os.path.exists("/home/nancy/Desktop/test.csv"):
+    #     with open('/home/nancy/Desktop/test.csv', 'w') as f: 
+    #         writer=csv.writer(f)
+    #         writer.writerow(["Time", "class", "x", "y", "z"])
+    #         print("create csv")
+    # with open('/home/nancy/Desktop/test.csv', 'a+') as f:
+    #     writer=csv.writer(f)
+    #     for data in res:
+    #         writer.writerow(data)
 
     
-    print(res)
+    # print(res)
 
 
 
@@ -253,28 +307,6 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     last_time = time.time()
 
 
-        
-    # transform lidar_bboxes_points from lidar frame to camera frame
-    # try:
-    #     transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
-
-    #     #print(transform)
-    #     # lidar_bboxes_points = do_transform_cloud(
-    #     #     lidar_bboxes_points, transform)
-    # except tf2_ros.LookupException:
-    #     pass
-
-    # project lidar_bboxes_points from 3D to 2D
-    # lidar_bboxes_points_2D = [CAMERA_MODEL.project3dToPixel(
-    #     point) for point in lidar_bboxes_points]
-
-    # # campare lidar_bboxes_points_2D with yolo_bboxes and output idx
-    # idx = list()
-    # final_class = yolo_bboxes[idx]
-    # final_bboxes = lidar_bboxes[idx]
-    # final_res = [[final_class, final_bboxes]]
-
-    # print("finished!")
 
 
 def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxes, obstacle_meas):
