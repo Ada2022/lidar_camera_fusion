@@ -144,7 +144,6 @@ def update_track(tracked, cur, kf, use_km = False):
             tracked[row_idx[i]][1] = cov
             tracked[row_idx[i]][2] = ob_time
             tracked[row_idx[i]][3] = (pos - last_pos)/(ob_time - last_time) if ob_time != last_time else np.zeros(kf.initial_state_mean.shape)
-
     # del_idx.sort(reverse=True)
     # for i in del_idx:
     #     del tracked[i]
@@ -336,7 +335,8 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     res = []
 
     ### obtain objects' coordinate in lidar coordinate system
-    t = pcl_synced.point_cloud.header.stamp.secs
+    ros_duration_obj = pcl_synced.point_cloud.header.stamp
+    t = ros_duration_obj.secs + ros_duration_obj.nsecs * 10e-9
     print("t", t)
     for  n, m in matchings_m_n:
         if m == -1:
@@ -355,11 +355,11 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     for t, cls, x, y, w, h in res:
         pos = np.array([x, y, w, h])
         if cls == 'pier': 
-            cur_piers.append([t, pos])
-            r[:2] = [x +w/2, y +h/2]
-        else: 
+            cur_piers.append([0, pos])
+            r[:2] = [x - w/2, y - h/2]
+        elif cls == 'person': 
             cur_person.append([t, pos])
-            r[2:4] = [x +w/2, y +h/2]
+            r[2:4] = [x - w/2, y - h/2]
 
     if len(tracked_piers) == 0: 
         for t, p in cur_piers:
