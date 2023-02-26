@@ -143,7 +143,7 @@ def update_track(tracked, cur, kf, use_km = False):
             tracked[row_idx[i]][0] = pos
             tracked[row_idx[i]][1] = cov
             tracked[row_idx[i]][2] = ob_time
-            tracked[row_idx[i]][3] = (pos - last_pos)/(ob_time - last_time) if ob_time != last_time else np.zeros(kf.initial_state_mean.shape)
+            tracked[row_idx[i]][3] = 0.1 * (pos - last_pos)/(ob_time - last_time) if ob_time != last_time else np.zeros(kf.initial_state_mean.shape)
     # del_idx.sort(reverse=True)
     # for i in del_idx:
     #     del tracked[i]
