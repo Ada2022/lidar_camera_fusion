@@ -5,7 +5,8 @@
     <!--include file="$(find darknet_ros)/launch/yolo_v4.launch"></include-->
     <!-- Wire static transform from the world to velodyne frame -->
     <!-- Fill args below with estimated transform X Y Z Y P R -->
-    <arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag"/>
+    <!--arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag"/-->
+    <arg name="bagfile" default="back.bag"/>
     <node
         pkg="rosbag"
         type="play"

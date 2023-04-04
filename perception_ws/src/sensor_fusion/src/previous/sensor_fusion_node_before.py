@@ -8,7 +8,9 @@ import numpy as np
 # matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-import Tracker
+from pykalman import KalmanFilter
+# from munkres import Munkres
+from scipy.optimize import linear_sum_assignment
 
 import csv
 import os
@@ -35,6 +37,11 @@ from sensor_fusion.msg import fusion2lidarAction, fusion2lidarGoal
 # message type with lidar
 from sensor_fusion.msg import Obstacle, Obstacles
 
+from pykalman import KalmanFilter
+
+
+
+
 
 FIRST_TIME = True
 TF_BUFFER = None
@@ -43,12 +50,122 @@ CAMERA_MODEL = image_geometry.PinholeCameraModel()
 CV_BRIDGE = CvBridge()
 last_time = 0
 
-tracker = Tracker.Tracker()
 
 
+
+tracked_piers = []
+tracked_person = []
+vis_results = [[] for _ in range(8)]
+
+
+
+#### kalman filter init
+def kalman_filter_init(state_dim, initial_state_mean = None):
+    transition_matrix = np.eye(state_dim)
+    observation_matrix = np.eye(state_dim)
+    initial_state_mean = np.zeros(state_dim) #if not hasattr(initial_state_mean, type) else initial_state_mean
+    initial_state_covariance = 0.1 * np.eye(state_dim)
+    transition_covariance = 0.1 * np.eye(state_dim)
+    observation_covariance = 0.3 * np.eye(state_dim)
+
+    kf = KalmanFilter(transition_matrices=transition_matrix,
+                      observation_matrices=observation_matrix,
+                      initial_state_mean=initial_state_mean,
+                      initial_state_covariance=initial_state_covariance,
+                      transition_covariance=transition_covariance,
+                      observation_covariance=observation_covariance)
+    return kf
+
+pier_ekf = kalman_filter_init(4)
+person_ekf = kalman_filter_init(4)
+
+#### criterion for assignment
+def calculate_iou(tracked, predict):
+    match_nums = max(len(tracked), len(predict))
+    iou_matrix = np.zeros((match_nums, match_nums))
+
+    def compute_iou(rec1,rec2):
+        left_column_max  = max(rec1[0],rec2[0])
+        right_column_min = min(rec1[2],rec2[2])
+        up_row_max       = max(rec1[1],rec2[1])
+        down_row_min     = min(rec1[3],rec2[3])
+        if left_column_max>=right_column_min or down_row_min<=up_row_max:
+            return 0
+        else:
+            S1 = (rec1[2]-rec1[0])*(rec1[3]-rec1[1])
+            S2 = (rec2[2]-rec2[0])*(rec2[3]-rec2[1])
+            S_cross = (down_row_min-up_row_max)*(right_column_min-left_column_max)
+            return S_cross/(S1+S2-S_cross)
+
+    for i in range(len(tracked)):
+        pos_t = tracked[0][0] if len(tracked) == 1 else tracked[i][0]
+        for j in range(len(predict)):
+            pos_p = predict[0] if len(predict) == 1 else predict[j]
+            if len(pos_p) == 2: pos_p = pos_p[1]
+            iou_matrix[i][j] =  compute_iou(pos_t, pos_p)   
+
+    return iou_matrix
+
+def hugarian_algo(tracked, cur):
+    row_idx, col_idx = linear_sum_assignment(-calculate_iou(tracked, cur))
+    return row_idx, col_idx
+
+# def km_algo(tracked, cur):
+#     km_obj = Munkres()
+#     index = km_obj.compute(-calculate_iou(tracked, cur))
+#     row_idx = []
+#     col_idx = []
+#     for r, c in index:
+#         row_idx.append(r)
+#         col_idx.append(c)
+#     return row_idx, col_idx
+
+def update_track(tracked, cur, kf, use_km = False):
+    '''
+    tracked: List of [x, y, w, h]
+    '''
+    # if use_km:
+    #     row_idx, col_idx = km_algo(tracked, cur)    
+    # else:
+    #     row_idx, col_idx = hugarian_algo(tracked, cur)
+    row_idx, col_idx = hugarian_algo(tracked, cur)
+
+    del_idx = []
+    for i in range(len(row_idx)):
+        if row_idx[i] > len(tracked) - 1: # tracked_obj less than cur(some apeared from scene)
+            tracked.append([cur[col_idx[i]][0],  kf.observation_covariance, cur[col_idx[i]][0], np.zeros(kf.initial_state_mean.shape)]) # pos, cov,t, vel
+        elif col_idx[i] > len(cur) - 1: # tracked obj more than cur(some disapeared from scene)
+            del_idx.append(row_idx[i])
+        else: # update tracking obj
+            (last_pos, last_cov, last_time, vel) = tracked[row_idx[i]]
+            (ob_time, obs) = cur[col_idx[i]]
+            pos, cov = kf.filter_update(last_pos, last_cov, obs, transition_offset = vel * (ob_time - last_time)) # 
+            tracked[row_idx[i]][0] = pos
+            tracked[row_idx[i]][1] = cov
+            tracked[row_idx[i]][2] = ob_time
+            tracked[row_idx[i]][3] = 0.1 * (pos - last_pos)/(ob_time - last_time) if ob_time != last_time else np.zeros(kf.initial_state_mean.shape)
+    # del_idx.sort(reverse=True)
+    # for i in del_idx:
+    #     del tracked[i]
+
+    return tracked
+
+def update_func(iter_data, num_of_items):
+    for idx, item in enumerate(iter_data):
+        if item != 0:
+            vis_results[idx].append(item)
+    
+    marker = ['r.', 'g.', 'c-', 'y-', 'm-']
+    for i in range(0, num_of_items - 1, 2):
+        if not vis_results[i]: continue
+        plt.plot(vis_results[i], vis_results[i+1], marker[i//2])
+    plt.draw()
+    plt.pause(0.001)
 
 def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
-    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, tracker
+    # plt.clf() 
+
+    global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, pier_ekf, person_ekf, tracked_piers, tracked_person, vis_results
     rospy.loginfo('arrive at sensorfusion callback')
 
     # initialization
@@ -106,6 +223,10 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         
         try:
             transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
+
+
+            '''test end: by verifying in the picture, the result are almost the same'''
+
             transform = transform.transform           
             translation = [transform.translation.x, transform.translation.y, transform.translation.z]
             q = [transform.rotation.w, transform.rotation.x, transform.rotation.y, transform.rotation.z]
@@ -131,8 +252,10 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
             continue
         else:
             cv2.rectangle(img, (int(round(x1)), int(round(y1))), (int(round(x2)), int(round(y2))), (0,255,0))
+        '''end test:It seems that this method can better emcompass the objects(green boxes)'''
 
 
+        
         lidar_bboxes_M.append([x1, y1, x2, y2])
         raw_lidar_points.append([point4, point5])
         x_pts.append(res.position.x)
@@ -185,6 +308,22 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     y_pts = [-y_pts[idx] for idx in selected_lidar_idx]
 
 
+    # print(x_pts, y_pts)
+    # plt.ion()
+    # plt.clf()
+    # plt.xlim([-50, 50])
+    # plt.ylim([0, 50])
+    # plt.plot(x_pts, y_pts,marker = 'o')
+    # plt.pause(0.0000001)
+    # plt.ioff()
+
+    # plt.xlim([-50, 50])
+    # plt.ylim([0, 50])
+    # plt.scatter(x_pts, y_pts)
+    # plt.draw()
+    # plt.pause(0.0000001)
+
+
     for  n, m in matchings_m_n:
         if m == -1:
             continue
@@ -203,25 +342,82 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         if m == -1:
             continue
         lidar_raw = raw_lidar_points[m]
-        up_left = lidar_raw[0] # + + +
-        down_right = lidar_raw[1] # - - - 
+        up_left = lidar_raw[0]
+        down_right = lidar_raw[1]
         object_class = yolo_bboxes_N_labels[n]
-        res.append([int(t), object_class ,down_right[0], down_right[1], up_left[0] - down_right[0], up_left[1] - down_right[1]])
+        res.append([int(t), object_class ,up_left[0], up_left[1], up_left[0] - down_right[0], up_left[1] - down_right[1]])
 
 
     ## state estimation for pier and person
+    cur_piers = []
+    cur_person = []
+    r = [0] * 8
     for t, cls, x, y, w, h in res:
         pos = np.array([x, y, w, h])
         if cls == 'pier': 
-            obj = Tracker.Pier()
+            cur_piers.append([0, pos])
+            r[:2] = [x - w/2, y - h/2]
         elif cls == 'person': 
-            obj = Tracker.Person()
-        obj.parser_observation(t, cls, pos)
+            cur_person.append([t, pos])
+            r[2:4] = [x - w/2, y - h/2]
 
-        tracker.add_obj(obj)
+    if len(tracked_piers) == 0: 
+        for t, p in cur_piers:
+            tracked_piers.append([p, pier_ekf.observation_covariance, t, np.zeros(pier_ekf.initial_state_mean.shape)])
+    else:
+        tracked_piers = update_track(tracked_piers, cur_piers, pier_ekf)
+
+    if len(tracked_person) == 0: 
+        for t, p in cur_person:
+            tracked_person.append([p, person_ekf.observation_covariance, t, np.zeros(person_ekf.initial_state_mean.shape)])
+    else:
+        tracked_person = update_track(tracked_person, cur_person, person_ekf)
+
+    # print("tracked_piers", tracked_piers)
+    # print("tracked_persons", tracked_person)
+
+    if len(tracked_piers): r[4:6] = [tracked_piers[0][0][0] - tracked_piers[0][0][2]/2, tracked_piers[0][0][1] - tracked_piers[0][0][3]/2]
+    if len(tracked_person): r[6:8] = [tracked_person[0][0][0] - tracked_person[0][0][2]/2, tracked_person[0][0][1] - tracked_person[0][0][3]/2]
     
-    tracker.update_obj()
-    tracker.show_obj()
+    #### visualization function
+    update_func(r, 8)
+
+    
+    # if not os.path.exists("/home/nancy/Desktop/test_single.csv"):
+    #     with open('/home/nancy/Desktop/test.csv', 'w') as f: 
+    #         writer=csv.writer(f)
+    #         writer.writerow(["Time", "class", "x", "y", "z","est_x", "est_y"])
+    #         print("create csv")
+    # with open('/home/nancy/Desktop/test_single.csv', 'a+') as f:
+    #     writer=csv.writer(f)
+    #     for i, object_class, x, y, z in res:
+    #         if object_class == 'pier':
+    #             writer.writerow([i, object_class, x, y, z, pier_mean[0], pier_mean[1]])
+                
+
+    # ### record data
+    # if not os.path.exists("/home/nancy/Desktop/test.csv"):
+    #     with open('/home/nancy/Desktop/test.csv', 'w') as f: 
+    #         writer=csv.writer(f)
+    #         writer.writerow(["t","cls", "x", "y", "w", "h"])
+    #         # writer.writerow(["Time", "class", "x", "y", "z"])
+    #         print("create csv")
+    # with open('/home/nancy/Desktop/test.csv', 'a+') as f:
+    #     writer=csv.writer(f)
+    #     if not res == []:
+    #         writer.writerow(res)
+    #     # for data in res:
+    #     #     writer.writerow(data)
+        
+
+    
+    # print(res)
+
+
+
+    ### DONE: matchings_m_n has shape (N, 2) --> each row corresponds to a YOLO bbox detected, and contains [n, m] pair for best matching LIDAR bbox at index "m"
+
+    ### NEXT STEPS: go through the list "matchings_m_n", extract 3D info on shape/location for each LIDAR box, and correspond it to label from YOLO box
     
     cv2.imshow('lidar result', img)
     cv2.waitKey(1)
@@ -230,7 +426,9 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     time_process_finish = time.time()
     # print("Process fps: ", 1/(time_process_finish - last_time))
     last_time = time.time()
-    
+
+
+
 
 def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxes, obstacle_meas):
     # start node
@@ -256,6 +454,11 @@ def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxe
 
     # publish topics
     obstacle_pub = rospy.Subscriber(obstacle_meas, Obstacles)
+
+    # # define figure
+    # fig = plt.plot(range(10), range(10))
+    # plt.show()
+
     ats.registerCallback(sensorFusionCallback,  yolo_client,
                          lidar_client, obstacle_pub)
     
@@ -277,7 +480,7 @@ if __name__ == '__main__':
     # subscribe topics
     camera_info = rospy.get_param('camera_info_topic', '/camera/color/camera_info')
     image_color = rospy.get_param('image_color_topic', '/camera/color/image_raw')
-    velodyne_points = rospy.get_param('velodyne_points_topic', '/ouster/points')
+    velodyne_points = rospy.get_param('velodyne_points_topic', '/os_cloud_node/points')
     yolo_bboxes = rospy.get_param('bounding_boxes_topic','/darknet_ros/check_for_objects')
     lidar_bboxes = rospy.get_param('lidar_bboxes_topic', '/lidar_bboxes')
 

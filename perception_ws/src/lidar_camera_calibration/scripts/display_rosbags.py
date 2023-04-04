@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     for topic, msg, t in bag.read_messages() :
 #        if topic in [IMAGE_RAW, CAMERA_INFO, POINT_CLOUD, IMU]:
-        if topic in [IMAGE_RAW, CAMERA_INFO, POINT_CLOUD]:
+#        if topic in [IMAGE_RAW, CAMERA_INFO, POINT_CLOUD]:
             if topic == IMAGE_RAW:
                 i = i + 1
             if topic == CAMERA_INFO:
@@ -62,7 +62,7 @@ if __name__ == '__main__':
                 k = k + 1
 #            if topic == IMU:
 #                l = l + 1
-            time = msg.header.stamp
+            time = t
             msg = [topic, time]
             print(msg)
 
