@@ -62,7 +62,7 @@ class RectangleSafetyChecker(object):
                         is_safe = False
                         break
 
-            rospy.loginfo("Safety = %s" % is_safe)
+            # rospy.loginfo("Safety = %s" % is_safe)
 
             polygon_msg = PolygonStamped()
             polygon_msg.header.stamp = rospy.Time.now()

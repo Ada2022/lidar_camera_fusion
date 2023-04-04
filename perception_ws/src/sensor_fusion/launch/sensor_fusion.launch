@@ -5,7 +5,7 @@
     <!--include file="$(find darknet_ros)/launch/yolo_v4.launch"></include-->
     <!-- Wire static transform from the world to velodyne frame -->
     <!-- Fill args below with estimated transform X Y Z Y P R -->
-    <arg name="bagfile" default="pier_people_outdoor_moving_rover_2022-10-12-11-29-29_modified.bag"/>
+    <arg name="bagfile" default="static.bag"/>
     <node
         pkg="rosbag"
         type="play"
@@ -30,4 +30,24 @@
         type="obstacle_detect_node.py"
         name="lidar_obstacle_detector"
         output="screen" /-->
+
+    <!-- Launch detector -->
+    <include file="$(find timed_roslaunch)/timed_roslaunch.launch">
+        <arg name="time" value="2" />
+        <arg name="pkg" value="lidar_obstacle_detector" />
+        <arg name="file" value="rover.launch" />
+    </include>
+
+    <include file="$(find timed_roslaunch)/timed_roslaunch.launch">
+        <arg name="time" value="4" />
+        <arg name="pkg" value="darknet_ros" />
+        <arg name="file" value="yolo_v4.launch" />
+    </include>
+    <!-- <node pkg="timed_roslaunch" type="timed_roslaunch.sh" args="2 lidar_obstacle_detector rover.launch" name="timed_roslaunch" output="screen" /> -->
+    <!-- <include file="$(find lidar_obstacle_detector)/launch/rover.launch"/>    
+
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh" args="2 darknet_ros yolo_v4.launch" name="timed_roslaunch" output="screen" /> -->
+
+    <!-- Launch YOLO -->
+    <!-- <include file="$(find darknet_ros)/launch/yolo_v4.launch" launch-prefix="bash -c 'sleep 4; $0 $@' "/> -->
 </launch>
