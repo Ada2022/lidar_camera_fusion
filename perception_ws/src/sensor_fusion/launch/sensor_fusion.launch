@@ -6,17 +6,14 @@
     <!-- Wire static transform from the world to velodyne frame -->
     <!-- Fill args below with estimated transform X Y Z Y P R -->
     <arg name="bagfile" default="static.bag"/>
-    <node
-        pkg="rosbag"
-        type="play"
-        name="player"
-        args="--clock --loop $(find lidar_camera_calibration)/bagfiles/$(arg bagfile)" />
+    
+
     <node
         pkg="tf2_ros"
         type="static_transform_publisher"
-        name="world_velodyne_tf"
+        name="world_os_tf"
         output="screen"
-        args="-0.06485756 -0.05683201 -0.10448115 3.1409457979447306 -0.01855264674509845 -1.5478010455633737 world velodyne" />
+        args="-0.06485756 -0.05683201 -0.10448115 3.1409457979447306 -0.01855264674509845 -1.5478010455633737 world os_lidar" />
 
     <!-- Run sensor fusion script -->
     <node   
@@ -43,6 +40,8 @@
         <arg name="pkg" value="darknet_ros" />
         <arg name="file" value="yolo_v4.launch" />
     </include>
+
+    
     <!-- <node pkg="timed_roslaunch" type="timed_roslaunch.sh" args="2 lidar_obstacle_detector rover.launch" name="timed_roslaunch" output="screen" /> -->
     <!-- <include file="$(find lidar_obstacle_detector)/launch/rover.launch"/>    
 

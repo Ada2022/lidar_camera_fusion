@@ -49,12 +49,12 @@ class Person(object):
         self.predict_state = np.zeros(6)
 
     def parser_observation(self, timestamp,  cls, pos):
-        temp = [pos[0] + pos[2]/2, pos[1] + pos[3]/2, pos[2], pos[3]]
+        temp = [pos[0] - pos[2]/2, pos[1] - pos[3]/2, pos[2], pos[3]]
         self.observed_state = np.array(temp)
         self.t = timestamp
 
         if np.array_equal(self.state, np.zeros(6)):
-            temp = [pos[0] + pos[2]/2, pos[1] + pos[3]/2, pos[2], pos[3], 0, 0]
+            temp = [pos[0] - pos[2]/2, pos[1] - pos[3]/2, pos[2], pos[3], 0, 0]
             self.state = np.array(temp)
 
             self.state_cov = 0.3 * np.eye(6)
@@ -85,7 +85,7 @@ class Pier(object):
 
 
     def parser_observation(self, timestamp, cls, pos):
-        self.observed_state = [pos[0] + pos[2]/2, pos[1] + pos[3]/2, pos[2], pos[3]]
+        self.observed_state = [pos[0] - pos[2]/2, pos[1] - pos[3]/2, pos[2], pos[3]]
 
         if np.array_equal(self.state, np.zeros(4)):
             self.state = self.observed_state
@@ -216,8 +216,8 @@ class Matcher():
         else:
             t = 0
         for j in range(len(tracked)):
-            # pos_t =  tracked[j].state
-            pos_t =  tracked[j].predict_next(t)
+            pos_t =  tracked[j].state
+            # pos_t =  tracked[j].predict_next(t)
             rec1 = [pos_t[0] - pos_t[2]/2, pos_t[1] - pos_t[3]/2, pos_t[0] + pos_t[2]/2, pos_t[1] + pos_t[3]/2]
             for i in range(len(detection)):
                 pos_p = detection[i].state
@@ -235,7 +235,7 @@ class Tracker():
         self.estimator = Estimator()
         self.detection = {}
         self.tracked = {}
-        self.max_age = 30
+        self.max_age = 5
         self.iou_threshold = {'person': 0.01, 'pier': 0.2}
         self.markers = {'pier': list(mcolors.CSS4_COLORS.keys()),
                    'person': list(reversed(list(mcolors.CSS4_COLORS.keys())))}
@@ -355,12 +355,20 @@ class Tracker():
             num = 2 if key == 'pier' else 3
             for obj in val:
                 vis_data = obj.parser_vis_data()
-                idx = obj.id
-                plt.plot(-vis_data[:, 0], -vis_data[:, 1], color = self.markers[key][num*idx], marker = '.', label = obj.cls + str(idx) + '_Est')
-                plt.plot(-vis_data[:, 2], -vis_data[:, 3], '.' ,color = self.markers[key][num*idx+1], label = obj.cls + str(idx)+ '_Mea')
-                if num == 3: plt.plot(-vis_data[:, 4], -vis_data[:, 5], '.' ,color = self.markers[key][num*idx+2], label = obj.cls + str(idx)+ '_Pred')
 
+                if num == 3:
+                    plt.plot(-vis_data[-1, 0], -vis_data[-1, 1], color='b', marker='o', markersize=10)
+                    plt.plot(-vis_data[:, 0], -vis_data[:, 1], color='b', label=obj.cls)
+                else:
+                    plt.plot(-vis_data[-1, 0], -vis_data[-1, 1], color='r', marker='s', markersize=15, label=obj.cls)
 
+                # idx = obj.id
+                # plt.plot(-vis_data[:, 0], -vis_data[:, 1], color = self.markers[key][num*idx], marker = '.', label = obj.cls + str(idx) + '_Est')
+                # plt.plot(-vis_data[:, 2], -vis_data[:, 3], '.' ,color = self.markers[key][num*idx+1], label = obj.cls + str(idx)+ '_Mea')
+                # if num == 3: plt.plot(-vis_data[:, 4], -vis_data[:, 5], '.' ,color = self.markers[key][num*idx+2], label = obj.cls + str(idx)+ '_Pred')
+
+        plt.xlim(-6, 6)
+        plt.ylim(0, 10)
         plt.draw()
         plt.legend()
         plt.pause(0.01)

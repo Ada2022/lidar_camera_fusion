@@ -25,6 +25,7 @@ from cv_bridge import CvBridge, CvBridgeError
 from tf2_sensor_msgs.tf2_sensor_msgs import do_transform_cloud
 from sensor_msgs.msg import Image, CameraInfo, PointCloud2
 from sensor_msgs.msg import PointField
+from visualization_msgs.msg import Marker
 
 # import message/action type
 # action type with yolo
@@ -47,8 +48,10 @@ tracker = Tracker.Tracker()
 
 
 
-def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_client, obstacle_pub):
+def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client, obstacle_pub):
     # plt.clf() 
+
+    people_pub, pier_pub = obstacle_pub
 
     global CAMERA_MODEL, FIRST_TIME, TF_BUFFER, TF_LISTENER, last_time, tracker
     rospy.loginfo('arrive at sensorfusion callback')
@@ -77,7 +80,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
 
     # send point clouds to lidar and receive 3D bbox
     pcl_synced = fusion2lidarGoal()
-    pcl_synced.point_cloud = velodyne
+    pcl_synced.point_cloud = ouster
     lidar_client.wait_for_server()
     lidar_client.send_goal(pcl_synced)
     lidar_client.wait_for_result()
@@ -107,7 +110,7 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         # print("check point", points)
         
         try:
-            transform = TF_BUFFER.lookup_transform('world', 'velodyne', rospy.Time())
+            transform = TF_BUFFER.lookup_transform('world', 'os_lidar', rospy.Time())
 
 
             '''test end: by verifying in the picture, the result are almost the same'''
@@ -250,7 +253,62 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
         #     tracker.add_obj(obj)
     
     tracker.update_obj()
-    tracker.show_obj()
+
+
+    people_msg = Marker()
+    pier_msg = Marker()
+    for key, val in tracker.tracked.items():
+        if key == 'pier':
+            pier_msg.header.frame_id = 'os_lidar'
+            pier_msg.type = pier_msg.CUBE_LIST
+            pier_msg.action = pier_msg.MODIFY
+
+            pier_msg.scale.x = 0.2
+            pier_msg.scale.y = 0.2
+            pier_msg.scale.z = 0.8
+
+            pier_msg.color.a = 1.0
+            pier_msg.color.g = 1.0
+
+            points = []
+            for obj in val:
+                vis_data = obj.parser_vis_data()
+
+                point = Point()
+                point.x = -vis_data[-1, 0]
+                point.y = -vis_data[-1, 1]
+                points.append(point)
+
+            pier_msg.points = points
+        else:
+            people_msg.header.frame_id = 'os_lidar'
+            people_msg.type = people_msg.SPHERE_LIST
+            people_msg.action = people_msg.MODIFY
+
+            people_msg.scale.x = 1
+            people_msg.scale.y = 1
+            people_msg.scale.z = 2
+
+            people_msg.color.a = 1.0
+            people_msg.color.b = 1.0
+
+            points = []
+            for obj in val:
+                vis_data = obj.parser_vis_data()
+
+                point = Point()
+                point.x = -vis_data[-1, 0]
+                point.y = -vis_data[-1, 1]
+                points.append(point)
+
+            people_msg.points = points
+
+    people_pub.publish(people_msg)
+    pier_pub.publish(pier_msg)
+
+        
+    
+    # tracker.show_obj()
     # plt.gcf().canvas.get_tk_widget().after(0, tracker.show_obj)
     
     # if not os.path.exists("/home/nancy/Desktop/test_single.csv"):
@@ -293,27 +351,27 @@ def sensorFusionCallback(image, camera_info, velodyne,  yolo_client,  lidar_clie
     
 
     time_process_finish = time.time()
-    # print("Process fps: ", 1/(time_process_finish - last_time))
+    rospy.loginfo("Process fps: " + str(1/(time_process_finish - last_time)))
     last_time = time.time()
 
 
 
 
-def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxes, obstacle_meas):
+def listener(camera_info, image_color, ouster_points, yolo_bboxes, lidar_bboxes, obstacle_meas):
     # start node
     rospy.init_node('sensor_fusion', anonymous=True)
     rospy.loginfo('CameraInfo topic: %s' % camera_info)
     rospy.loginfo('Image topic: %s' % image_color)
-    rospy.loginfo('PointCloud2 topic: %s' % velodyne_points)
+    rospy.loginfo('PointCloud2 topic: %s' % ouster_points)
 
     # subscribe topics
     info_sub = message_filters.Subscriber(camera_info, CameraInfo)
     image_sub = message_filters.Subscriber(image_color, Image)
-    velodyne_sub = message_filters.Subscriber(velodyne_points, PointCloud2)
+    ouster_sub = message_filters.Subscriber(ouster_points, PointCloud2)
 
     # synchronize topics
     ats = message_filters.ApproximateTimeSynchronizer(
-        [image_sub, info_sub, velodyne_sub], queue_size=5, slop=0.1)
+        [image_sub, info_sub, ouster_sub], queue_size=5, slop=0.1)
 
     # action initialization
     yolo_client = actionlib.SimpleActionClient(
@@ -324,12 +382,15 @@ def listener(camera_info, image_color, velodyne_points, yolo_bboxes, lidar_bboxe
     # publish topics
     obstacle_pub = rospy.Subscriber(obstacle_meas, Obstacles)
 
+    people_pub = rospy.Publisher('/persons', Marker, queue_size=10)
+    pier_pub = rospy.Publisher('/piers', Marker, queue_size=10)
+
     # # define figure
     # fig = plt.plot(range(10), range(10))
     # plt.show()
 
     ats.registerCallback(sensorFusionCallback,  yolo_client,
-                         lidar_client, obstacle_pub)
+                         lidar_client, [people_pub, pier_pub])
     
     # plt.ion()
     # plt.show()
@@ -349,7 +410,7 @@ if __name__ == '__main__':
     # subscribe topics
     camera_info = rospy.get_param('camera_info_topic', '/camera/color/camera_info')
     image_color = rospy.get_param('image_color_topic', '/camera/color/image_raw')
-    velodyne_points = rospy.get_param('velodyne_points_topic', '/os_cloud_node/points')
+    ouster_points = rospy.get_param('ouster_points_topic', '/os_cloud_node/points')
     yolo_bboxes = rospy.get_param('bounding_boxes_topic','/darknet_ros/check_for_objects')
     lidar_bboxes = rospy.get_param('lidar_bboxes_topic', '/lidar_bboxes')
 
@@ -358,5 +419,5 @@ if __name__ == '__main__':
         'obstacle_meas_topic', '/obstacles_meas')
 
     # Start subscriber
-    listener(camera_info, image_color, velodyne_points,
+    listener(camera_info, image_color, ouster_points,
              yolo_bboxes, lidar_bboxes, obstacle_meas)

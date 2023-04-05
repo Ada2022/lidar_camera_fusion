@@ -296,7 +296,7 @@ namespace lidar_obstacle_detector
     marker_top.ns = "polytopes_" + std::to_string(i);
     marker_top.pose.orientation.w = 1.;
     marker_top.id = 0;
-    marker_top.scale.x = 0.01;
+    marker_top.scale.x = 0.1;
     marker_top.color.r = 0.8;
     marker_top.color.a = 1.0;
     marker_top.lifetime = ros::Duration(0.5);
