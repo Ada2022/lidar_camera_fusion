@@ -3,12 +3,14 @@
 import cv2
 import time
 import numpy as np
+from scipy.optimize import linear_sum_assignment
 
 # import matplotlib
 # matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 import Tracker
+from matcher import Matcher
 
 import csv
 import os
@@ -46,7 +48,7 @@ last_time = 0
 
 tracker = Tracker.Tracker()
 
-
+matcher = Matcher()
 
 def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client, obstacle_pub):
     # plt.clf() 
@@ -110,7 +112,7 @@ def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client
         # print("check point", points)
         
         try:
-            transform = TF_BUFFER.lookup_transform('world', 'os_lidar', rospy.Time())
+            transform = TF_BUFFER.lookup_transform('camera', 'lidar', rospy.Time())
 
 
             '''test end: by verifying in the picture, the result are almost the same'''
@@ -174,22 +176,35 @@ def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client
         overlap_area = overlap_width * overlap_height
         return overlap_area
 
-    matchings_m_n = []
+    # matchings_m_n = []
+
+    iou_matrix = np.zeros((len(yolo_bboxes_N), len(lidar_bboxes_M)))
 
     for n, cam_box_n in enumerate(yolo_bboxes_N):
-        yolo_n_bbox_area = (cam_box_n[2] - cam_box_n[0]) * (cam_box_n[3] - cam_box_n[1])
-        max_overlap_area = -1
-        best_candidate = -1
+        # yolo_n_bbox_area = (cam_box_n[2] - cam_box_n[0]) * (cam_box_n[3] - cam_box_n[1])
+        # max_overlap_area = -1
+        # best_candidate = -1
 
         for m, lidar_box_m in enumerate(lidar_bboxes_M):
-            overlap_area = overlap(cam_box_n[:2], cam_box_n[2:], lidar_box_m[:2], lidar_box_m[2:])
+            # overlap_area = overlap(cam_box_n[:2], cam_box_n[2:], lidar_box_m[:2], lidar_box_m[2:])
+            iou_matrix[n][m] = matcher.compute_iou(cam_box_n, lidar_box_m)
 
-            if overlap_area > max_overlap_area and overlap_area > 0.25 * yolo_n_bbox_area:
-                max_overlap_area = overlap_area
-                best_candidate = m
+            # if overlap_area > max_overlap_area and overlap_area > 0.25 * yolo_n_bbox_area:
+                # max_overlap_area = overlap_area
+                # best_candidate = m
 
-        matchings_m_n.append([n, best_candidate]) # append best pair, closest M-index LIDAR box to the N-index YOLO box
-    selected_lidar_idx = [val[1] for val in matchings_m_n]
+        # matchings_m_n.append([n, best_candidate]) # append best pair, closest M-index LIDAR box to the N-index YOLO box
+    cost_matrix = 1 - iou_matrix
+    row_idx, col_idx = linear_sum_assignment(cost_matrix)
+    matched_indices = np.array(list(zip(row_idx, col_idx)))
+
+    matches = []
+    for m in matched_indices:
+        if(iou_matrix[m[0], m[1]] > 0.1):
+            matches.append(m)
+            
+
+    selected_lidar_idx = [m[1] for m in matched_indices]
 
 
     x_pts = [-x_pts[idx] for idx in selected_lidar_idx]
@@ -212,7 +227,7 @@ def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client
     # plt.pause(0.0000001)
 
 
-    for  n, m in matchings_m_n:
+    for  n, m in matches:
         if m == -1:
             continue
         lidar_x1, lidar_y1, lidar_x2, lidar_y2 = [int(round(val)) for val in lidar_bboxes_M[m]]
@@ -226,7 +241,7 @@ def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client
     ros_duration_obj = pcl_synced.point_cloud.header.stamp
     t = ros_duration_obj.secs + ros_duration_obj.nsecs * 10e-9
     # print("t", t)
-    for  n, m in matchings_m_n:
+    for  n, m in matches:
         if m == -1:
             continue
         lidar_raw = raw_lidar_points[m]
@@ -311,15 +326,15 @@ def sensorFusionCallback(image, camera_info, ouster,  yolo_client,  lidar_client
     # tracker.show_obj()
     # plt.gcf().canvas.get_tk_widget().after(0, tracker.show_obj)
     
-    # if not os.path.exists("/home/nancy/Desktop/test_single.csv"):
-    #     with open('/home/nancy/Desktop/test.csv', 'w') as f: 
-    #         writer=csv.writer(f)
-    #         writer.writerow(["t", "cls", "x", "y", "w","h"])
-    #         print("create csv")
-    # with open('/home/nancy/Desktop/test_single.csv', 'a+') as f:
-    #     writer=csv.writer(f)
-    #     for t, cls, x, y, w, h in res:
-    #         writer.writerow([t, cls, x, y, w, h])
+    #if not os.path.exists("/home/meng/Desktop/test_single.csv"):
+    #   with open('/home/meng/Desktop/test.csv', 'w') as f: 
+    #       writer=csv.writer(f)
+    #       writer.writerow(["t", "cls", "x", "y", "w","h"])
+    #       print("create csv")
+    #with open('/home/meng/Desktop/test_single.csv', 'a+') as f:
+    #    writer=csv.writer(f)
+    #    for t, cls, x, y, w, h in res:
+    #        writer.writerow([t, cls, x, y, w, h])
                 
 
     # ### record data
@@ -410,7 +425,8 @@ if __name__ == '__main__':
     # subscribe topics
     camera_info = rospy.get_param('camera_info_topic', '/camera/color/camera_info')
     image_color = rospy.get_param('image_color_topic', '/camera/color/image_raw')
-    ouster_points = rospy.get_param('ouster_points_topic', '/os_cloud_node/points')
+    # ouster_points = rospy.get_param('ouster_points_topic', '/os_cloud_node/points')
+    ouster_points = rospy.get_param('ouster_points_topic', '/ouster/points')
     yolo_bboxes = rospy.get_param('bounding_boxes_topic','/darknet_ros/check_for_objects')
     lidar_bboxes = rospy.get_param('lidar_bboxes_topic', '/lidar_bboxes')
 

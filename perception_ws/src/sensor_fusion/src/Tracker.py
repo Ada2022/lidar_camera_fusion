@@ -7,6 +7,8 @@ from scipy.optimize import linear_sum_assignment
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
+from matcher import Matcher
+
 class object():
     __metaclass__ = ABCMeta
 
@@ -186,7 +188,7 @@ class Estimator:
         # print("In Fun updateEstimation: ", obj.cls, new_state, obj.state,obj.observed_state)
         obj.parser_update(new_state, new_cov)
         
-
+"""
 class Matcher():
     def __init__(self):
         pass
@@ -226,7 +228,7 @@ class Matcher():
 
         #print("cost_mat", 1-iou_matrix)
         return 1 - iou_matrix
-
+"""
 
 
 class Tracker():
